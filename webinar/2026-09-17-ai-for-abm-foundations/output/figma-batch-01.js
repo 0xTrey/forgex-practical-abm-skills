@@ -53,8 +53,8 @@ const layers=[
   ["05","GOVERNANCE","where humans approve + improve"]
 ];
 layers.forEach((v,i)=>{const x=98+i*330,y=790-i*92,w=286,h=150;rect(s3,x,y,w,h,i===4?C.plum:(i%2?C.pale:C.white),20);text(s3,v[0],x+22,y+18,54,40,22,"Bold",i===4?C.lime:C.pink);text(s3,v[1],x+22,y+55,w-44,35,23,"Extra Bold",i===4?C.white:C.ink);text(s3,v[2],x+22,y+100,w-44,38,18,"Medium",i===4?C.white:C.muted);});
-rect(s3,1400,340,330,610,C.pink,28);rect(s3,1412,352,306,586,C.cream,22);
-text(s3,"Skipping a layer does not remove complexity.\nIt pushes ambiguity into the output.",1450,420,230,410,34,"Bold",C.plum,"CENTER");
+rect(s3,1400,640,330,310,C.pink,28);rect(s3,1412,652,306,286,C.cream,22);
+text(s3,"Skipping a layer pushes ambiguity into the output.",1450,710,230,180,28,"Bold",C.plum,"CENTER");
 s3.speakerNotes="Walk the five layers quickly: approved context, instructions, authorized tools, workflows or agents, and governance. Every major AI environment has some version of these even when product labels differ.\n\n**Takeaway:** Skipping a layer pushes ambiguity into the output.";
 
 // 04 — operating loop
