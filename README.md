@@ -37,6 +37,10 @@ Example:
 
 The companion [content calendar](content-calendar/README.md) contains the production dates, 60-second scripts, one-slide visuals, LinkedIn copy, and GitHub links for a ten-part ForgeX series.
 
+## Webinar package
+
+The [September 17 AI for ABM webinar package](webinar/2026-09-17-ai-for-abm-foundations/README.md) contains the 60-minute run of show, sixteen-slide narrative, presenter talk track, live Claude demo runbook, synthetic demo inputs, rehearsal plan, and promotion copy.
+
 ## Platform boundary
 
 The skills are platform-agnostic. They can produce Markdown, spreadsheets, wireframes, HTML drafts, or other files supported by the user's authorized workspace. A video may demonstrate a skill in Folloze or another platform, but no skill requires a proprietary connector, hidden API, paid enrichment service, or specific AI vendor.
