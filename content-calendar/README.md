@@ -5,7 +5,7 @@
 **Cadence:** Every weekday at 8:30 AM Central for ten publishing days
 **Launch:** Thursday, August 20, 2026
 **Final post:** Wednesday, September 2, 2026
-**Format:** 45–60 second video + one 16:9 slide + concise LinkedIn post + GitHub link
+**Format:** 38–45 second video + one 16:9 slide + concise LinkedIn post + GitHub link
 **Primary CTA:** Try the skill, then tell me what should be built next.
 
 ## Launch gate
@@ -22,7 +22,7 @@ Do not tell the audience that a skill is publicly available while the linked rep
 Use the Post 1 package below and [skill-01.png](visuals/skill-01.png).
 
 - **8:00–8:05:** Open the slide, script, LinkedIn draft, and approved public destination.
-- **8:05–8:15:** Record one 45–60 second take. Show the ICP input and reviewable ranked-list output if available.
+- **8:05–8:15:** Record one 38–45 second take. Show the ICP input and reviewable ranked-list output if available.
 - **8:15–8:22:** Trim the start and end, add captions, and confirm no private tabs or data are visible.
 - **8:22–8:28:** Paste the LinkedIn post, attach the video, and add the approved link in the first comment.
 - **8:30:** Publish.
@@ -60,17 +60,17 @@ Use the Post 1 package below and [skill-01.png](visuals/skill-01.png).
 **Publish:** Thursday, August 20 at 8:30 AM CT
 **Skill:** [Account List Builder](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/account-list-builder/SKILL.md)
 
-### 60-second script
+### 38–45 second script
 
-Most ABM programs start with a spreadsheet somebody inherited. The problem is that nobody can explain why half the accounts are on it.
+Most ABM programs start with a spreadsheet somebody inherited, and nobody can explain why half the accounts are there.
 
-This skill starts with one plain-English ICP: the problem we solve, the company traits that matter, and the companies we should exclude. It normalizes the account list, applies suppressions first, and scores each company using visible evidence.
+The Account List Builder starts with a plain-English ICP, applies customer and competitor exclusions first, then scores each company using visible evidence.
 
-The output is not just a ranked list. It shows the reason for the score, the source, the confidence level, and the strongest reason an account might not belong.
+The output shows the reason, source, confidence, and strongest case against inclusion.
 
-That gives a marketer something they can actually review instead of an AI-generated black box.
+This is not AI picking your targets. It is AI making the targeting logic reviewable.
 
-I packaged the complete Account List Builder as a free ForgeX skill on GitHub. Human review still decides who gets targeted.
+I packaged the complete vendor-neutral skill through ForgeX. Human review still decides who gets targeted.
 
 ### One-slide content
 
@@ -101,17 +101,19 @@ What part of account selection still takes your team too long?
 **Publish:** Friday, August 21 at 8:30 AM CT
 **Skill:** [Why-Now Signal Scanner](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/why-now-signal-scanner/SKILL.md)
 
-### 60-second script
+### 38–45 second script
 
 An account can fit your ICP perfectly and still have no reason to care today.
 
-The Why-Now Signal Scanner looks for current company-level evidence: relevant hiring, a new initiative, a product launch, an event, a leadership change, or another public business signal.
+The Why-Now Signal Scanner looks for current public evidence—hiring, initiatives, launches, leadership changes, or events—then separates what was observed from what we inferred.
 
-Then it does something important: it separates what was observed from what we inferred. A job posting is evidence that a role is being hired. It is not proof that the company wants your product.
+A job posting proves a role is open. It does not prove purchase intent.
 
-The output is a short brief with the signal, date, source, campaign relevance, confidence, and the questions that are still unanswered.
+That distinction keeps the next move honest.
 
-I packaged the full workflow as a ForgeX skill on GitHub. Use it to decide what deserves more research—not to manufacture intent.
+The output includes the signal, date, source, relevance, confidence, and unanswered questions.
+
+Use it to decide what deserves more research, not to manufacture intent.
 
 ### One-slide content
 
@@ -142,17 +144,17 @@ What public signal has been most useful in your ABM work?
 **Publish:** Monday, August 24 at 8:30 AM CT
 **Skill:** [ABM Strategist](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/abm-strategist/SKILL.md)
 
-### 60-second script
+### 38–45 second script
 
 Personalization should begin with a better hypothesis, not a logo swap.
 
-The ABM Strategist takes a seller, one named account, an offering, and an objective. It researches the account's current business context, separates verified facts from our interpretation, and creates one campaign premise.
+The ABM Strategist takes one account, an offering, and an objective. It separates verified business evidence from interpretation, then creates one campaign premise.
 
-From there it maps the likely buying roles, their questions and proof needs, the message hierarchy, the smallest useful experience, and the learning signals we should watch.
+From there it maps likely buying roles, proof needs, message hierarchy, the smallest useful experience, and what is still unknown.
 
-The output is an approval-ready account campaign brief—not a finished page and definitely not an assertion that the account is ready to buy.
+The output is an approval-ready campaign brief—not a finished page and not a claim that the account is ready to buy.
 
-I published the platform-neutral version of the skill on GitHub. Approve the thinking first. Then decide what deserves to be built.
+Approve the thinking first. Then decide what deserves to be built.
 
 ### One-slide content
 
@@ -183,17 +185,19 @@ What is the one question every account brief should answer?
 **Publish:** Tuesday, August 25 at 8:30 AM CT
 **Skill:** [Buying Committee Mapper](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/buying-committee-mapper/SKILL.md)
 
-### 60-second script
+### 38–45 second script
 
 “Target the CMO” is not a buying-committee strategy.
 
-Complex B2B decisions usually include a champion, an economic approver, functional evaluators, technical or security reviewers, an implementation owner, and people who will actually use the thing.
+Complex B2B decisions involve champions, approvers, functional evaluators, technical reviewers, implementation owners, and actual users.
 
-This skill maps those roles to the decision they influence, the questions they need answered, the proof they require, and the content we already have—or do not have—for them.
+The Buying Committee Mapper connects each role to the decision it influences, the question it needs answered, the proof it requires, and the content you already have—or still need.
 
-If named contacts are included, professional facts and reporting relationships are labeled as verified, inferred, or unknown. The workflow does not build personal dossiers or pretend a title reveals somebody's psychology.
+It makes missing coverage immediately obvious.
 
-The result is a practical coverage map. I put the full Buying Committee Mapper on GitHub.
+Professional facts and reporting relationships stay labeled as verified, inferred, or unknown.
+
+The result is a practical coverage map, not a personal dossier built from somebody's job title.
 
 ### One-slide content
 
@@ -228,17 +232,17 @@ Which buying role is most often missing from your ABM plan?
 **Publish:** Wednesday, August 26 at 8:30 AM CT
 **Skill:** [Brand Harvester](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/brand-harvester/SKILL.md)
 
-### 60-second script
+### 38–45 second script
 
-AI can generate a page quickly. It can also make every page look like the same generic AI template.
+AI can generate a page quickly. It can also make every page look like the same generic template.
 
-Brand Harvester starts with a public website or approved brand guide. It captures the verified assets, colors, typography, layout patterns, imagery, voice, and desktop and mobile references that should ground the work.
+Brand Harvester starts with a public website or approved brand guide. It captures verified assets, colors, typography, layout patterns, imagery, and voice.
 
-It also separates what the source actually shows from what the designer is inferring. That prevents a one-off color or layout from becoming an invented brand rule.
+It also separates what the source actually shows from what the designer is inferring, so a one-off choice does not become an invented brand rule.
 
-The output is a brand brief, token set, asset manifest, screenshot references, and guidance on what to preserve, reinterpret, and avoid.
+The output is a practical creative brief with tokens, assets, references, and guidance on what to preserve, reinterpret, and avoid.
 
-This is not pixel-for-pixel copying. It is evidence before design. The complete skill is on GitHub.
+Evidence first. Design second.
 
 ### One-slide content
 
@@ -269,17 +273,17 @@ What is the fastest way you can tell that a campaign is off-brand?
 **Publish:** Thursday, August 27 at 8:30 AM CT
 **Skill:** [Campaign Landing Page](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/campaign-landing-page/SKILL.md)
 
-### 60-second script
+### 38–45 second script
 
-A landing page should do one job for one audience. Most campaign pages get buried under everything the company wants to say.
+A campaign landing page should do one job for one audience. Most pages get buried under everything the company wants to say.
 
-This skill starts with an approved campaign brief, one audience, one offer, one primary CTA, approved proof, and a brand brief.
+This skill starts with an approved brief, one audience, one offer, one primary CTA, approved proof, and a brand direction.
 
-It builds the message hierarchy first, then the smallest page architecture that can do the job: usually the problem, the useful point of view, the offer, proof, resources, and the next step.
+It builds the message hierarchy first, then the smallest page architecture that can move the buyer forward.
 
-The output can be a wireframe, copy deck, platform specification, or accessible HTML draft. It includes mobile behavior, links, analytics requirements, and QA—but stops before publication.
+The output can be a wireframe, copy deck, platform specification, or accessible HTML draft—with mobile behavior, links, analytics, and QA.
 
-I put the complete, platform-neutral Campaign Landing Page skill on GitHub.
+It stops before publication so a human can approve the experience.
 
 ### One-slide content
 
@@ -308,17 +312,17 @@ What is the most common reason campaign pages lose focus?
 **Publish:** Friday, August 28 at 8:30 AM CT
 **Skill:** [Industry Campaign Page](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/industry-campaign-page/SKILL.md)
 
-### 60-second script
+### 38–45 second script
 
 Putting “financial services” in the headline does not make something an industry campaign.
 
-This skill starts with a base campaign and a defensible cohort: an industry, sub-industry, persona group, or set of accounts that shares a real business condition.
+This skill starts with a base campaign and a defensible cohort that shares a real business condition.
 
-It builds an evidence table for the cohort's priorities, language, constraints, and proof. Then it shows exactly what stays constant from the base campaign and what needs to change—problem framing, message, content path, evidence, or CTA.
+It builds evidence for the cohort's priorities, language, constraints, and proof. Then it shows what stays constant and what should change—problem framing, message, content path, evidence, or CTA.
 
 The output is a cohort brief, a base-to-industry message map, and a reviewable page draft.
 
-It also checks the generalizations so we do not pretend every company in an industry is identical. The full skill is on GitHub.
+It also checks the generalizations so relevance does not become stereotyping.
 
 ### One-slide content
 
@@ -347,19 +351,17 @@ Where do industry campaigns usually become too generic?
 **Publish:** Monday, August 31 at 8:30 AM CT
 **Skill:** [One-to-One Microsite](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/one-to-one-microsite/SKILL.md)
 
-### 60-second script
+### 38–45 second script
 
 A one-to-one microsite should feel researched. It should not feel like the seller is impersonating the account.
 
-This skill starts with an approved account brief, a clear buying-group job, relevant seller proof, and verified account evidence.
+This skill starts with an approved account brief, a buying-group job, relevant proof, and verified account evidence.
 
 It creates a personalization ledger: the fact, the source, why it matters, and whether it belongs on the page. Decorative facts get removed.
 
-Then it builds a story from account context to useful insight, seller relevance, proof, resources, and one next step. Seller and target branding remain clearly distinct.
+Then it builds a buyer story with useful insight, seller relevance, proof, resources, and one next step.
 
-The output can be a wireframe, copy deck, code draft, or platform specification. It stops at a private preview.
-
-I put the complete One-to-One Microsite skill on GitHub.
+The output stops at a private preview so the account experience can be reviewed before it goes live.
 
 ### One-slide content
 
@@ -390,17 +392,17 @@ What makes account personalization feel genuinely useful to you?
 **Publish:** Tuesday, September 1 at 8:30 AM CT
 **Skill:** [Content Magic](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/content-magic/SKILL.md)
 
-### 60-second script
+### 38–45 second script
 
-Most companies already have enough content. The problem is that the useful ideas are trapped inside long reports, decks, webinars, and videos.
+Most companies already have enough content. The useful ideas are just trapped inside long reports, decks, webinars, and videos.
 
-Content Magic begins by building a source truth sheet: the thesis, messages, facts, quotes, examples, and caveats—with source locations.
+Content Magic begins with a source truth sheet: the thesis, facts, quotes, examples, caveats, and exact source locations.
 
-Then it reorganizes that material around the audience's job instead of the source's original table of contents. The result can be an interactive campaign experience, a content hub, a wireframe, or a differentiated set of channel assets.
+Then it reorganizes that material around the buyer's job instead of the original table of contents.
 
-Every factual claim stays traceable, and the workflow does not invent research or customer proof to make the output more exciting.
+The result can become an interactive experience, content hub, wireframe, or set of channel assets.
 
-I published the complete, platform-neutral Content Magic skill on GitHub.
+Every factual claim stays traceable. The format changes, but the source truth does not.
 
 ### One-slide content
 
@@ -431,17 +433,17 @@ Which asset in your library deserves a second life?
 **Publish:** Wednesday, September 2 at 8:30 AM CT
 **Skill:** [First-Touch Builder](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/first-touch-builder/SKILL.md)
 
-### 60-second script
+### 38–45 second script
 
 The first line of an outbound message should explain why this person is hearing from you—not prove that you found something personal about them.
 
-The First-Touch Builder starts with the professional relationship, one verified and relevant observation, one offer, one approved proof point, and one CTA.
+The First-Touch Builder starts with the professional relationship, one verified observation, one relevant offer, one approved proof point, and one CTA.
 
-It writes the message as observation, relevance, proof, and one ask. If there is no credible personalized opener, it uses a direct professional reason instead of fake familiarity.
+It writes observation, relevance, proof, and one easy ask. If there is no credible opener, it uses a direct professional reason instead of fake familiarity.
 
-The workflow also checks suppression status, the recipient's role and company, every proof point, and every link. It creates subject lines and alternative openings, then stops with an unsent draft.
+The workflow checks suppression status, facts, proof, and links, then stops with an unsent draft.
 
-I put the complete skill on GitHub. Personalization should earn relevance, not perform surveillance.
+Personalization should earn relevance, not perform surveillance.
 
 ### One-slide content
 

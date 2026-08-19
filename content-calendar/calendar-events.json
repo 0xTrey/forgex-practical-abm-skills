@@ -1,0 +1,119 @@
+{
+  "calendar_id": "primary",
+  "timezone": "America/Chicago",
+  "color_id": "6",
+  "start_time": "08:30:00",
+  "end_time": "09:00:00",
+  "events": [
+    {
+      "number": "01",
+      "date": "2026-08-20",
+      "title": "Build the Right Account List",
+      "angle": "Make inherited targeting logic visible and reviewable.",
+      "ask": "What part of account selection still takes your team too long?",
+      "script": "Most ABM programs start with a spreadsheet somebody inherited, and nobody can explain why half the accounts are there. The Account List Builder starts with a plain-English ICP, applies customer and competitor exclusions first, then scores each company using visible evidence. The output shows the reason, source, confidence, and strongest case against inclusion. This is not AI picking your targets. It is AI making the targeting logic reviewable. I packaged the complete vendor-neutral skill through ForgeX. Human review still decides who gets targeted.",
+      "package_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/README.md#01--build-the-right-account-list",
+      "slide_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/visuals/skill-01.png",
+      "skill_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/account-list-builder/SKILL.md"
+    },
+    {
+      "number": "02",
+      "date": "2026-08-21",
+      "title": "Spot the Why Now",
+      "angle": "Separate timing evidence from invented purchase intent.",
+      "ask": "What public signal has been most useful in your ABM work?",
+      "script": "An account can fit your ICP perfectly and still have no reason to care today. The Why-Now Signal Scanner looks for current public evidence—hiring, initiatives, launches, leadership changes, or events—then separates what was observed from what we inferred. A job posting proves a role is open. It does not prove purchase intent. That distinction keeps the next move honest. The output includes the signal, date, source, relevance, confidence, and unanswered questions. Use it to decide what deserves more research, not to manufacture intent.",
+      "package_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/README.md#02--spot-the-why-now",
+      "slide_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/visuals/skill-02.png",
+      "skill_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/why-now-signal-scanner/SKILL.md"
+    },
+    {
+      "number": "03",
+      "date": "2026-08-24",
+      "title": "Plan the Account Campaign",
+      "angle": "Approve the account hypothesis before building creative.",
+      "ask": "What is the one question every account brief should answer?",
+      "script": "Personalization should begin with a better hypothesis, not a logo swap. The ABM Strategist takes one account, an offering, and an objective. It separates verified business evidence from interpretation, then creates one campaign premise. From there it maps likely buying roles, proof needs, message hierarchy, the smallest useful experience, and what is still unknown. The output is an approval-ready campaign brief—not a finished page and not a claim that the account is ready to buy. Approve the thinking first. Then decide what deserves to be built.",
+      "package_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/README.md#03--plan-the-account-campaign",
+      "slide_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/visuals/skill-03.png",
+      "skill_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/abm-strategist/SKILL.md"
+    },
+    {
+      "number": "04",
+      "date": "2026-08-25",
+      "title": "Map the Buying Committee",
+      "angle": "Map decisions, questions, proof, and content gaps—not personalities.",
+      "ask": "Which buying role is most often missing from your ABM plan?",
+      "script": "“Target the CMO” is not a buying-committee strategy. Complex B2B decisions involve champions, approvers, functional evaluators, technical reviewers, implementation owners, and actual users. The Buying Committee Mapper connects each role to the decision it influences, the question it needs answered, the proof it requires, and the content you already have—or still need. It makes missing coverage immediately obvious. Professional facts and reporting relationships stay labeled as verified, inferred, or unknown. The result is a practical coverage map, not a personal dossier built from somebody's job title.",
+      "package_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/README.md#04--map-the-buying-committee",
+      "slide_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/visuals/skill-04.png",
+      "skill_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/buying-committee-mapper/SKILL.md"
+    },
+    {
+      "number": "05",
+      "date": "2026-08-26",
+      "title": "Ground the Work in Brand",
+      "angle": "Use brand evidence before asking AI to design.",
+      "ask": "What is the fastest way you can tell that a campaign is off-brand?",
+      "script": "AI can generate a page quickly. It can also make every page look like the same generic template. Brand Harvester starts with a public website or approved brand guide. It captures verified assets, colors, typography, layout patterns, imagery, and voice. It also separates what the source actually shows from what the designer is inferring, so a one-off choice does not become an invented brand rule. The output is a practical creative brief with tokens, assets, references, and guidance on what to preserve, reinterpret, and avoid. Evidence first. Design second.",
+      "package_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/README.md#05--ground-the-work-in-brand",
+      "slide_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/visuals/skill-05.png",
+      "skill_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/brand-harvester/SKILL.md"
+    },
+    {
+      "number": "06",
+      "date": "2026-08-27",
+      "title": "Build a Campaign Landing Page",
+      "angle": "One audience, one job, and one primary next step.",
+      "ask": "What is the most common reason campaign pages lose focus?",
+      "script": "A campaign landing page should do one job for one audience. Most pages get buried under everything the company wants to say. This skill starts with an approved brief, one audience, one offer, one primary CTA, approved proof, and a brand direction. It builds the message hierarchy first, then the smallest page architecture that can move the buyer forward. The output can be a wireframe, copy deck, platform specification, or accessible HTML draft—with mobile behavior, links, analytics, and QA. It stops before publication so a human can approve the experience.",
+      "package_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/README.md#06--build-a-campaign-landing-page",
+      "slide_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/visuals/skill-06.png",
+      "skill_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/campaign-landing-page/SKILL.md"
+    },
+    {
+      "number": "07",
+      "date": "2026-08-28",
+      "title": "Build an Industry Campaign Page",
+      "angle": "Real vertical relevance requires more than changing the industry name.",
+      "ask": "Where do industry campaigns usually become too generic?",
+      "script": "Putting “financial services” in the headline does not make something an industry campaign. This skill starts with a base campaign and a defensible cohort that shares a real business condition. It builds evidence for the cohort's priorities, language, constraints, and proof. Then it shows what stays constant and what should change—problem framing, message, content path, evidence, or CTA. The output is a cohort brief, a base-to-industry message map, and a reviewable page draft. It also checks the generalizations so relevance does not become stereotyping.",
+      "package_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/README.md#07--build-an-industry-campaign-page",
+      "slide_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/visuals/skill-07.png",
+      "skill_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/industry-campaign-page/SKILL.md"
+    },
+    {
+      "number": "08",
+      "date": "2026-08-31",
+      "title": "Build a One-to-One Microsite",
+      "angle": "Make the experience relevant to the account and clearly from the seller.",
+      "ask": "What makes account personalization feel genuinely useful to you?",
+      "script": "A one-to-one microsite should feel researched. It should not feel like the seller is impersonating the account. This skill starts with an approved account brief, a buying-group job, relevant proof, and verified account evidence. It creates a personalization ledger: the fact, the source, why it matters, and whether it belongs on the page. Decorative facts get removed. Then it builds a buyer story with useful insight, seller relevance, proof, resources, and one next step. The output stops at a private preview so the account experience can be reviewed before it goes live.",
+      "package_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/README.md#08--build-a-one-to-one-microsite",
+      "slide_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/visuals/skill-08.png",
+      "skill_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/one-to-one-microsite/SKILL.md"
+    },
+    {
+      "number": "09",
+      "date": "2026-09-01",
+      "title": "Turn One Asset Into an Experience",
+      "angle": "Transform the format while preserving the source truth.",
+      "ask": "Which asset in your library deserves a second life?",
+      "script": "Most companies already have enough content. The useful ideas are just trapped inside long reports, decks, webinars, and videos. Content Magic begins with a source truth sheet: the thesis, facts, quotes, examples, caveats, and exact source locations. Then it reorganizes that material around the buyer's job instead of the original table of contents. The result can become an interactive experience, content hub, wireframe, or set of channel assets. Every factual claim stays traceable. The format changes, but the source truth does not.",
+      "package_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/README.md#09--turn-one-asset-into-an-experience",
+      "slide_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/visuals/skill-09.png",
+      "skill_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/content-magic/SKILL.md"
+    },
+    {
+      "number": "10",
+      "date": "2026-09-02",
+      "title": "Write the First Touch",
+      "angle": "Use one true observation, one relevant offer, and one easy ask.",
+      "ask": "What is the clearest sign that an outbound message was over-personalized?",
+      "script": "The first line of an outbound message should explain why this person is hearing from you—not prove that you found something personal about them. The First-Touch Builder starts with the professional relationship, one verified observation, one relevant offer, one approved proof point, and one CTA. It writes observation, relevance, proof, and one easy ask. If there is no credible opener, it uses a direct professional reason instead of fake familiarity. The workflow checks suppression status, facts, proof, and links, then stops with an unsent draft. Personalization should earn relevance, not perform surveillance.",
+      "package_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/README.md#10--write-the-first-touch",
+      "slide_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/visuals/skill-10.png",
+      "skill_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/first-touch-builder/SKILL.md"
+    }
+  ]
+}
