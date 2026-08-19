@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "title": "ForgeX Practical ABM Skills",
+  "publisher": "ForgeX",
+  "creator": "Trey Harnden",
+  "repository": "https://github.com/0xTrey/forgex-practical-abm-skills",
+  "safety_mode": "draft-first",
+  "skills": [
+    {"number": 1, "slug": "account-list-builder", "title": "Account List Builder"},
+    {"number": 2, "slug": "why-now-signal-scanner", "title": "Why-Now Signal Scanner"},
+    {"number": 3, "slug": "abm-strategist", "title": "ABM Strategist"},
+    {"number": 4, "slug": "buying-committee-mapper", "title": "Buying Committee Mapper"},
+    {"number": 5, "slug": "brand-harvester", "title": "Brand Harvester"},
+    {"number": 6, "slug": "campaign-landing-page", "title": "Campaign Landing Page"},
+    {"number": 7, "slug": "industry-campaign-page", "title": "Industry Campaign Page"},
+    {"number": 8, "slug": "one-to-one-microsite", "title": "One-to-One Microsite"},
+    {"number": 9, "slug": "content-magic", "title": "Content Magic"},
+    {"number": 10, "slug": "first-touch-builder", "title": "First-Touch Builder"}
+  ]
+}

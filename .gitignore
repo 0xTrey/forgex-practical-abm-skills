@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.pyc
+tmp/
+private_data/
+*.sqlite
+*.sqlite3
+*.log
+client_secret*.json
+credentials*.json
+token*.json
+*oauth*token*.json
