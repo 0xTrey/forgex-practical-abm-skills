@@ -18,6 +18,7 @@ The audience should leave able to distinguish the foundational layers, create a 
 
 ## Package contents
 
+- [Editable Figma Slides deck](output/figma-deck.md)
 - [Run of show](run-of-show.md)
 - [Slide-by-slide outline](slide-outline.md)
 - [Presenter talk track](talk-track.md)
