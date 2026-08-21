@@ -7,7 +7,7 @@
   "events": [
     {
       "number": "01",
-      "date": "2026-08-20",
+      "date": "2026-08-24",
       "title": "Build the Right Account List",
       "angle": "Make inherited targeting logic visible and reviewable.",
       "ask": "What part of account selection still takes your team too long?",
@@ -18,7 +18,7 @@
     },
     {
       "number": "02",
-      "date": "2026-08-21",
+      "date": "2026-08-25",
       "title": "Spot the Why Now",
       "angle": "Separate timing evidence from invented purchase intent.",
       "ask": "What public signal has been most useful in your ABM work?",
@@ -29,7 +29,7 @@
     },
     {
       "number": "03",
-      "date": "2026-08-24",
+      "date": "2026-08-26",
       "title": "Plan the Account Campaign",
       "angle": "Approve the account hypothesis before building creative.",
       "ask": "What is the one question every account brief should answer?",
@@ -40,7 +40,7 @@
     },
     {
       "number": "04",
-      "date": "2026-08-25",
+      "date": "2026-08-27",
       "title": "Map the Buying Committee",
       "angle": "Map decisions, questions, proof, and content gaps—not personalities.",
       "ask": "Which buying role is most often missing from your ABM plan?",
@@ -51,7 +51,7 @@
     },
     {
       "number": "05",
-      "date": "2026-08-26",
+      "date": "2026-08-28",
       "title": "Ground the Work in Brand",
       "angle": "Use brand evidence before asking AI to design.",
       "ask": "What is the fastest way you can tell that a campaign is off-brand?",
@@ -62,7 +62,7 @@
     },
     {
       "number": "06",
-      "date": "2026-08-27",
+      "date": "2026-08-31",
       "title": "Build a Campaign Landing Page",
       "angle": "One audience, one job, and one primary next step.",
       "ask": "What is the most common reason campaign pages lose focus?",
@@ -73,7 +73,7 @@
     },
     {
       "number": "07",
-      "date": "2026-08-28",
+      "date": "2026-09-01",
       "title": "Build an Industry Campaign Page",
       "angle": "Real vertical relevance requires more than changing the industry name.",
       "ask": "Where do industry campaigns usually become too generic?",
@@ -84,7 +84,7 @@
     },
     {
       "number": "08",
-      "date": "2026-08-31",
+      "date": "2026-09-02",
       "title": "Build a One-to-One Microsite",
       "angle": "Make the experience relevant to the account and clearly from the seller.",
       "ask": "What makes account personalization feel genuinely useful to you?",
@@ -95,7 +95,7 @@
     },
     {
       "number": "09",
-      "date": "2026-09-01",
+      "date": "2026-09-03",
       "title": "Turn One Asset Into an Experience",
       "angle": "Transform the format while preserving the source truth.",
       "ask": "Which asset in your library deserves a second life?",
@@ -106,7 +106,7 @@
     },
     {
       "number": "10",
-      "date": "2026-09-02",
+      "date": "2026-09-04",
       "title": "Write the First Touch",
       "angle": "Use one true observation, one relevant offer, and one easy ask.",
       "ask": "What is the clearest sign that an outbound message was over-personalized?",
