@@ -1,237 +1,221 @@
 # Presenter talk track
 
-The notes are written to be spoken naturally, not read word for word. Bold text marks the thought that should survive even if time is tight.
+These notes are prompts for a natural conversation. They are not a script to read word for word.
 
-## Slide 1 — AI for ABM: Setting Up the Foundations
+## Slide 1: AI for ABM
 
-**Target time: 1 minute**
+**Target time:** 1 minute
 
-- Welcome everyone and thank ForgeX/Yael for organizing.
-- Establish the boundary immediately: this is not a Claude-versus-ChatGPT session and not a tour of shiny AI features.
-- “I want to answer a more useful question: what has to be true for AI work inside an ABM program to become repeatable, reviewable, and safe enough for a team to use?”
-- Tell the audience they will see a fresh Claude workspace because examples make architecture tangible, but every principle is portable.
-- Preview the practical payoff: they should leave able to choose one repeated ABM job and package it into a reusable skill.
+- Open with the outcome: "By the end of this hour, you should know which level you are at, what it takes to move up one level, and what you should build first."
+- Confirm the public promise. The session covers MCPs, agents, prompts, the company brain, and a fresh Claude workspace.
+- Set the audience boundary. This is designed for marketers, not software engineers.
 
-**Transition:** “Let’s begin with the failure mode almost every team recognizes.”
+**Transition:** "Part I showed what these systems can produce. Today we are opening the hood."
 
-## Slide 2 — ABM teams do not need more prompts
+## Slide 2: Part I showed the output
 
-**Target time: 3 minutes**
+**Target time:** 2 minutes
 
-- Ask for a mental show of hands: who has a prompt that worked beautifully once but could not be reproduced by a colleague?
-- Describe the common pattern: a smart marketer combines private context, domain judgment, and several corrections inside one chat. The output is good, but the method disappears with the chat.
-- Explain why a prompt library alone does not fix it. A prompt without the right evidence, output contract, stop conditions, and review expectations still depends on the original author.
-- **The gap is not between teams using AI and teams not using AI. It is between isolated experiments and shared operating infrastructure.**
-- Name the cost: repeated setup, uneven quality, invented facts, unclear approvals, and no learning loop.
+- Recap Part I in one breath: propensity, landing pages, microsites, the Folloze MCP, and the skills behind those experiences.
+- Explain that none of those outputs begins with the page. The work begins with context, a process, access to tools, and a decision about what a human must review.
+- Invite the chat: "What is one repeated ABM job your team keeps rebuilding from scratch?"
 
-**Transition:** “So what has to be shared? I use five layers.”
+**Keep:** Part I is proof of the output. Part II is the operating system underneath it.
 
-## Slide 3 — Five layers turn output into an operating system
+## Slide 3: The terms
 
-**Target time: 3 minutes**
+**Target time:** 4 minutes
 
-- Walk through the layers without drowning the audience in definitions.
-- Context: the approved facts, positioning, ICP, proof, voice, and constraints the AI needs.
-- Instructions: what task it is doing and what good looks like.
-- Tools: systems it may read or act through.
-- Workflows and agents: how the task progresses and where judgment chooses the next move.
-- Governance: ownership, evidence, QA, approvals, permissions, and measurement.
-- **Skipping a layer does not make the work simpler. It pushes ambiguity into the output.**
-- Make the vendor-neutral point: every major AI environment has some version of context, instructions, tools, and permissions, even if the product labels differ.
+- Use the engine and workbench distinction. The model is the engine. Claude Code, Cursor, or another harness is the workbench that gives the model files, tools, state, and controls.
+- A prompt is this request. Context is what the system can use right now.
+- A skill is a repeatable process. A tool is a capability.
+- MCP is a standard connection layer. It does not supply business judgment or approval.
+- An automation follows a known route. An agent chooses a route to pursue a goal.
+- Avoid teaching hidden chain-of-thought as a capability. Ask for a visible plan, evidence, decisions, and evaluation.
 
-**Transition:** “Those layers matter because a production workflow is a loop.”
+**Audience question:** "Which two of these terms does your team use as if they mean the same thing?"
 
-## Slide 4 — The system is a loop
+## Slide 4: Zapier V2
 
-**Target time: 3 minutes**
+**Target time:** 3 minutes
 
-- Start at the central brain: shared context and reusable instructions.
-- A skill activates the right method for a specific job.
-- Authorized tools may add evidence or create a draft.
-- The output reaches a human review boundary before consequence.
-- The corrections should flow back into the shared instructions, template, or example.
-- **A chat produces an answer. An operating loop improves the next answer.**
-- Tell the audience this is why “we bought an AI tool” is not an implementation plan. The tool is one component inside the loop.
+- Give Zapier full credit for the reference framework.
+- Point to the four dimensions: Mindset, Strategy, Building, and Accountability.
+- Capable means AI is improving core work. Adoptive means the person orchestrates tools and durable systems. Transformative means the team redesigns how work happens.
+- Emphasize accountability. The ability to catch and correct poor output is part of fluency.
+- Explain the adaptation: ForgeX needs more resolution between a good prompt, a company brain, a reusable skill, an automation, and an agent.
 
-**Transition:** “The first place most teams need to invest is the central brain.”
+**Transition:** "So we rebuilt the ladder for the actual work of ABM."
 
-## Slide 5 — The central brain
+## Slide 5: The ForgeX maturity ladder
 
-**Target time: 3 minutes**
+**Target time:** 3 minutes
 
-- Explain why you like a repository pattern: the contents are inspectable, permissioned, versioned, and reusable by people and agents.
-- Walk the folder structure quickly:
-  - context holds approved business knowledge;
-  - skills hold the reusable methods;
-  - templates define expected output;
-  - examples show what good looks like;
-  - decisions preserve changes and ownership.
-- GitHub is the live example because it handles files and revision history well. A well-governed SharePoint, Drive, or another knowledge system can play the same role.
-- Stress that the repository contains operating knowledge, not raw credential files or uncontrolled customer exports.
-- **Centralized does not mean “put everything in.” It means the right approved material has a durable home.**
+- Walk the labels once from zero to five.
+- State that every level can produce value. The question is whether the architecture matches the job.
+- Ask for a private zero-to-five self-rating.
+- Remove the status anxiety: "This is not a race to Level 5. A well-run Level 3 process can outperform a poorly governed Level 5 experiment."
+- Preview the same job: North Peak targeting Alder's VP of Infrastructure.
 
-**Transition:** “Once the brain exists, we can be precise about the difference between a prompt and a skill.”
+## Slide 6: Level 0, Fancy Search
 
-## Slide 6 — Prompt versus skill
+**Target time:** 2 minutes
 
-**Target time: 3 minutes**
+- Reuse the earlier "Fancy Search" language.
+- Explain the difference from a normal search engine. Search can surface links and generalized answers. A model can synthesize a corpus into a fluent answer. Neither makes the result specific to the seller or account by default.
+- The output can teach, summarize, or orient. It is weak evidence for a campaign decision.
+- Call out the trap: fluency feels like specificity.
 
-- A prompt is the immediate instruction for this interaction.
-- A skill is a reusable contract for a type of work.
-- A useful skill says when to use it, when not to use it, the minimum inputs, the workflow, the output contract, quality checks, and stop conditions.
-- Use a cooking analogy sparingly: a prompt is the instruction you give now; a skill is the tested recipe plus ingredients, standards, and “do not serve yet” checks.
-- **Prompts help individuals move faster. Skills help teams become consistent.**
-- Mention that a skill can still be plain Markdown. It does not need a software engineering program before it creates value.
+**Question:** "Could this answer be reused for any cybersecurity company and any manufacturer? If yes, it is not ABM yet."
 
-**Transition:** “The prompt still matters. We just ask it to do a more focused job.”
+## Slide 7: Level 1, Contextual Copilot
 
-## Slide 7 — Strong prompts make the work inspectable
+**Target time:** 3 minutes
 
-**Target time: 3 minutes**
+- Show the five parts of the better request: seller context, target context, job, output, and guardrail.
+- The marketer is doing the orchestration manually. That is still valuable.
+- Quality remains trapped in the person who knows what to paste and which corrections to make.
+- Tie this to the promo promise around prompting. Strong prompts make the work inspectable. They do not replace missing company context or a weak process.
 
-- Walk the five-part formula: context, job, evidence, output, guardrails.
-- Point to each phrase in the example prompt.
-- Context: which seller, account, audience, and goal.
-- Job: the single artifact or decision requested.
-- Evidence: approved files, public sources, and how to cite them.
-- Output: the required structure.
-- Guardrails: what cannot happen and where the agent must stop.
-- Explain that specificity is not about making prompts long. It is about removing consequential ambiguity.
-- **A strong prompt lets another human inspect the request before judging the answer.**
+## Slide 8: Level 2, Grounded Workspace
 
-**Transition:** “Now we can decide whether this job needs a workflow or an agent.”
+**Target time:** 3 minutes
 
-## Slide 8 — Workflow versus agent
+- Level 2 removes the repeated setup work.
+- The North Peak brain gives every run the same brand, messaging, ICP, personas, product portfolio, proof rules, and source manifest.
+- Explain context window versus company context. The context window is how much the model can consider at once. The company brain is the curated material worth considering.
+- More files are not automatically better. Scope and freshness matter.
 
-**Target time: 3 minutes**
+**Keep:** Stop making the model relearn the company.
 
-- Define a workflow as a known path: research, synthesize, review, produce a draft, stop.
-- Define an agent as a system where the model dynamically chooses steps or tools based on what it finds.
-- Use ABM examples:
-  - a webinar follow-up kit is usually a predictable workflow;
-  - open-ended account research across many possible evidence paths may justify more agentic judgment.
-- Explain the tradeoff: flexibility versus predictability, latency, cost, and review burden.
-- **Do not build an agent merely because the word sounds more advanced. Start with the least autonomy that can solve the job.**
-- Note that even agentic work needs explicit check-in conditions.
+## Slide 9: Build a company brain
 
-**Transition:** “Tools are where the system begins touching the rest of the company, which brings us to MCP.”
+**Target time:** 3 minutes
 
-## Slide 9 — MCP connects AI to systems
+- Credit Cerebras for the practical architecture.
+- A company brain is not a random document dump and not a chatbot trained on everything.
+- Centralize access and the query interface. The underlying sources can remain where teams own and update them.
+- Name the hard parts: connectors, source schemas, freshness, deduplication, permissions, audit, and scope.
+- Explain why GitHub is useful: plain files, change history, portability, review, and ownership. It is one pattern, not the only answer.
+- Show the source manifest. Every material document should have an owner and a review date.
 
-**Target time: 3 minutes**
+## Slide 10: The marketer becomes the plumber
 
-- Define MCP in plain language: an open standard for connecting AI applications to external data, tools, and reusable workflows.
-- Explain the three server primitives in marketer language:
-  - resources are context the AI can read;
-  - prompts are reusable starting points;
-  - tools retrieve information or perform actions.
-- Make the critical distinction: MCP gives the AI a standardized door. It does not define the marketing strategy, the data policy, or whether the action is appropriate.
-- Give an example: a calendar connector can read availability or create an event. The use case and permission model determine which should happen without approval.
-- **Connection is capability. Governance determines permission.**
-- Avoid implementation details about transports or protocol versions unless asked in Q&A.
+**Target time:** 4 minutes
 
-**Transition:** “The safest design move is to put review where consequence begins.”
+- Use the blue-collar metaphor directly and respectfully. The craft is knowing how the pieces connect and what breaks when one changes.
+- The company may give you Claude, ChatGPT, Gemini, Copilot, or a house-built system. Those are fixtures and tools.
+- The durable system is brand context, product truth, the process, templates, tests, tool contracts, and decision history.
+- Model portability: plain-text context and skills should work in another approved harness.
+- Career portability: take your method, blank templates, and general skills. Do not take confidential company content.
+- Ask: "If your company changed AI tools tomorrow, what would you lose?"
 
-## Slide 10 — Human approval at the boundary of consequence
+**Keep:** Your value is not memorizing one interface. It is understanding the plumbing well enough to rebuild the connection.
 
-**Target time: 3 minutes**
+## Slide 11: Level 3, Reusable Skill
 
-- Walk left to right on the spectrum.
-- Reading an approved brief is lower consequence than emailing a prospect.
-- Drafting copy is lower consequence than publishing it.
-- Recommending a next action is lower consequence than changing a CRM stage or spending media budget.
-- The exact line can differ by company, but the line must exist and the team must know who owns it.
-- **Approval should be attached to the action, not buried in a generic “human in the loop” statement.**
-- Give four default hard gates for marketers: external send, public publish, spend, and system-of-record write.
+**Target time:** 3 minutes
 
-**Transition:** “With those foundations in place, the ABM use cases organize themselves naturally.”
+- Deliver the key mental shift slowly: "Tell me X answer" becomes "Produce Y outcome through this process."
+- A skill packages the judgment that usually hides in the best operator's head.
+- The ABM Strategist does not just ask for an account brief. It defines evidence rules, buying-role logic, the message hierarchy, the output contract, QA, and where to stop.
+- The same skill can run in different capable harnesses because it is documented in plain text.
 
-## Slide 11 — ABM's natural sequence of jobs
+## Slide 12: Skill anatomy
 
-**Target time: 3 minutes**
+**Target time:** 3 minutes
 
-- Walk the audience through discover, plan, build, activate, and learn.
-- Discover: which accounts fit and what has changed.
-- Plan: campaign hypothesis, buying roles, message, proof, and next step.
-- Build: pages, content experiences, event journeys, and sales materials.
-- Activate: personal outreach, paid media, seller coordination, and events.
-- Learn: engagement, conversations, revisions, and next actions.
-- The sequence matters because AI can accelerate the wrong decision just as easily as the right one.
-- **Start upstream enough that the output improves the decision—not only the speed of production.**
+- Reveal the anatomy in order: when to use, required inputs, process, output contract, quality checks, stop conditions.
+- Explain that the stop condition is part of the design. A useful skill can produce a draft without publishing or sending it.
+- Show how corrections compound. Fix the shared skill once, and the next run starts from the improved process.
+- Connect to the attendee kit. Context Corpus Builder gets a team to Level 2. ABM Strategist and the supporting skills help it reach Level 3.
 
-**Transition:** “For most teams, I would begin with three small, reviewable skills.”
+## Slide 13: Skills worth borrowing from the GTM community
 
-## Slide 12 — Start with three practical skills
+**Target time:** 1 minute
 
-**Target time: 3 minutes**
+- Treat the community as a pattern library, not an app store.
+- Start with Erwann Lefevre's Multichannel Campaign Builder. Its useful pattern is the intake brief, three distinct angles, an early correction checkpoint, channel-specific rules, a complete output contract, and QA.
+- Use Ivan Falco's 1:1 ABM Ads package as the advanced Level 3-to-4 example. Its useful pattern is a documented, scripted system that creates drafts first and separates creation from activation. Keep the treatment draft-only, with no activation or spend.
+- Flash the four narrower candidates as patterns worth evaluating: verification gate, interpretation without side effects, list reconciliation, and dated research with refresh deduplication.
+- Use Audience ICP Filter as the concrete pilot proof. A 22-person synthetic webinar list reconciled completely, reduced semantic review to nine records, and finished at 12 match, 1 review, 6 no match, and 3 excluded. Two local corrections were required, and the regression suite passes 45 of 45 checks.
+- Keep the boundary explicit. This is a reviewed list-classification pilot only, with no enrichment, sending, CRM writes, or sequence enrollment.
+- Be precise about status. A connector-free local evaluation is complete. It inspected 18 packages, passed an offline five-row domain resolver check, and confirmed that the LinkedIn scripts refused to start without credentials.
+- Do not turn local test evidence into a production claim. These are MIT-licensed external community examples with creator attribution. They are draft-only or proposed pilots, not ForgeX-certified, production-adopted, or production-proven.
+- The evaluation supports the teaching recommendation. It does not authorize copying code, configurations, or credentials into the attendee repository.
 
-- Account List Builder: exposes the ICP, exclusions, scoring, evidence, and confidence behind the target list.
-- Why-Now Signal Scanner: looks for current company-level evidence and explicitly separates signal from inferred intent.
-- ABM Strategist: turns one account and one offer into an approval-ready brief.
-- Explain why these are good starting points: the outputs are easy for a domain expert to inspect, no external action is required, and the learning improves later creative.
-- Mention that the repository also includes page, industry, one-to-one, content, brand, buying-committee, and first-touch skills.
-- **The first skill should create something a marketer can challenge in minutes.**
+**Keep:** Borrow the pattern before you borrow the code.
 
-**Transition:** “Let me show you what it looks like to start from zero.”
+## Slide 14: Level 4, Governed Automation
 
-## Slide 13 — Live build setup
+**Target time:** 2 minutes
 
-**Target time: 1 minute before switching screens**
+- Level 4 adds time and state. Run the proven skill when an event happens or on a schedule.
+- The workflow must understand the current artifact, what changed, and what no change looks like.
+- A good weekly workflow does not manufacture a new campaign every Monday. It records no change when the evidence does not justify one.
+- Name the operating parts: trigger, state, routing, retries, monitoring, exception queue, audit trail.
 
-- Tell the audience exactly what they will see: a fresh Claude Project, two shared instruction files, one synthetic input, and one prompt.
-- State that no live customer data or external system will be used.
-- Tell them the demo is intentionally boring infrastructure: the goal is repeatability, not a magic trick.
-- Keep this slide visible while switching windows.
-- **Success is not a perfect campaign. Success is an inspectable first draft with visible gaps and approval gates.**
+## Slide 15: A cron job IN a trench coat
 
-**Transition to demo:** “I’m going to create the workspace, give it the shared rules, and ask it to run one skill.”
+**Target time:** 2 minutes
 
-## Slide 14 — What a useful output exposes
+- Get the wording right: a cron job IN a trench coat.
+- Run the automation-or-agent challenge from the run of show.
+- Respect the automation. Deterministic workflows are easier to test and often exactly what the job requires.
+- The warning is about fake sophistication. A schedule plus one repeated prompt does not become an agent because a vendor renamed it.
+- A brittle automation with broad write access is more dangerous when everyone assumes it has judgment.
 
-**Target time: 2 minutes after the live generation**
+## Slide 16: Workflow, agent, MCP, governance
 
-- Return to this slide after inspecting the generated brief.
-- Call out the five things the audience should look for in any AI-generated ABM artifact:
-  - sourced facts;
-  - labeled hypotheses;
-  - a coherent recommendation;
-  - missing evidence;
-  - explicit human decisions.
-- Show one example of a useful gap: “Approved proof for this claim is missing.” That is better than confident invention.
-- Explain that the output should be reviewable even by someone who did not watch the agent create it.
-- **Good infrastructure makes uncertainty visible.**
+**Target time:** 3 minutes
 
-**Transition:** “You do not need to implement all of this at once.”
+- Use the road analogy. Workflow is the marked route. Agent is the driver choosing the route. MCP provides on-ramps to approved resources and tools. Governance defines where the gates are and who may pass.
+- Give one concrete MCP example from Part I: the Folloze MCP can expose resources or tools to the host. The ABM process still defines what to build, what evidence to use, and who approves it.
+- Reinforce the boundary: access is not authorization. A tool may technically support an action that the workflow is not permitted to take.
+- Credit Anthropic's guidance to start with the simplest architecture that can do the job.
 
-## Slide 15 — Thirty-day rollout
+## Slide 17: Level 5, Goal-Driven Agent System
 
-**Target time: 3 minutes**
+**Target time:** 2 minutes
 
-- Week one: choose one repeated job with a visible output and a clear reviewer. Gather the approved context.
-- Week two: document the skill, template, example, QA, and stop conditions.
-- Week three: run five real cases. Capture corrections instead of silently fixing every output in the chat.
-- Week four: assign an owner, agree on measurements, and decide whether any connection or additional autonomy is justified.
-- Explain the measures:
-  - time to first useful draft;
-  - amount of human revision;
-  - approval pass rate;
-  - repeated reuse;
-  - practitioner adoption.
-- Avoid declaring ROI before there is a stable baseline.
-- **Scale the method only after the team can explain why the outputs improved.**
+- Deliver the second major shift: "I give you text and you give me an answer" becomes "I give you a goal and you produce the outcome."
+- The agent can decide that one account needs research, another needs a refreshed brief, and a third needs no action.
+- Real agency requires context, tools, skills, planning, state, evaluation, permission boundaries, and a human interrupt.
+- Do not imply that the human disappears. The human owns the goal, authority, evaluation standard, and consequential decisions.
 
-**Transition:** “The practical next step is deliberately small.”
+## Slide 18: One ABM job across six levels
 
-## Slide 16 — Leave with one workflow and one next step
+**Target time:** 20 seconds
 
-**Target time: 2 minutes plus Q&A transition**
+- Move quickly down the outputs.
+- Point out that the artifact becomes more grounded and repeatable before it becomes more autonomous.
+- The stack matters. Level 5 still needs the prompt discipline, company brain, skill, and operating controls below it.
 
-- Ask the audience to name one ABM job their team rebuilds from scratch every week or month.
-- Package the approved context, the instruction, the output contract, and the review gate.
-- Invite them to start with one skill from the repository rather than an empty prompt box.
-- Share the GitHub URL and explain what it contains.
-- Commercial bridge, lightly: “If your team needs help choosing the first workflow, building the repository, or putting the governance around it, that is the kind of implementation work ForgeX is organizing.”
-- End on the question: “What is the first workflow your team should stop rebuilding from scratch?”
-- Invite questions about use-case selection, repository structure, skills, MCP, agents, or governance.
+## Slide 19: Measure outcomes
 
-**Q&A bridge:** “If you put a workflow in the chat, I’ll tell you which layer I would build first.”
+**Target time:** 20 seconds
+
+- Name the five business outcomes: speed, quality, consistency, campaign volume, and personalization.
+- Add operational metrics only when the system runs without direct supervision.
+- Avoid vanity measures such as prompt count or number of AI tools purchased.
+
+## Slide 20: Most teams should focus here
+
+**Target time:** 20 seconds
+
+- Spotlight Levels 2 to 4.
+- Point attendees to the North Peak corpus, Context Corpus Builder, ABM Strategist, and 30-day plans.
+- Be direct about Level 4 to 5: this is the one place where a generic checklist is irresponsible. The right architecture depends on internal systems, data, permission boundaries, goals, and failure tolerance.
+- Ask attendees to put `2→3` or `3→4` in chat.
+
+## Slide 21: Live build
+
+**Target time:** 15 minutes
+
+- Tell the audience exactly what they will see before switching screens.
+- Orient them to the fresh workspace, then the repository structure.
+- Open the safety contract, North Peak `README.md`, proof register, Alder evidence, and ABM Strategist.
+- Run the Level 3 prompt without additional hidden setup.
+- Review the output against the contract. Find the facts, hypotheses, unknowns, and approval gates.
+- Show the Level 4 prompt without activating a schedule. Name the infrastructure that would be required: trigger, state, update logic, diff, exception route, logs, and permissions.
+- Close with one sentence: "Do not leave here trying to build an autonomous agent. Leave with one repeated job you are ready to move up one level."

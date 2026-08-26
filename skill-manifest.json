@@ -6,15 +6,16 @@
   "repository": "https://github.com/0xTrey/forgex-practical-abm-skills",
   "safety_mode": "draft-first",
   "skills": [
-    {"number": 1, "slug": "account-list-builder", "title": "Account List Builder"},
-    {"number": 2, "slug": "why-now-signal-scanner", "title": "Why-Now Signal Scanner"},
-    {"number": 3, "slug": "abm-strategist", "title": "ABM Strategist"},
-    {"number": 4, "slug": "buying-committee-mapper", "title": "Buying Committee Mapper"},
-    {"number": 5, "slug": "brand-harvester", "title": "Brand Harvester"},
-    {"number": 6, "slug": "campaign-landing-page", "title": "Campaign Landing Page"},
-    {"number": 7, "slug": "industry-campaign-page", "title": "Industry Campaign Page"},
-    {"number": 8, "slug": "one-to-one-microsite", "title": "One-to-One Microsite"},
-    {"number": 9, "slug": "content-magic", "title": "Content Magic"},
-    {"number": 10, "slug": "first-touch-builder", "title": "First-Touch Builder"}
+    {"number": 1, "slug": "context-corpus-builder", "title": "Context Corpus Builder", "content_calendar": false},
+    {"number": 2, "slug": "account-list-builder", "title": "Account List Builder"},
+    {"number": 3, "slug": "why-now-signal-scanner", "title": "Why-Now Signal Scanner"},
+    {"number": 4, "slug": "abm-strategist", "title": "ABM Strategist"},
+    {"number": 5, "slug": "buying-committee-mapper", "title": "Buying Committee Mapper"},
+    {"number": 6, "slug": "brand-harvester", "title": "Brand Harvester"},
+    {"number": 7, "slug": "campaign-landing-page", "title": "Campaign Landing Page"},
+    {"number": 8, "slug": "industry-campaign-page", "title": "Industry Campaign Page"},
+    {"number": 9, "slug": "one-to-one-microsite", "title": "One-to-One Microsite"},
+    {"number": 10, "slug": "content-magic", "title": "Content Magic"},
+    {"number": 11, "slug": "first-touch-builder", "title": "First-Touch Builder"}
   ]
 }

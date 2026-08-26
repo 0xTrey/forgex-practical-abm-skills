@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ForgeX AI for ABM maturity rubric from Fancy Search to Goal-Driven Agent System.">
+  <title>ForgeX AI for ABM Maturity Rubric</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=Manrope:wght@400;600;700&display=swap');
+
+    :root {
+      --cream: #faf7f2;
+      --paper: #fffdf8;
+      --plum: #3d1f5c;
+      --plum-dark: #241032;
+      --ink: #0b0b0f;
+      --pink: #e63888;
+      --lime: #c7f25c;
+      --line: #d9d0c4;
+      --muted: #655c68;
+      --shadow: 0 16px 48px rgba(36, 16, 50, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--plum-dark);
+      color: var(--ink);
+      font-family: "Manrope", sans-serif;
+    }
+
+    .poster {
+      min-height: 100vh;
+      padding: 34px 38px 28px;
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, rgba(61, 31, 92, 0.05) 1px, transparent 1px) 0 0 / 30px 30px,
+        linear-gradient(rgba(61, 31, 92, 0.05) 1px, transparent 1px) 0 0 / 30px 30px,
+        var(--cream);
+      position: relative;
+    }
+
+    .poster::before {
+      content: "";
+      position: absolute;
+      width: 340px;
+      height: 340px;
+      border: 88px solid var(--pink);
+      border-radius: 50%;
+      right: -220px;
+      top: -225px;
+      opacity: 0.95;
+    }
+
+    .poster::after {
+      content: "";
+      position: absolute;
+      width: 250px;
+      height: 28px;
+      right: 54px;
+      bottom: 0;
+      background: var(--lime);
+      transform: skewX(-36deg);
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 32px;
+      align-items: end;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      color: var(--pink);
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      max-width: 1040px;
+      margin: 2px 0 7px;
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-size: clamp(42px, 4.7vw, 74px);
+      line-height: 0.92;
+      letter-spacing: -0.055em;
+      text-wrap: balance;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--plum);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .promise {
+      width: 265px;
+      padding: 14px 16px;
+      border-left: 7px solid var(--lime);
+      background: var(--plum);
+      color: var(--paper);
+      box-shadow: var(--shadow);
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .ladder {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(172px, 1fr));
+      gap: 10px;
+      align-items: end;
+      position: relative;
+      z-index: 1;
+    }
+
+    .level {
+      min-height: calc(408px + (var(--level) * 23px));
+      display: flex;
+      flex-direction: column;
+      background: var(--paper);
+      box-shadow: var(--shadow);
+      border-top: 9px solid var(--plum);
+      position: relative;
+    }
+
+    .level:nth-child(3n + 2) {
+      border-top-color: var(--pink);
+    }
+
+    .level:nth-child(3n) {
+      border-top-color: var(--lime);
+    }
+
+    .level::before {
+      content: "";
+      position: absolute;
+      height: 3px;
+      background: var(--pink);
+      width: 14px;
+      right: -12px;
+      top: 28px;
+      z-index: 3;
+    }
+
+    .level:last-child::before {
+      display: none;
+    }
+
+    .level-head {
+      padding: 14px 14px 12px;
+      min-height: 112px;
+      background: var(--plum);
+      color: var(--paper);
+    }
+
+    .level:nth-child(3n + 2) .level-head {
+      background: var(--pink);
+      color: var(--paper);
+    }
+
+    .level:nth-child(3n) .level-head {
+      background: var(--lime);
+      color: var(--plum-dark);
+    }
+
+    .number {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .number strong {
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-size: 26px;
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      margin: 10px 0 0;
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-size: 24px;
+      line-height: 0.95;
+      letter-spacing: -0.035em;
+    }
+
+    .level-body {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      gap: 12px;
+      padding: 14px;
+    }
+
+    .label {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--pink);
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+    }
+
+    .level:nth-child(3n) .label {
+      color: var(--plum);
+    }
+
+    .request {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.16;
+    }
+
+    .returns,
+    .governance {
+      margin: 0;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.42;
+    }
+
+    .stack {
+      margin-top: auto;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+    }
+
+    .stack code {
+      color: var(--plum);
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 10px;
+      font-weight: 600;
+      white-space: normal;
+    }
+
+    .governance {
+      padding: 10px 14px;
+      background: #f2ecf2;
+      color: var(--plum-dark);
+      font-weight: 700;
+    }
+
+    footer {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 20px;
+      align-items: center;
+      margin-top: 15px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .measures {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .measures strong {
+      padding: 6px 9px;
+      background: var(--plum);
+      color: var(--paper);
+    }
+
+    .source {
+      max-width: 435px;
+      color: var(--muted);
+      font-size: 9px;
+      line-height: 1.4;
+      text-align: right;
+    }
+
+    @media (max-width: 1160px) {
+      .poster {
+        padding: 26px;
+      }
+
+      .ladder {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: stretch;
+      }
+
+      .level {
+        min-height: 430px;
+      }
+
+      .level::before {
+        display: none;
+      }
+    }
+
+    @media (max-width: 680px) {
+      header,
+      footer {
+        grid-template-columns: 1fr;
+      }
+
+      .promise {
+        width: auto;
+      }
+
+      .ladder {
+        grid-template-columns: 1fr;
+      }
+
+      .level {
+        min-height: 0;
+      }
+
+      .source {
+        text-align: left;
+      }
+    }
+
+    @media print {
+      @page {
+        size: A3 landscape;
+        margin: 0;
+      }
+
+      body {
+        background: var(--cream);
+      }
+
+      .poster {
+        min-height: 100vh;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="poster">
+    <header>
+      <div>
+        <div class="brand">ForgeX</div>
+        <h1>AI for ABM maturity rubric</h1>
+        <p class="subtitle">Move up one useful level. Keep every layer that made the last one work.</p>
+      </div>
+      <div class="promise">The model is replaceable. Your context, processes, tests, and decision history are the durable system.</div>
+    </header>
+
+    <section class="ladder" aria-label="Six levels of AI for ABM maturity">
+      <article class="level" style="--level: 0">
+        <div class="level-head">
+          <div class="number"><span>Level</span><strong>0</strong></div>
+          <h2>Fancy Search</h2>
+        </div>
+        <div class="level-body">
+          <div><span class="label">Request</span><p class="request">“Teach me about this topic.”</p></div>
+          <div><span class="label">Returns</span><p class="returns">Generalized answers and ideas you must sift, verify, and rebuild.</p></div>
+          <div class="stack"><span class="label">Stack</span><code>model or search interface</code></div>
+        </div>
+        <p class="governance">Do not mistake fluent output for account evidence.</p>
+      </article>
+
+      <article class="level" style="--level: 1">
+        <div class="level-head">
+          <div class="number"><span>Level</span><strong>1</strong></div>
+          <h2>Contextual Copilot</h2>
+        </div>
+        <div class="level-body">
+          <div><span class="label">Request</span><p class="request">“Use this context to create this draft.”</p></div>
+          <div><span class="label">Returns</span><p class="returns">A more relevant one-off output shaped by the marketer's prompt and iteration.</p></div>
+          <div class="stack"><span class="label">Adds</span><code>structured prompt + supplied context</code></div>
+        </div>
+        <p class="governance">Separate facts, hypotheses, and unknowns.</p>
+      </article>
+
+      <article class="level" style="--level: 2">
+        <div class="level-head">
+          <div class="number"><span>Level</span><strong>2</strong></div>
+          <h2>Grounded Workspace</h2>
+        </div>
+        <div class="level-body">
+          <div><span class="label">Request</span><p class="request">“Use our approved company brain.”</p></div>
+          <div><span class="label">Returns</span><p class="returns">Consistent work grounded in brand, messaging, ICP, personas, products, proof, and sources.</p></div>
+          <div class="stack"><span class="label">Adds</span><code>persistent context + source register</code></div>
+        </div>
+        <p class="governance">Assign owners, permissions, and review dates.</p>
+      </article>
+
+      <article class="level" style="--level: 3">
+        <div class="level-head">
+          <div class="number"><span>Level</span><strong>3</strong></div>
+          <h2>Reusable Skill</h2>
+        </div>
+        <div class="level-body">
+          <div><span class="label">Request</span><p class="request">“Produce this outcome through this process.”</p></div>
+          <div><span class="label">Returns</span><p class="returns">The same inspectable output structure across accounts, runs, and users.</p></div>
+          <div class="stack"><span class="label">Adds</span><code>skill + template + QA + stop conditions</code></div>
+        </div>
+        <p class="governance">Test the process before scaling it.</p>
+      </article>
+
+      <article class="level" style="--level: 4">
+        <div class="level-head">
+          <div class="number"><span>Level</span><strong>4</strong></div>
+          <h2>Governed Automation</h2>
+        </div>
+        <div class="level-body">
+          <div><span class="label">Request</span><p class="request">“Run this when something changes.”</p></div>
+          <div><span class="label">Returns</span><p class="returns">An updated artifact, diff, no-change record, exception queue, and audit trail.</p></div>
+          <div class="stack"><span class="label">Adds</span><code>trigger + state + routing + monitoring</code></div>
+        </div>
+        <p class="governance">Keep send, publish, spend, and writes behind approval.</p>
+      </article>
+
+      <article class="level" style="--level: 5">
+        <div class="level-head">
+          <div class="number"><span>Level</span><strong>5</strong></div>
+          <h2>Goal-Driven Agent</h2>
+        </div>
+        <div class="level-body">
+          <div><span class="label">Request</span><p class="request">“Here is the goal. Decide what to produce.”</p></div>
+          <div><span class="label">Returns</span><p class="returns">A prioritized plan and the research, briefs, experiences, or next actions required.</p></div>
+          <div class="stack"><span class="label">Adds</span><code>planning + tool choice + evaluation + interrupts</code></div>
+        </div>
+        <p class="governance">Bound authority. Keep a human owner for outcomes.</p>
+      </article>
+    </section>
+
+    <footer>
+      <div class="measures"><span>Measure</span><strong>speed</strong><strong>quality</strong><strong>consistency</strong><strong>campaign volume</strong><strong>personalization</strong></div>
+      <p class="source">ForgeX AI for ABM framework. Inspired by Zapier's AI Fluency Rubric V2. Workflow and agent distinction informed by Anthropic's “Building effective agents.”</p>
+    </footer>
+  </main>
+</body>
+</html>

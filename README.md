@@ -1,6 +1,6 @@
 # ForgeX Practical ABM Skills
 
-Ten small, vendor-neutral AI skills for account-based marketers.
+Eleven small, vendor-neutral AI skills for account-based marketers.
 
 **Published by ForgeX · Created by Trey Harnden**
 
@@ -10,16 +10,17 @@ Each skill is organized around one job, one clear input, and one useful output. 
 
 | # | Skill | Job | Shareable skill |
 |---:|---|---|---|
-| 1 | Build the Right Account List | Turn an ICP into a ranked, evidence-backed account list | [Account List Builder](skills/account-list-builder/SKILL.md) |
-| 2 | Spot the Why Now | Find current, public account-level timing signals | [Why-Now Signal Scanner](skills/why-now-signal-scanner/SKILL.md) |
-| 3 | Plan the Account Campaign | Turn one account and offer into a focused campaign brief | [ABM Strategist](skills/abm-strategist/SKILL.md) |
-| 4 | Map the Buying Committee | Map the roles, questions, and evidence needs in a buying group | [Buying Committee Mapper](skills/buying-committee-mapper/SKILL.md) |
-| 5 | Ground the Work in Brand | Turn a public website into a source-backed creative brief | [Brand Harvester](skills/brand-harvester/SKILL.md) |
-| 6 | Build a Campaign Landing Page | Turn an approved brief into a draft campaign page | [Campaign Landing Page](skills/campaign-landing-page/SKILL.md) |
-| 7 | Build an Industry Campaign Page | Adapt a campaign for a vertical or account cohort | [Industry Campaign Page](skills/industry-campaign-page/SKILL.md) |
-| 8 | Build a One-to-One Microsite | Create a named-account experience from approved research | [One-to-One Microsite](skills/one-to-one-microsite/SKILL.md) |
-| 9 | Turn One Asset Into an Experience | Transform an approved source asset without inventing claims | [Content Magic](skills/content-magic/SKILL.md) |
-| 10 | Write the First Touch | Create a personal, evidence-based opening message | [First-Touch Builder](skills/first-touch-builder/SKILL.md) |
+| 1 | Build the Company Brain | Turn approved materials into a portable context corpus | [Context Corpus Builder](skills/context-corpus-builder/SKILL.md) |
+| 2 | Build the Right Account List | Turn an ICP into a ranked, evidence-backed account list | [Account List Builder](skills/account-list-builder/SKILL.md) |
+| 3 | Spot the Why Now | Find current, public account-level timing signals | [Why-Now Signal Scanner](skills/why-now-signal-scanner/SKILL.md) |
+| 4 | Plan the Account Campaign | Turn one account and offer into a focused campaign brief | [ABM Strategist](skills/abm-strategist/SKILL.md) |
+| 5 | Map the Buying Committee | Map the roles, questions, and evidence needs in a buying group | [Buying Committee Mapper](skills/buying-committee-mapper/SKILL.md) |
+| 6 | Ground the Work in Brand | Turn a public website into a source-backed creative brief | [Brand Harvester](skills/brand-harvester/SKILL.md) |
+| 7 | Build a Campaign Landing Page | Turn an approved brief into a draft campaign page | [Campaign Landing Page](skills/campaign-landing-page/SKILL.md) |
+| 8 | Build an Industry Campaign Page | Adapt a campaign for a vertical or account cohort | [Industry Campaign Page](skills/industry-campaign-page/SKILL.md) |
+| 9 | Build a One-to-One Microsite | Create a named-account experience from approved research | [One-to-One Microsite](skills/one-to-one-microsite/SKILL.md) |
+| 10 | Turn One Asset Into an Experience | Transform an approved source asset without inventing claims | [Content Magic](skills/content-magic/SKILL.md) |
+| 11 | Write the First Touch | Create a personal, evidence-based opening message | [First-Touch Builder](skills/first-touch-builder/SKILL.md) |
 
 ## How to use a skill
 
@@ -35,11 +36,11 @@ Example:
 
 ## Content series
 
-The companion [content calendar](content-calendar/README.md) contains the production dates, 60-second scripts, one-slide visuals, LinkedIn copy, and GitHub links for a ten-part ForgeX series.
+The companion [content calendar](content-calendar/README.md) contains the production dates, 60-second scripts, one-slide visuals, LinkedIn copy, and GitHub links for the original ten-part ForgeX series. Context Corpus Builder extends that collection for the September webinar.
 
 ## Webinar package
 
-The [September 17 AI for ABM webinar package](webinar/2026-09-17-ai-for-abm-foundations/README.md) contains the 60-minute run of show, sixteen-slide narrative, presenter talk track, live Claude demo runbook, synthetic demo inputs, rehearsal plan, and promotion copy.
+The [September 17 AI for ABM webinar package](webinar/2026-09-17-ai-for-abm-foundations/README.md) contains the six-level maturity rubric, 60-minute run of show, presenter talk track, fresh Claude workspace demo, fictional North Peak company brain, attendee field guide, rehearsal plan, and source register. Final presentation materials are available as an [editable PowerPoint](webinar/2026-09-17-ai-for-abm-foundations/deliverables/forgex-ai-for-abm-webinar-deck.pptx), [presenter PDF backup](webinar/2026-09-17-ai-for-abm-foundations/deliverables/forgex-ai-for-abm-webinar-deck.pdf), and [attendee field guide PDF](webinar/2026-09-17-ai-for-abm-foundations/deliverables/forgex-ai-for-abm-field-guide.pdf).
 
 ## Platform boundary
 

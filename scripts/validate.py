@@ -15,8 +15,17 @@ def main() -> int:
     manifest = json.loads((ROOT / "skill-manifest.json").read_text())
     errors: list[str] = []
 
-    if len(manifest.get("skills", [])) != 10:
-        errors.append("manifest must contain exactly 10 skills")
+    skills = manifest.get("skills", [])
+    if not skills:
+        errors.append("manifest must contain at least one skill")
+
+    numbers = [item.get("number") for item in skills]
+    if numbers != list(range(1, len(skills) + 1)):
+        errors.append("manifest skill numbers must be unique and sequential")
+
+    slugs = [item.get("slug") for item in skills]
+    if len(slugs) != len(set(slugs)):
+        errors.append("manifest skill slugs must be unique")
 
     required_headings = (
         "## Outcome",
@@ -28,7 +37,7 @@ def main() -> int:
         "## Quality checks",
     )
 
-    for item in manifest.get("skills", []):
+    for item in skills:
         path = ROOT / "skills" / item["slug"] / "SKILL.md"
         if not path.exists():
             errors.append(f"missing {path.relative_to(ROOT)}")
@@ -51,7 +60,9 @@ def main() -> int:
         errors.append("missing content-calendar/README.md")
     else:
         calendar_text = calendar.read_text()
-        for item in manifest.get("skills", []):
+        for item in skills:
+            if item.get("content_calendar", True) is False:
+                continue
             if item["slug"] not in calendar_text:
                 errors.append(f"calendar missing {item['slug']}")
 
@@ -61,7 +72,11 @@ def main() -> int:
             print(f"- {error}")
         return 1
 
-    print("Validation passed: 10 skills and content calendar are complete.")
+    calendar_count = sum(item.get("content_calendar", True) is not False for item in skills)
+    print(
+        f"Validation passed: {len(skills)} skills are complete; "
+        f"{calendar_count} are represented in the content calendar."
+    )
     return 0
 
 
