@@ -5,8 +5,17 @@ This folder contains the audience-ready materials for the September 17, 2026 For
 ## Final files
 
 - [`forgex-ai-for-abm-webinar-deck.pptx`](forgex-ai-for-abm-webinar-deck.pptx): editable 21-slide presentation with presenter notes and source blocks.
-- [`forgex-ai-for-abm-webinar-deck.pdf`](forgex-ai-for-abm-webinar-deck.pdf): presenter-safe PDF backup.
-- [`forgex-ai-for-abm-field-guide.pdf`](forgex-ai-for-abm-field-guide.pdf): 12-page attendee leave-behind.
+- [`forgex-ai-for-abm-webinar-deck.pdf`](forgex-ai-for-abm-webinar-deck.pdf): local presenter fallback. Do not include it in the attendee upload unless requested.
+- [`forgex-ai-for-abm-field-guide.pdf`](forgex-ai-for-abm-field-guide.pdf): five-page attendee leave-behind.
+
+## Drive handoff set
+
+Upload only the editable PowerPoint and the five-page field guide:
+
+1. `forgex-ai-for-abm-webinar-deck.pptx`
+2. `forgex-ai-for-abm-field-guide.pdf`
+
+Keep the PowerPoint in its original format so the ForgeX team can make human-in-the-loop edits. Do not convert it to Google Slides. Do not upload the deck PDF.
 
 ## Story and timing
 
@@ -66,5 +75,5 @@ The GitHub repository is private as of August 26, 2026. The content is locally p
 - PowerPoint overflow test passed across all 21 slides.
 - Every slide was rendered and visually reviewed.
 - Both PDFs were reopened, rendered, and visually reviewed.
-- The attendee guide contains 12 letter-size pages and the deck backup contains 21 widescreen pages.
+- The attendee guide contains five letter-size pages and the deck backup contains 21 widescreen pages.
 - Repository validation checks the full 11-skill collection while keeping the webinar-only Context Corpus Builder out of the original ten-part content calendar requirement.
