@@ -74,9 +74,7 @@ I packaged the complete vendor-neutral skill through ForgeX. Human review still 
 
 ### One-slide content
 
-- Eyebrow: `PRACTICAL ABM SKILL 01 · DISCOVER`
-- Headline: `Build the right account list.`
-- Subtitle: `A score is useful only when a marketer can explain it.`
+- Primary headline: `Build the right account list.`
 - Flow: `ICP + EXCLUSIONS → EVIDENCE + SCORING → REVIEWABLE ACCOUNT LIST`
 - Footer: `One job. One skill. One useful output.`
 
@@ -117,9 +115,7 @@ Use it to decide what deserves more research, not to manufacture intent.
 
 ### One-slide content
 
-- Eyebrow: `PRACTICAL ABM SKILL 02 · DISCOVER`
-- Headline: `Spot the “why now.”`
-- Subtitle: `Timing evidence is a hypothesis, not proof of intent.`
+- Primary headline: `Spot the “why now.”`
 - Flow: `PUBLIC SIGNAL → RELEVANCE + CONFIDENCE → WHY-NOW BRIEF`
 - Footer: `Observe first. Infer carefully. Act deliberately.`
 
@@ -158,9 +154,7 @@ Approve the thinking first. Then decide what deserves to be built.
 
 ### One-slide content
 
-- Eyebrow: `PRACTICAL ABM SKILL 03 · PLAN`
-- Headline: `Plan the account campaign.`
-- Subtitle: `Personalization starts with a defensible account hypothesis.`
+- Primary headline: `Plan the account campaign.`
 - Flow: `ACCOUNT EVIDENCE → CAMPAIGN PREMISE → APPROVAL-READY BRIEF`
 - Footer: `Strategy before creative.`
 
@@ -201,9 +195,7 @@ The result is a practical coverage map, not a personal dossier built from somebo
 
 ### One-slide content
 
-- Eyebrow: `PRACTICAL ABM SKILL 04 · PLAN`
-- Headline: `Map the buying committee.`
-- Subtitle: `A title is not a complete buying journey.`
+- Primary headline: `Map the buying committee.`
 - Flow: `DECISION → ROLES + QUESTIONS → CONTENT COVERAGE MAP`
 - Footer: `Map jobs and proof needs—not personalities.`
 
@@ -246,9 +238,7 @@ Evidence first. Design second.
 
 ### One-slide content
 
-- Eyebrow: `PRACTICAL ABM SKILL 05 · GROUND`
-- Headline: `Ground the work in brand.`
-- Subtitle: `Evidence before design. Translation before decoration.`
+- Primary headline: `Ground the work in brand.`
 - Flow: `PUBLIC BRAND SOURCE → TOKENS + ASSETS → CREATIVE BRIEF`
 - Footer: `Original work. Recognizable brand.`
 
@@ -287,9 +277,7 @@ It stops before publication so a human can approve the experience.
 
 ### One-slide content
 
-- Eyebrow: `PRACTICAL ABM SKILL 06 · BUILD`
-- Headline: `Build the campaign landing page.`
-- Subtitle: `One audience. One job. One primary next step.`
+- Primary headline: `Build the campaign landing page.`
 - Flow: `APPROVED BRIEF → MESSAGE + PAGE FLOW → REVIEWABLE DRAFT`
 - Footer: `Folloze can be the execution layer—not the strategy.`
 
@@ -326,9 +314,7 @@ It also checks the generalizations so relevance does not become stereotyping.
 
 ### One-slide content
 
-- Eyebrow: `PRACTICAL ABM SKILL 07 · SCALE`
-- Headline: `Build an industry campaign page.`
-- Subtitle: `Real adaptation is more than changing the industry name.`
+- Primary headline: `Build an industry campaign page.`
 - Flow: `BASE CAMPAIGN → COHORT EVIDENCE → INDUSTRY-SPECIFIC EXPERIENCE`
 - Footer: `Shared relevance before one-to-one investment.`
 
@@ -365,9 +351,7 @@ The output stops at a private preview so the account experience can be reviewed 
 
 ### One-slide content
 
-- Eyebrow: `PRACTICAL ABM SKILL 08 · PERSONALIZE`
-- Headline: `Build the one-to-one microsite.`
-- Subtitle: `Relevant to the account. Clearly from the seller.`
+- Primary headline: `Build the one-to-one microsite.`
 - Flow: `VERIFIED ACCOUNT CONTEXT → BUYER STORY → PRIVATE PREVIEW`
 - Footer: `Research is useful. Impersonation is not.`
 
@@ -406,9 +390,7 @@ Every factual claim stays traceable. The format changes, but the source truth do
 
 ### One-slide content
 
-- Eyebrow: `PRACTICAL ABM SKILL 09 · TRANSFORM`
-- Headline: `Turn one asset into an experience.`
-- Subtitle: `Reorganize the source around the buyer's job.`
+- Primary headline: `Turn one asset into an experience.`
 - Flow: `APPROVED SOURCE → TRUTH SHEET + JOURNEY → CAMPAIGN EXPERIENCE`
 - Footer: `Transform the format. Preserve the truth.`
 
@@ -447,9 +429,7 @@ Personalization should earn relevance, not perform surveillance.
 
 ### One-slide content
 
-- Eyebrow: `PRACTICAL ABM SKILL 10 · ACTIVATE`
-- Headline: `Write the first touch.`
-- Subtitle: `One true observation. One relevant offer. One easy ask.`
+- Primary headline: `Write the first touch.`
 - Flow: `RELATIONSHIP + SIGNAL → RELEVANT MESSAGE → UNSENT DRAFT`
 - Footer: `Personalization should earn relevance.`
 

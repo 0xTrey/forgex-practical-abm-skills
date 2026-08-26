@@ -1,7 +1,5 @@
-# Superseded deck draft
+# Retired deck source
 
-The Figma batch files and `figma-deck.md` in this folder reflect the earlier 16-slide foundations narrative.
+The earlier 16-slide Figma batch source was removed because it used the prohibited eyebrow-headline-dek composition and no longer matched the current narrative.
 
-They are preserved as design and implementation reference only. The current content specification is [`../slide-outline.md`](../slide-outline.md), which uses the ForgeX six-level maturity ladder, North Peak company brain, 45-minute teaching section, and 15-minute fresh Claude Code build.
-
-Do not present or publish the older deck without rebuilding it from the current outline.
+Use [`../slide-outline.md`](../slide-outline.md) and the files in [`../deliverables/`](../deliverables/) as the current source of truth. New visuals must begin with one primary headline and place supporting context in the body, data, caption, footer, or another content block.

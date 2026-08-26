@@ -9,14 +9,13 @@
 - Type: heavy geometric sans for claims, readable sans for explanation, monospaced type for prompts and repository paths
 - Recurring motif: the AI stack grows one physical layer at a time
 - Rule: one claim or decision per slide. Do not turn the maturity rubric into six dense software-architecture diagrams
+- Forbidden composition: never stack an eyebrow or kicker above a headline with a subtitle or dek below it. Start with one primary headline. Put support in the body, data, caption, or footer.
 
 ## Act I: Name the shift
 
 ### 1. Title
 
 **Visible title:** AI for ABM: What You Need to Know About MCPs, Agents & Prompts
-
-**Subtitle:** How to move from AI questions to governed ABM outcomes
 
 **Footer:** Trey Harnden, ForgeX · September 17, 2026
 

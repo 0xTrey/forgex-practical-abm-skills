@@ -17,3 +17,5 @@ done
 ```
 
 The slide is the screen-share anchor for the 38–45 second video and the static LinkedIn image. Keep the GitHub URL in the post's first comment as well; the footer is intentionally a memory aid rather than a clickable link.
+
+Each slide uses one primary headline and one visible process flow. Never add an eyebrow, kicker, subtitle, or dek around the headline. Put supporting context in the script, post copy, flow, or footer.

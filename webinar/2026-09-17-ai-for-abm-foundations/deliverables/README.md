@@ -34,6 +34,8 @@ The deliverables use the current webinar promo creative as the visual anchor:
 
 The design uses high-contrast plum and cream canvases, pink emphasis, lime safety and progression cues, rounded cards, generous margins, and minimal ForgeX dot accents.
 
+Every visual starts with one primary headline. The eyebrow-headline-dek stack is prohibited. Supporting context belongs in the body, data, caption, or footer.
+
 ## Community skill treatment
 
 External Swan GTM Skills examples remain creator-attributed community work. Their code, credentials, and configurations are not included in this repository.
