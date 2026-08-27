@@ -68,47 +68,36 @@ Every skill follows the [shared safety contract](../../shared/SAFETY.md). Source
 
 The community is useful as a pattern library, not an app store. Study the design before copying code.
 
-These examples come from the external Swan GTM Skills repository and retain creator attribution. The repository is [MIT-licensed](https://github.com/swan-gtm/gtm-skills/blob/d378356a2668095d71e8dfb0661155255cf6776b/LICENSE), but license permission is not proof of safety, fit, or production readiness. ForgeX completed a connector-free local evaluation and is treating these as draft-only references or proposed pilots. They are not ForgeX-authored, ForgeX-certified, production-adopted, or production-proven in Trey's environment.
+These examples come from the external Swan GTM Skills repository and retain creator attribution. The repository is [MIT-licensed](https://github.com/swan-gtm/gtm-skills/blob/d378356a2668095d71e8dfb0661155255cf6776b/LICENSE), but license permission is not proof of safety, fit, or production readiness. ForgeX completed a local evaluation and is treating these as teaching references. They are not ForgeX-authored, ForgeX-certified, production-adopted, or production-proven.
 
 The links below are pinned to the reviewed upstream commit. This attendee repository does not include their code, configurations, or credentials.
 
 ### Local evaluation snapshot
 
-The August 26, 2026 evaluation used synthetic inputs, disabled activation, prohibited network calls and external writes, and used no real customer data.
+The August 27, 2026 evidence package used static review, synthetic inputs, and one live read-only verification audit. It used no real customer data and authorized no external writes, routing, sending, activation, or spend.
 
-- 18 packages matched their manifest and frontmatter.
-- The corrected local Audience ICP Filter suite passed 45 of 45 regression checks.
-- The company-domain resolver passed an offline five-row behavioral test.
-- The LinkedIn sizing and campaign scripts refused to start without credentials.
+The evidence labels mean:
 
-This evidence supports the teaching recommendations below. It does not prove live endpoint behavior, copy quality, paid-platform execution, connector safety, or production readiness.
+- **T1 static review:** the written contract, safety boundaries, references, and configuration were inspected.
+- **T3 synthetic:** the skill was exercised against controlled fictional inputs or a bundled regression suite.
+- **T4 live read-only:** the skill was checked against current public evidence without a write or downstream action.
 
-### Primary examples
+This evidence supports the teaching placements below. It does not prove production readiness.
 
-| Skill and creator | ForgeX ladder | Reusable design pattern to notice | ForgeX treatment |
-|---|---|---|---|
-| [Multichannel Campaign Builder](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/erwann-lefevre/multichannel-campaign-builder), Erwann Lefevre | Level 3 | Intake brief → three-angle correction checkpoint → channel rules → complete output contract → QA | Locally evaluated for draft generation only. Human review of copy quality is still required |
-| [1:1 ABM Ads](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/ivan-falco/1-to-1-abm-ads), Ivan Falco | Advanced Level 3 to 4 | SOPs and configs → scripted production → DRAFT creation → QA → explicit activation gate | Draft-only. It requires LinkedIn Marketing API and OpenAI credentials. Local credential gates failed closed, but ForgeX did not test activation, spend, or paid-platform execution |
+### The Level 3 sequence
 
-### Adopt or pilot candidates
+| Step | Skill and creator | Evidence | Reusable design pattern to notice |
+|---:|---|---|---|
+| 1. Verify evidence | [Hiring Signal Verification](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/peter-borkovich/hiring-signal-verification), Peter S. Borkovich | T3 synthetic plus T4 live read-only pass | Allow a hiring claim only when the target company's own domain or an exact company listing confirms it. The live audit accepted 2 of 11 labels, narrowed 4, and dropped 5. |
+| 2. Interpret meaning | [Signal Interpreter](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/din-arbel/signal-interpreter), Din Arbel | T3 synthetic pass | Return meaning, strength, confidence, why-now, limits, and open questions without routing or writing. |
+| 3. Qualify the audience | [Audience ICP Filter](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/erwann-lefevre/audience-icp-filter), Erwann Lefevre | T3 synthetic and bundled regression pass | Reconcile deterministic rules and semantic review into Keep, Exclude, and Review. A 22-person fixture reconciled every record and the suite passed 45 of 45 checks. |
+| 4. Generate a draft | [Multichannel Campaign Builder](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/erwann-lefevre/multichannel-campaign-builder), Erwann Lefevre | T3 conditional synthetic pass | Use source-backed inputs, three distinct angles, an early correction checkpoint, channel rules, an output contract, and QA. One synthetic brief produced three angles and a five-touch sequence. Human copy QA remains mandatory. |
 
-| Skill and creator | ForgeX ladder | Reusable design pattern to notice | Evaluation status |
-|---|---|---|---|
-| [Hiring Signal Verification](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/peter-borkovich/hiring-signal-verification), Peter S. Borkovich | Level 3 | Allow a hiring claim only when the target company's own domain or an exact company listing confirms it | Proposed evidence gate. Static contract evaluated locally |
-| [Signal Interpreter](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/din-arbel/signal-interpreter), Din Arbel | Level 3 | Interpret strength, confidence, why now, limits, and open questions without writes or routing | Proposed pure reasoning layer. Static contract evaluated locally |
-| [Audience ICP Filter](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/erwann-lefevre/audience-icp-filter), Erwann Lefevre | Level 3 to 4 | Reconcile deterministic filters and semantic review while preserving exclusions and counts | Conditional pass for reviewed list classification only. The corrected suite passes 45 of 45 checks |
-| [Company Deep Dive](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/uri-knorovich/company-deep-dive), Uriel Knorovich | Level 3 | Separate facts from inference, attach sources and dates, and deduplicate in refresh mode | Proposed read-only pilot. Connector and source-quality review are still required |
+Keep verification before scoring or messaging. Keep interpretation separate from tiering and routing. Keep drafts separate from sending or activation.
 
-### Audience ICP Filter pilot result
+### The Level 2-to-3 source bridge
 
-A 22-person synthetic ForgeX-style webinar list reconciled completely. Pass 1 reduced semantic review to nine records. After semantic review, the final result was 12 match, 1 review, 6 no match, and 3 excluded.
-
-The test required two narrow local corrections:
-
-1. Recognize `ABM` and `account-based marketing` titles as growth-marketing signals.
-2. Require employer context before a competitor mentioned only in a bio can trigger exclusion.
-
-The corrected regression suite passes 45 of 45 checks. Treat this as a reviewed list-classification pilot only. Its safe output is a reviewable CSV or JSON file with reconciled counts and reasons. It does not authorize enrichment, sending, CRM writes, or sequence enrollment.
+[Company Deep Dive](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/uri-knorovich/company-deep-dive), Uriel Knorovich, is a source-hierarchy concept only. Its useful patterns include dated claims, facts separated from inference, contradiction handling, and refresh deduplication. The evidence is T1 static review only. Do not treat the package as operationally verified.
 
 ### Evaluate before production adoption
 

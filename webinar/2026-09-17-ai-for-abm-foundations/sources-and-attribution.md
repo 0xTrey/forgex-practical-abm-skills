@@ -56,7 +56,6 @@ Product labels and interfaces may change before the webinar. Rehearse against th
 
 - Repository license: [MIT license at the reviewed commit](https://github.com/swan-gtm/gtm-skills/blob/d378356a2668095d71e8dfb0661155255cf6776b/LICENSE)
 - Erwann Lefevre: [Multichannel Campaign Builder](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/erwann-lefevre/multichannel-campaign-builder)
-- Ivan Falco: [1:1 ABM Ads](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/ivan-falco/1-to-1-abm-ads)
 - Peter S. Borkovich: [Hiring Signal Verification](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/peter-borkovich/hiring-signal-verification)
 - Din Arbel: [Signal Interpreter](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/din-arbel/signal-interpreter)
 - Erwann Lefevre: [Audience ICP Filter](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/erwann-lefevre/audience-icp-filter)
@@ -64,24 +63,21 @@ Product labels and interfaces may change before the webinar. Rehearse against th
 
 All links are pinned to commit `d378356a2668095d71e8dfb0661155255cf6776b`. Preserve the creator attribution and the MIT notice when copying or substantially reusing licensed material.
 
-ForgeX is using these examples to teach reusable design patterns. They were evaluated locally for draft-only or proposed-pilot use. They are not ForgeX-authored, ForgeX-certified, production-adopted, or production-proven in Trey's environment.
-
-The 1:1 ABM Ads package is an advanced example because it depends on LinkedIn Marketing API and OpenAI credentials and can prepare paid-platform changes. Local tests confirmed that its LinkedIn sizing and campaign scripts refused to start without credentials. Keep it draft-only, with no live objects, activation, or spend. Do not include it in the live build or imply that ForgeX tested paid-platform execution.
+ForgeX is using these examples to teach reusable design patterns. They are not ForgeX-authored, ForgeX-certified, production-adopted, or production-proven.
 
 ### Local evaluation evidence
 
-- Internal evidence package: `Folloze-Skills-swan-eval/evaluations/swan-gtm/EVALUATION_REPORT.md` and `manifest.json`
-- Base evaluation commit: `9826ca8c522e06d051ca8ea76d23ed87f6b4ed35` on `codex/swan-gtm-skill-evaluation`
-- Audience ICP Filter pilot: `evaluations/swan-gtm/pilots/audience-icp-filter/sample-evaluation.md`, committed locally at `938b70d760e002a85c5b0a6a83fe395403b98959`
+- Internal evidence package: `Folloze-Skills-swan-eval/evaluations/swan-gtm/EVALUATION_REPORT.md`, `skill-test-matrix.json`, and `handoffs/forgex-webinar-skill-placement.md`
+- Evaluation commit: `8dd94e1` on `codex/swan-gtm-skill-evaluation`
 - Publication state: committed locally, not pushed or published
-- Evaluation boundary: activation disabled, network calls prohibited, external writes prohibited, and real customer data prohibited
-- Results: 18 packages matched the manifest and frontmatter; the corrected Audience ICP Filter suite passed 45 of 45 checks; the domain resolver passed an offline five-row behavioral test; LinkedIn scripts failed closed without credentials
+- Evaluation boundary: no external writes, routing, sending, activation, spend, or real customer data
+- Hiring Signal Verification: T3 synthetic plus T4 live read-only pass. Six adversarial cases passed. A live audit of 11 labels accepted 2, narrowed 4, and dropped 5.
+- Signal Interpreter: T3 synthetic pass. The structured output and no-side-effect requirements passed, with minor schema defects still open.
+- Audience ICP Filter: T3 synthetic and bundled regression pass. A 22-person fixture reconciled every row into Keep, Exclude, or Review, and the suite passed 45 of 45 checks.
+- Multichannel Campaign Builder: T3 conditional synthetic pass. One fictional ForgeX brief produced three distinct angles and a five-touch sequence. Source-backed inputs and human copy QA remain mandatory.
+- Company Deep Dive: T1 static review only. Use its source-hierarchy pattern as a Level 2-to-3 concept, not as an operationally verified package.
 
-The Audience ICP Filter pilot used 22 fictional ForgeX-style webinar attendees. Every record reconciled. Pass 1 reduced semantic review to nine records, and the final result was 12 match, 1 review, 6 no match, and 3 excluded. The local copy added two corrections: ABM titles count as growth-marketing signals, and a competitor mentioned only in a bio requires employer context before exclusion.
-
-Treat the result as a conditional pass for reviewed list classification only. No enrichment, sending, CRM writes, or sequence enrollment were tested or authorized.
-
-The evaluation supports a teaching recommendation, not a production adoption claim. Live endpoint behavior, rate limits, source quality, copy quality, read-only connector behavior, API readback, and paid-platform execution remain unverified. A separate approval is required before code is copied or adapted, a package is installed, a live system is connected, real data is used, or any external action occurs.
+The evaluation supports a teaching recommendation, not a production adoption claim. A separate approval is required before code is copied or adapted, a package is installed, a live system is connected, real data is used, or any external action occurs.
 
 ## North Peak AI Security
 

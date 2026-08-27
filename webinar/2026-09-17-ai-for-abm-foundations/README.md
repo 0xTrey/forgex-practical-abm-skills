@@ -71,7 +71,7 @@ Folloze remains a concrete proof surface for what an ABM workflow can create. Fo
 ## Package contents
 
 - [Editable ForgeX slide deck](deliverables/forgex-ai-for-abm-webinar-deck.pptx)
-- [Presenter PDF backup](deliverables/forgex-ai-for-abm-webinar-deck.pdf)
+- [Presenter PDF backup](deliverables/forgex-ai-for-abm-webinar-deck.pdf), kept local and excluded from the handoff
 - [Attendee field guide PDF](deliverables/forgex-ai-for-abm-field-guide.pdf)
 - [Deliverable handoff and release checklist](deliverables/README.md)
 - [ForgeX AI for ABM Maturity Rubric](maturity-rubric.md)
@@ -100,6 +100,8 @@ The existing Figma batch files in `output/` reflect the earlier foundations narr
 - Do not call a fixed automation an agent.
 - Present external community skills as attributed, locally evaluated design references for draft-only or proposed-pilot use, not as ForgeX-authored, ForgeX-certified, production-adopted, or production-proven.
 - Do not install or run external community skills in the live build. Keep the demonstration on North Peak context, the safety contract, ABM Strategist, and the approval-ready Alder brief, then explain Level 4 without activating it.
+- Teach the retained community patterns in this order: verify evidence, interpret the signal, qualify the audience, then generate a draft. Keep verification before scoring or messaging, interpretation separate from routing, and draft generation separate from sending or activation.
+- Treat Company Deep Dive only as a Level 2-to-Level 3 source-hierarchy concept. Its package has static-review evidence only and is not operationally verified.
 - Do not imply that portable career assets include taking confidential company information. Carry methods and blank templates, not employer intellectual property.
 - Do not publish, send, spend, or write to a system of record during the demonstration.
 

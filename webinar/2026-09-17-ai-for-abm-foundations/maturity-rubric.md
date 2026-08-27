@@ -32,6 +32,26 @@ GOVERNANCE surrounds every level: sources, permissions, review, ownership, and m
 
 The model is replaceable. The durable value sits above it: your context, processes, examples, tools, evaluations, and decision history.
 
+## Evidence-backed community skill placements
+
+The retained Swan GTM examples all support the transition into Level 3. The evidence does not support presenting any of them as a Level 4 automation or as a production-ready ForgeX capability.
+
+| Placement | Community example | Evidence label | Teaching use |
+|---|---|---|---|
+| Level 2 to Level 3 transition | Company Deep Dive, Uriel Knorovich | T1 static review only | Teach source hierarchy, dated claims, contradiction handling, and refresh deduplication. Do not call the package operationally verified. |
+| Level 3 evidence gate | Hiring Signal Verification, Peter S. Borkovich | T3 synthetic plus T4 live read-only pass | Verify a raw hiring claim before scoring or messaging. |
+| Level 3 interpretation gate | Signal Interpreter, Din Arbel | T3 synthetic pass | Produce meaning, strength, confidence, and why-now without routing or writing. |
+| Level 3 qualification skill | Audience ICP Filter, Erwann Lefevre | T3 synthetic and bundled regression pass | Reconcile Keep, Exclude, and Review results while preserving counts and ambiguity. |
+| Level 3 draft-generation skill | Multichannel Campaign Builder, Erwann Lefevre | T3 conditional synthetic pass | Generate source-backed campaign drafts, then require human copy QA before any send or activation. |
+
+The safe sequence is:
+
+```text
+verify evidence -> interpret meaning -> qualify the audience -> generate a draft -> human review
+```
+
+Routing, scheduling, sending, activation, spend, and system writes remain outside these Level 3 examples.
+
 ## What changes at every level
 
 ### Level 0: Fancy Search
@@ -182,6 +202,8 @@ A consistent brief with a decision, source register, campaign premise, buying-ro
 - Templates and approved examples
 - QA checklist and stop conditions
 - Decision log and change history
+- Evidence gates that run before scoring or messaging
+- Pure interpretation steps that do not route or write
 
 **Personal governance**
 

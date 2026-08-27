@@ -171,29 +171,28 @@
 
 ### 13. Skills worth borrowing from the GTM community
 
-**Visible title:** Borrow the pattern. Keep the attribution.
+**Visible title:** Verify, interpret, qualify, then draft.
 
-**Primary examples:**
+**Level 3 sequence:**
 
-- **Multichannel Campaign Builder, Erwann Lefevre, Level 3:** intake brief → three-angle correction checkpoint → channel rules → output contract → QA. Local treatment: draft generation only
-- **1:1 ABM Ads, Ivan Falco, advanced Level 3 to 4:** SOPs and configs → scripted production → DRAFT creation → QA → explicit activation gate. Local treatment: draft-only, with no activation or spend
+1. **Verify evidence:** Hiring Signal Verification, Peter S. Borkovich. T3 synthetic plus T4 live read-only pass. Verify a hiring claim before scoring or messaging.
+2. **Interpret meaning:** Signal Interpreter, Din Arbel. T3 synthetic pass. Produce strength, confidence, why-now, limits, and open questions without routing or writing.
+3. **Qualify the audience:** Audience ICP Filter, Erwann Lefevre. T3 synthetic and bundled regression pass. Reconcile Keep, Exclude, and Review records before downstream work.
+4. **Generate a draft:** Multichannel Campaign Builder, Erwann Lefevre. T3 conditional synthetic pass. Use source-backed inputs and mandatory human copy QA. Do not send or activate.
 
-**Adopt or pilot candidates:**
+**Level 2-to-3 bridge:** Company Deep Dive, Uriel Knorovich. Use only the source hierarchy, dated-claim, contradiction, and refresh-deduplication concepts. The package has T1 static-review evidence only and is not operationally verified.
 
-- Hiring Signal Verification: source-domain verification gate
-- Signal Interpreter: interpretation without side effects
-- Audience ICP Filter: deterministic and semantic reconciliation. Conditional pass for reviewed list classification only
-- Company Deep Dive: dated sources, facts versus inference, and refresh deduplication
+**Local evidence strip:** Hiring audit: 11 labels, 2 accepted, 4 narrowed, 5 dropped. Audience filter: 22 synthetic records reconciled and 45 of 45 checks passed. Campaign builder: 3 angles and 5 touches in one synthetic draft, with mandatory human QA.
 
-**Local evidence strip:** 18 packages inspected · 45 of 45 ICP-filter tests passed · 22 synthetic attendees reconciled to 12 match, 1 review, 6 no match, and 3 excluded · LinkedIn scripts refused to start without credentials
+**Status line:** External MIT-licensed community work, with creator attribution. Evidence labels describe local static, synthetic, or live read-only evaluation. These are teaching references, not ForgeX-certified, production-adopted, or production-proven capabilities.
 
-**Status line:** External MIT-licensed community work, with creator attribution. The examples were evaluated locally for draft-only or proposed-pilot use. They are not ForgeX-certified, production-adopted, or production-proven in Trey's environment.
+**Visual:** One four-step sequence with evidence labels attached to each step. Put the Company Deep Dive source-hierarchy concept in a separate bridge strip so it cannot be mistaken for a verified Level 3 package.
 
-**Visual:** Two large example lanes with the reusable pattern highlighted. Use a narrow pattern strip for the four additional candidates. Keep creator attribution next to every skill.
+**Audience exercise:** Give attendees a raw hiring claim and ask where the system must stop next. The correct sequence is verify the claim, interpret its meaning, decide qualification, then draft. Routing and sending are separate decisions.
 
-**Speaker job:** Teach attendees to inspect the design pattern before copying code. Do not present these skills as part of the live build.
+**Speaker job:** Teach attendees to inspect the design pattern and its evidence before copying code. Do not present these skills as part of the live build.
 
-**Source notes:** [Multichannel Campaign Builder, Erwann Lefevre](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/erwann-lefevre/multichannel-campaign-builder), [1:1 ABM Ads, Ivan Falco](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/ivan-falco/1-to-1-abm-ads), [Swan GTM Skills MIT license](https://github.com/swan-gtm/gtm-skills/blob/d378356a2668095d71e8dfb0661155255cf6776b/LICENSE)
+**Source notes:** [Hiring Signal Verification, Peter S. Borkovich](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/peter-borkovich/hiring-signal-verification), [Signal Interpreter, Din Arbel](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/din-arbel/signal-interpreter), [Audience ICP Filter, Erwann Lefevre](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/erwann-lefevre/audience-icp-filter), [Multichannel Campaign Builder, Erwann Lefevre](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/erwann-lefevre/multichannel-campaign-builder), [Company Deep Dive, Uriel Knorovich](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/uri-knorovich/company-deep-dive), [Swan GTM Skills MIT license](https://github.com/swan-gtm/gtm-skills/blob/d378356a2668095d71e8dfb0661155255cf6776b/LICENSE)
 
 ### 14. Level 4: Governed Automation
 

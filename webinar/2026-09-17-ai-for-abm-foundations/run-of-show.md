@@ -11,7 +11,7 @@
 | 0:13 to 0:18 | Fancy Search and Contextual Copilot | 6 to 7 | Show the difference between a broad question and a bounded task | Compare the two prompts before showing the outputs |
 | 0:18 to 0:24 | Grounded Workspace and company brain | 8 to 9 | Explain persistent context and the North Peak corpus | Ask which company document is hardest for their team to find or trust |
 | 0:24 to 0:28 | Portable marketer and plumbing | 10 | Make the model, harness, context, and career portability point | Ask what would break if the company changed AI tools tomorrow |
-| 0:28 to 0:35 | Reusable Skill and community patterns | 11 to 13 | Show the shift from answer to process-driven outcome, then teach two external skill patterns with attribution and status boundaries | Reveal the skill anatomy, then ask which pattern attendees would reuse first |
+| 0:28 to 0:35 | Reusable Skill and community patterns | 11 to 13 | Show the shift from answer to process-driven outcome, then teach the verify, interpret, qualify, and draft sequence with evidence labels | Give a raw hiring claim and ask where the system must stop next |
 | 0:35 to 0:39 | Governed Automation and fake sophistication | 14 to 15 | Explain triggers, state, updates, and the cron-job warning | Run a 20-second "automation or agent?" challenge |
 | 0:39 to 0:42 | Workflow, agent, MCP, governance | 16 | Separate route, decision maker, connection, and authority | Ask who owns approval at the boundary of consequence |
 | 0:42 to 0:44 | Goal-Driven Agent | 17 | Make the final mental shift without selling autonomy as magic | Contrast the actual Level 4 and Level 5 inputs |
@@ -54,6 +54,22 @@ Then read:
 > The system receives a campaign goal, inspects account evidence and engagement, chooses which skills and tools to use, decides what artifact is needed, evaluates it, and asks for approval before activation.
 
 Answer: agentic system, assuming the dynamic behavior is real and governed.
+
+### Evidence-gate challenge
+
+Read this scenario:
+
+> A third-party page says Alder is hiring AI security engineers. The campaign builder is ready to write outreach.
+
+Ask attendees to choose the next step. The correct answer is to verify the hiring claim against the company's own domain or an exact company listing before scoring, interpretation, qualification, or messaging.
+
+Then show the safe Level 3 sequence:
+
+```text
+verify -> interpret -> qualify -> draft -> human review
+```
+
+Routing, sending, activation, and spend are outside the exercise.
 
 ## Roles
 

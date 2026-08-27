@@ -20,7 +20,7 @@
 - Review the same-job input and output progression.
 - Review the North Peak brand, messaging, ICP, persona, product, and proof corpus.
 - Confirm the Zapier, Anthropic, Cerebras, MCP, GitHub, and Swan GTM Skills source notes.
-- Review the completed local Swan GTM evaluation and approve the external community examples as attributed teaching references, not as ForgeX-certified or production-adopted tools.
+- Use the completed local Swan GTM evaluation at commit `8dd94e1` to lock the external community examples as attributed teaching references, not ForgeX-certified or production-adopted tools.
 - Decide whether the ForgeX repository will be public before the event.
 
 ### August 31 to September 4: deck and leave-behind design
@@ -65,10 +65,15 @@
 - Folloze appears as Part I context and an implementation example, not as the webinar owner.
 - Zapier's visual and framework are clearly attributed.
 - The ForgeX maturity ladder is visibly original and ABM-specific.
-- The community examples slide is titled "Skills worth borrowing from the GTM community."
+- The community examples slide uses the direct title "Verify, interpret, qualify, then draft."
 - Every external skill retains creator attribution and links to the pinned source version.
-- The deck labels external skills as locally evaluated draft-only references or proposed pilots, not ForgeX-certified, production-adopted, or production-proven.
-- Audience ICP Filter is labeled as a conditional-pass, reviewed list-classification pilot. The deck names the 22-record reconciliation, two local corrections, 45-of-45 regression result, and the prohibition on enrichment, sending, CRM writes, or sequence enrollment.
+- The deck labels every retained example as static, synthetic, or live read-only evidence, not ForgeX-certified, production-adopted, or production-proven.
+- Hiring Signal Verification appears before scoring or messaging and carries its T3 synthetic plus T4 live read-only label.
+- Signal Interpreter remains a pure interpretation gate, separate from routing and writes.
+- Audience ICP Filter appears at Level 3 with Keep, Exclude, and Review output. The deck names the 22-record reconciliation and 45-of-45 regression result.
+- Multichannel Campaign Builder appears at Level 3 as conditional, source-backed draft generation with mandatory human QA. Sending and activation remain separate.
+- Company Deep Dive appears only as a Level 2-to-3 source-hierarchy concept with a T1 static-review label.
+- Only the five evidence-backed teaching references appear in webinar artifacts or attendee resources.
 - Every level includes the actual input, output, added layer, marketer behavior, and governance shift.
 - Level 3, Level 4, and Level 5 use the exact mental shifts approved in the brief.
 - "A cron job IN a trench coat" is spelled correctly everywhere.
@@ -103,7 +108,7 @@ The follow-up should include:
 
 The field guide may link to external community skills as attributed, locally evaluated candidates. The evaluation unlocks the teaching reference only. Do not copy third-party code, configurations, or credentials into the attendee repository without a separate implementation decision and approval.
 
-Internal evaluation evidence is committed locally in `Folloze-Skills-swan-eval`. The base evaluation is at `9826ca8c522e06d051ca8ea76d23ed87f6b4ed35`, and the Audience ICP Filter pilot is at `938b70d760e002a85c5b0a6a83fe395403b98959`. Neither has been pushed or published. The evidence covers connector-free local behavior only and does not prove production execution.
+Internal evaluation evidence is committed locally in `Folloze-Skills-swan-eval` at `8dd94e1`. The evidence package includes `evaluations/swan-gtm/handoffs/forgex-webinar-skill-placement.md`, `EVALUATION_REPORT.md`, and `skill-test-matrix.json`. It has not been pushed or published. The evidence covers static review, synthetic tests, and one live read-only verification audit. It does not prove production execution.
 
 ## Remaining organizer decisions
 

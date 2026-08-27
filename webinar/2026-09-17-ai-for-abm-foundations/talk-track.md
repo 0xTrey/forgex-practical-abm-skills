@@ -132,19 +132,21 @@ These notes are prompts for a natural conversation. They are not a script to rea
 
 ## Slide 13: Skills worth borrowing from the GTM community
 
-**Target time:** 1 minute
+**Target time:** 2 minutes
 
 - Treat the community as a pattern library, not an app store.
-- Start with Erwann Lefevre's Multichannel Campaign Builder. Its useful pattern is the intake brief, three distinct angles, an early correction checkpoint, channel-specific rules, a complete output contract, and QA.
-- Use Ivan Falco's 1:1 ABM Ads package as the advanced Level 3-to-4 example. Its useful pattern is a documented, scripted system that creates drafts first and separates creation from activation. Keep the treatment draft-only, with no activation or spend.
-- Flash the four narrower candidates as patterns worth evaluating: verification gate, interpretation without side effects, list reconciliation, and dated research with refresh deduplication.
-- Use Audience ICP Filter as the concrete pilot proof. A 22-person synthetic webinar list reconciled completely, reduced semantic review to nine records, and finished at 12 match, 1 review, 6 no match, and 3 excluded. Two local corrections were required, and the regression suite passes 45 of 45 checks.
-- Keep the boundary explicit. This is a reviewed list-classification pilot only, with no enrichment, sending, CRM writes, or sequence enrollment.
-- Be precise about status. A connector-free local evaluation is complete. It inspected 18 packages, passed an offline five-row domain resolver check, and confirmed that the LinkedIn scripts refused to start without credentials.
-- Do not turn local test evidence into a production claim. These are MIT-licensed external community examples with creator attribution. They are draft-only or proposed pilots, not ForgeX-certified, production-adopted, or production-proven.
-- The evaluation supports the teaching recommendation. It does not authorize copying code, configurations, or credentials into the attendee repository.
+- Read the sequence from left to right: verify, interpret, qualify, then draft.
+- Hiring Signal Verification is the evidence gate. Six adversarial synthetic cases passed, then a live read-only audit of 11 labels accepted 2, narrowed 4, and dropped 5. Verification belongs before scoring or messaging.
+- Signal Interpreter is a pure reasoning gate. It returns meaning, strength, confidence, why-now, limits, and open questions without routing or writing. Keep interpretation separate from tiering and workflow routing.
+- Audience ICP Filter is the qualification gate. Its 22-person synthetic fixture reconciled every record into Keep, Exclude, or Review, and the bundled regression suite passed 45 of 45 checks.
+- Multichannel Campaign Builder is the draft-generation example. One synthetic brief produced three distinct angles and a five-touch LinkedIn and email sequence. Its conditional pass still requires source-backed inputs and human copy QA before any send or activation.
+- Company Deep Dive sits below the sequence as a Level 2-to-3 source-hierarchy concept. Its useful patterns passed static review, but the full workflow did not complete a live source-quality trial. Do not call it operationally verified.
+- Do not turn local evidence into a production claim. These are MIT-licensed external community examples with creator attribution and explicit static, synthetic, or live read-only labels.
+- The evaluation supports teaching use only. It does not authorize copying code, installing packages, connecting live systems, using real data, routing, sending, activating, or spending.
 
-**Keep:** Borrow the pattern before you borrow the code.
+**Audience prompt:** Where should the system stop after it sees a raw hiring claim? Answer: verify the claim before scoring, interpreting, qualifying, or drafting.
+
+**Keep:** Evidence first. Meaning second. Audience decision third. Draft last.
 
 ## Slide 14: Level 4, Governed Automation
 

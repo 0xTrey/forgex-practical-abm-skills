@@ -6,6 +6,8 @@ Show a nontechnical marketer how a fresh Claude Code workspace becomes a grounde
 
 Do not attempt to build a Level 4 automation live. Show the specification for the next layer after the Level 3 output is complete.
 
+The community skill evaluation is a teaching reference, not a demo dependency. Do not install, configure, or run Swan GTM packages. Keep the existing North Peak and Alder path unchanged.
+
 ## Audience-visible success
 
 By the end of 15 minutes, the audience should have seen:
@@ -125,6 +127,8 @@ audit record or no-change record
 
 The fixed route makes this an automation, not an agent.
 
+Connect the teaching sequence verbally: a production research pipeline would verify evidence before scoring or messaging, keep interpretation separate from routing, and keep draft generation separate from sending or activation. Do not add those external packages to the live workspace.
+
 ### 14:00 to 15:00, close
 
 Return to the resource link.
@@ -164,6 +168,7 @@ Ask it to compare the draft with the skill's output contract and repair only the
 - No broad permission grant
 - No improvised public-repository change
 - No claim that the Level 4 schedule is already running
+- No Swan GTM package installation, configuration, or execution
 
 ## Backup asset checklist
 
