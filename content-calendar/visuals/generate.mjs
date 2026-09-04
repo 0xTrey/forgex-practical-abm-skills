@@ -2,17 +2,24 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const out = path.dirname(new URL(import.meta.url).pathname);
+const logoSource = fs.readFileSync(path.join(out, 'assets', 'forgex-logo-pink.svg'), 'utf8');
+const logoBody = logoSource.match(/<svg[^>]*>([\s\S]*)<\/svg>/)?.[1];
+
+if (!logoBody) {
+  throw new Error('Unable to read the approved ForgeX logo asset.');
+}
+
 const slides = [
-  { n: '01', title: 'Build the right\naccount list.', nodes: ['ICP +\nEXCLUSIONS', 'EVIDENCE +\nSCORING', 'REVIEWABLE\nACCOUNT LIST'], slug: 'account-list-builder' },
-  { n: '02', title: 'Spot the\n“why now.”', nodes: ['PUBLIC\nSIGNAL', 'RELEVANCE +\nCONFIDENCE', 'WHY-NOW\nBRIEF'], slug: 'why-now-signal-scanner' },
-  { n: '03', title: 'Plan the account\ncampaign.', nodes: ['ACCOUNT\nEVIDENCE', 'CAMPAIGN\nPREMISE', 'APPROVAL-READY\nBRIEF'], slug: 'abm-strategist' },
-  { n: '04', title: 'Map the buying\ncommittee.', nodes: ['BUYING\nDECISION', 'ROLES +\nQUESTIONS', 'CONTENT\nCOVERAGE MAP'], slug: 'buying-committee-mapper' },
-  { n: '05', title: 'Ground the work\nin brand.', nodes: ['PUBLIC BRAND\nSOURCE', 'TOKENS +\nASSETS', 'CREATIVE\nBRIEF'], slug: 'brand-harvester' },
-  { n: '06', title: 'Build the campaign\nlanding page.', nodes: ['APPROVED\nBRIEF', 'MESSAGE +\nPAGE FLOW', 'REVIEWABLE\nDRAFT'], slug: 'campaign-landing-page' },
-  { n: '07', title: 'Build an industry\ncampaign page.', nodes: ['BASE\nCAMPAIGN', 'COHORT\nEVIDENCE', 'INDUSTRY\nEXPERIENCE'], slug: 'industry-campaign-page' },
-  { n: '08', title: 'Build the one-to-one\nmicrosite.', nodes: ['VERIFIED ACCOUNT\nCONTEXT', 'BUYER\nSTORY', 'PRIVATE\nPREVIEW'], slug: 'one-to-one-microsite' },
-  { n: '09', title: 'Turn one asset\ninto an experience.', nodes: ['APPROVED\nSOURCE', 'TRUTH SHEET +\nJOURNEY', 'CAMPAIGN\nEXPERIENCE'], slug: 'content-magic' },
-  { n: '10', title: 'Write the\nfirst touch.', nodes: ['RELATIONSHIP +\nSIGNAL', 'RELEVANT\nMESSAGE', 'UNSENT\nDRAFT'], slug: 'first-touch-builder' },
+  { n: 1, title: 'Build the right\naccount list.', nodes: ['ICP +\nEXCLUSIONS', 'EVIDENCE +\nSCORING', 'REVIEWABLE\nACCOUNT LIST'], slug: 'account-list-builder' },
+  { n: 2, title: 'Spot the\n“why now.”', nodes: ['PUBLIC\nSIGNAL', 'RELEVANCE +\nCONFIDENCE', 'WHY-NOW\nBRIEF'], slug: 'why-now-signal-scanner' },
+  { n: 3, title: 'Plan the account\ncampaign.', nodes: ['ACCOUNT\nEVIDENCE', 'CAMPAIGN\nPREMISE', 'APPROVAL-READY\nBRIEF'], slug: 'abm-strategist' },
+  { n: 4, title: 'Map the buying\ncommittee.', nodes: ['BUYING\nDECISION', 'ROLES +\nQUESTIONS', 'CONTENT\nCOVERAGE MAP'], slug: 'buying-committee-mapper' },
+  { n: 5, title: 'Ground the work\nin brand.', nodes: ['PUBLIC BRAND\nSOURCE', 'TOKENS +\nASSETS', 'CREATIVE\nBRIEF'], slug: 'brand-harvester' },
+  { n: 6, title: 'Build the campaign\nlanding page.', nodes: ['APPROVED\nBRIEF', 'MESSAGE +\nPAGE FLOW', 'REVIEWABLE\nDRAFT'], slug: 'campaign-landing-page' },
+  { n: 7, title: 'Build an industry\ncampaign page.', nodes: ['BASE\nCAMPAIGN', 'COHORT\nEVIDENCE', 'INDUSTRY\nEXPERIENCE'], slug: 'industry-campaign-page' },
+  { n: 8, title: 'Build the one-to-one\nmicrosite.', nodes: ['VERIFIED ACCOUNT\nCONTEXT', 'BUYER\nSTORY', 'PRIVATE\nPREVIEW'], slug: 'one-to-one-microsite' },
+  { n: 9, title: 'Turn one asset\ninto an experience.', nodes: ['APPROVED\nSOURCE', 'TRUTH SHEET +\nJOURNEY', 'CAMPAIGN\nEXPERIENCE'], slug: 'content-magic' },
+  { n: 10, title: 'Write the\nfirst touch.', nodes: ['RELATIONSHIP +\nSIGNAL', 'RELEVANT\nMESSAGE', 'UNSENT\nDRAFT'], slug: 'first-touch-builder' },
 ];
 
 const esc = (value) => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
@@ -22,6 +29,7 @@ function multiline(value, x, startY, lineHeight, attrs) {
 }
 
 for (const slide of slides) {
+  const fileNumber = String(slide.n).padStart(2, '0');
   const boxWidth = 408;
   const startX = 140;
   const gap = 48;
@@ -41,12 +49,12 @@ for (const slide of slides) {
   <rect x="0" y="0" width="26" height="900" fill="#E63888"/>
   <circle cx="1450" cy="115" r="76" fill="#C7F25C"/>
   <circle cx="1494" cy="151" r="37" fill="#3D1F5C"/>
-  <text x="140" y="102" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="900" fill="#E63888" letter-spacing="4">FORGEX</text>
+  <svg x="108" y="44" width="270" height="77" viewBox="0 0 1080 307.2">${logoBody}</svg>
   <text x="1440" y="265" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="900" fill="#3D1F5C">${slide.n}</text>
   ${title}
   ${boxes}
   <text x="140" y="831" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0B0B0F">ONE JOB. ONE SKILL. ONE USEFUL OUTPUT.</text>
   <text x="1460" y="831" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#E63888">FORGEX PRACTICAL ABM SKILLS · ${slide.slug}</text>
   </svg>`;
-  fs.writeFileSync(path.join(out, `skill-${slide.n}.svg`), svg);
+  fs.writeFileSync(path.join(out, `skill-${fileNumber}.svg`), svg);
 }

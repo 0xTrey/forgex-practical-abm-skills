@@ -19,3 +19,5 @@ done
 The slide is the screen-share anchor for the 38–45 second video and the static LinkedIn image. The repository is currently private, so the visual footer uses series branding instead of a GitHub URL. Add a repository link only after the destination is publicly accessible.
 
 Each slide uses one primary headline and one visible process flow. Never add an eyebrow, kicker, subtitle, or dek around the headline. Put supporting context in the script, post copy, flow, or footer.
+
+Use the approved ForgeX logo asset rather than a typed approximation. Display single-digit sequence numbers without a leading zero: `1` through `9`, not `01` through `09`. The exported filenames stay zero-padded only so they sort correctly.
