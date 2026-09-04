@@ -4,21 +4,22 @@
   "color_id": "6",
   "start_time": "08:30:00",
   "end_time": "09:00:00",
+  "scheduling_mode": "one_by_one_after_linkedin_review",
   "events": [
     {
       "number": "01",
-      "date": "2026-08-24",
+      "date": "2026-09-04",
       "title": "Build the Right Account List",
       "angle": "Make inherited targeting logic visible and reviewable.",
       "ask": "What part of account selection still takes your team too long?",
-      "script": "Most ABM programs start with a spreadsheet somebody inherited, and nobody can explain why half the accounts are there. The Account List Builder starts with a plain-English ICP, applies customer and competitor exclusions first, then scores each company using visible evidence. The output shows the reason, source, confidence, and strongest case against inclusion. This is not AI picking your targets. It is AI making the targeting logic reviewable. I packaged the complete vendor-neutral skill through ForgeX. Human review still decides who gets targeted.",
+      "script": "Most ABM programs start with a spreadsheet somebody inherited, and nobody can explain why half the accounts are there. The first practical ABM skill I'm sharing through ForgeX is an Account List Builder. Give it a plain-English ICP, customer and competitor exclusions, and a set of companies. It returns a ranked list with the reason, source, confidence, and strongest case against each account. The question isn't whether AI can pick your targets. It is whether a marketer can inspect the logic before anyone spends money against it. Human review still makes the decision.",
       "package_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/README.md#01--build-the-right-account-list",
       "slide_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/content-calendar/visuals/skill-01.png",
       "skill_url": "https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/account-list-builder/SKILL.md"
     },
     {
       "number": "02",
-      "date": "2026-08-25",
+      "date": "2026-09-05",
       "title": "Spot the Why Now",
       "angle": "Separate timing evidence from invented purchase intent.",
       "ask": "What public signal has been most useful in your ABM work?",
@@ -29,7 +30,7 @@
     },
     {
       "number": "03",
-      "date": "2026-08-26",
+      "date": "2026-09-06",
       "title": "Plan the Account Campaign",
       "angle": "Approve the account hypothesis before building creative.",
       "ask": "What is the one question every account brief should answer?",
@@ -40,7 +41,7 @@
     },
     {
       "number": "04",
-      "date": "2026-08-27",
+      "date": "2026-09-07",
       "title": "Map the Buying Committee",
       "angle": "Map decisions, questions, proof, and content gaps—not personalities.",
       "ask": "Which buying role is most often missing from your ABM plan?",
@@ -51,7 +52,7 @@
     },
     {
       "number": "05",
-      "date": "2026-08-28",
+      "date": "2026-09-08",
       "title": "Ground the Work in Brand",
       "angle": "Use brand evidence before asking AI to design.",
       "ask": "What is the fastest way you can tell that a campaign is off-brand?",
@@ -62,7 +63,7 @@
     },
     {
       "number": "06",
-      "date": "2026-08-31",
+      "date": "2026-09-09",
       "title": "Build a Campaign Landing Page",
       "angle": "One audience, one job, and one primary next step.",
       "ask": "What is the most common reason campaign pages lose focus?",
@@ -73,7 +74,7 @@
     },
     {
       "number": "07",
-      "date": "2026-09-01",
+      "date": "2026-09-10",
       "title": "Build an Industry Campaign Page",
       "angle": "Real vertical relevance requires more than changing the industry name.",
       "ask": "Where do industry campaigns usually become too generic?",
@@ -84,7 +85,7 @@
     },
     {
       "number": "08",
-      "date": "2026-09-02",
+      "date": "2026-09-11",
       "title": "Build a One-to-One Microsite",
       "angle": "Make the experience relevant to the account and clearly from the seller.",
       "ask": "What makes account personalization feel genuinely useful to you?",
@@ -95,7 +96,7 @@
     },
     {
       "number": "09",
-      "date": "2026-09-03",
+      "date": "2026-09-12",
       "title": "Turn One Asset Into an Experience",
       "angle": "Transform the format while preserving the source truth.",
       "ask": "Which asset in your library deserves a second life?",
@@ -106,7 +107,7 @@
     },
     {
       "number": "10",
-      "date": "2026-09-04",
+      "date": "2026-09-13",
       "title": "Write the First Touch",
       "angle": "Use one true observation, one relevant offer, and one easy ask.",
       "ask": "What is the clearest sign that an outbound message was over-personalized?",

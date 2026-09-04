@@ -16,6 +16,6 @@ for slide in content-calendar/visuals/skill-*.svg; do
 done
 ```
 
-The slide is the screen-share anchor for the 38–45 second video and the static LinkedIn image. Keep the GitHub URL in the post's first comment as well; the footer is intentionally a memory aid rather than a clickable link.
+The slide is the screen-share anchor for the 38–45 second video and the static LinkedIn image. The repository is currently private, so the visual footer uses series branding instead of a GitHub URL. Add a repository link only after the destination is publicly accessible.
 
 Each slide uses one primary headline and one visible process flow. Never add an eyebrow, kicker, subtitle, or dek around the headline. Put supporting context in the script, post copy, flow, or footer.

@@ -2,30 +2,30 @@
 
 **Series:** Practical ABM Skills
 **Promise:** One job. One skill. One useful output.
-**Cadence:** Every weekday at 8:30 AM Central for ten publishing days
-**Launch:** Monday, August 24, 2026
-**Final post:** Friday, September 4, 2026
+**Cadence:** One post daily for ten consecutive calendar days. Schedule each post only after Trey reviews it in LinkedIn.
+**Launch:** Friday, September 4, 2026
+**Final post:** Sunday, September 13, 2026
 **Format:** 38–45 second video + one 16:9 slide + concise LinkedIn post + GitHub link
 **Primary CTA:** Try the skill, then tell me what should be built next.
 
 ## Launch gate
 
-The GitHub repository is currently private. Before publishing Post 1, either:
+The GitHub repository is currently private. Do not include its URL in a public post or visual. Before adding a GitHub CTA to a later post, either:
 
 1. explicitly approve changing the repository to public; or
 2. replace the GitHub CTA with an approved public ForgeX resource URL.
 
-Do not tell the audience that a skill is publicly available while the linked repository still requires private access.
+Do not tell the audience that a skill is publicly available while the repository still requires private access. Post 1 uses ForgeX series positioning without a public-download claim.
 
-## Monday launch checklist
+## Today's launch checklist
 
 Use the Post 1 package below and [skill-01.png](visuals/skill-01.png).
 
-- **8:00–8:05:** Open the slide, script, LinkedIn draft, and approved public destination.
-- **8:05–8:15:** Record one 38–45 second take. Show the ICP input and reviewable ranked-list output if available.
-- **8:15–8:22:** Trim the start and end, add captions, and confirm no private tabs or data are visible.
-- **8:22–8:28:** Paste the LinkedIn post, attach the video, and add the approved link in the first comment.
-- **8:30:** Publish.
+- **Step 1:** Open the slide and read the script once.
+- **Step 2:** Record one 38–45 second take. Show the ICP input and reviewable ranked-list output if available.
+- **Step 3:** Trim the start and end, add captions, and confirm no private tabs or data are visible.
+- **Step 4:** Review the exact LinkedIn draft and attached media in the composer.
+- **Step 5:** Choose the publish time only after the post is approved.
 - **After publishing:** Reply to substantive comments and record recurring questions for the Friday review.
 
 ## Production rules
@@ -35,42 +35,42 @@ Use the Post 1 package below and [skill-01.png](visuals/skill-01.png).
 - Show one input and one visible output.
 - Say what the human must review before the output is used.
 - Keep ForgeX as the publisher. Mention Folloze only when it is the demonstrated execution environment.
-- Put the GitHub URL in the first comment for reach, then add it to the post body later if desired.
+- Add a GitHub URL only after the repository or replacement resource is publicly accessible.
 - Do not claim that a workflow produced pipeline, revenue, intent, or a customer result without approved evidence.
 
 ## Calendar at a glance
 
 | # | Publish date | Skill | Slide | GitHub skill |
 |---:|---|---|---|---|
-| 1 | Mon, Aug 24 · 8:30 AM CT | Build the Right Account List | [PNG](visuals/skill-01.png) · [SVG](visuals/skill-01.svg) | [Account List Builder](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/account-list-builder/SKILL.md) |
-| 2 | Tue, Aug 25 · 8:30 AM CT | Spot the Why Now | [PNG](visuals/skill-02.png) · [SVG](visuals/skill-02.svg) | [Why-Now Signal Scanner](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/why-now-signal-scanner/SKILL.md) |
-| 3 | Wed, Aug 26 · 8:30 AM CT | Plan the Account Campaign | [PNG](visuals/skill-03.png) · [SVG](visuals/skill-03.svg) | [ABM Strategist](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/abm-strategist/SKILL.md) |
-| 4 | Thu, Aug 27 · 8:30 AM CT | Map the Buying Committee | [PNG](visuals/skill-04.png) · [SVG](visuals/skill-04.svg) | [Buying Committee Mapper](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/buying-committee-mapper/SKILL.md) |
-| 5 | Fri, Aug 28 · 8:30 AM CT | Ground the Work in Brand | [PNG](visuals/skill-05.png) · [SVG](visuals/skill-05.svg) | [Brand Harvester](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/brand-harvester/SKILL.md) |
-| 6 | Mon, Aug 31 · 8:30 AM CT | Build a Campaign Landing Page | [PNG](visuals/skill-06.png) · [SVG](visuals/skill-06.svg) | [Campaign Landing Page](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/campaign-landing-page/SKILL.md) |
-| 7 | Tue, Sep 1 · 8:30 AM CT | Build an Industry Campaign Page | [PNG](visuals/skill-07.png) · [SVG](visuals/skill-07.svg) | [Industry Campaign Page](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/industry-campaign-page/SKILL.md) |
-| 8 | Wed, Sep 2 · 8:30 AM CT | Build a One-to-One Microsite | [PNG](visuals/skill-08.png) · [SVG](visuals/skill-08.svg) | [One-to-One Microsite](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/one-to-one-microsite/SKILL.md) |
-| 9 | Thu, Sep 3 · 8:30 AM CT | Turn One Asset Into an Experience | [PNG](visuals/skill-09.png) · [SVG](visuals/skill-09.svg) | [Content Magic](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/content-magic/SKILL.md) |
-| 10 | Fri, Sep 4 · 8:30 AM CT | Write the First Touch | [PNG](visuals/skill-10.png) · [SVG](visuals/skill-10.svg) | [First-Touch Builder](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/first-touch-builder/SKILL.md) |
+| 1 | Fri, Sep 4 · after review | Build the Right Account List | [PNG](visuals/skill-01.png) · [SVG](visuals/skill-01.svg) | [Account List Builder](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/account-list-builder/SKILL.md) |
+| 2 | Sat, Sep 5 · after review | Spot the Why Now | [PNG](visuals/skill-02.png) · [SVG](visuals/skill-02.svg) | [Why-Now Signal Scanner](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/why-now-signal-scanner/SKILL.md) |
+| 3 | Sun, Sep 6 · after review | Plan the Account Campaign | [PNG](visuals/skill-03.png) · [SVG](visuals/skill-03.svg) | [ABM Strategist](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/abm-strategist/SKILL.md) |
+| 4 | Mon, Sep 7 · after review | Map the Buying Committee | [PNG](visuals/skill-04.png) · [SVG](visuals/skill-04.svg) | [Buying Committee Mapper](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/buying-committee-mapper/SKILL.md) |
+| 5 | Tue, Sep 8 · after review | Ground the Work in Brand | [PNG](visuals/skill-05.png) · [SVG](visuals/skill-05.svg) | [Brand Harvester](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/brand-harvester/SKILL.md) |
+| 6 | Wed, Sep 9 · after review | Build a Campaign Landing Page | [PNG](visuals/skill-06.png) · [SVG](visuals/skill-06.svg) | [Campaign Landing Page](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/campaign-landing-page/SKILL.md) |
+| 7 | Thu, Sep 10 · after review | Build an Industry Campaign Page | [PNG](visuals/skill-07.png) · [SVG](visuals/skill-07.svg) | [Industry Campaign Page](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/industry-campaign-page/SKILL.md) |
+| 8 | Fri, Sep 11 · after review | Build a One-to-One Microsite | [PNG](visuals/skill-08.png) · [SVG](visuals/skill-08.svg) | [One-to-One Microsite](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/one-to-one-microsite/SKILL.md) |
+| 9 | Sat, Sep 12 · after review | Turn One Asset Into an Experience | [PNG](visuals/skill-09.png) · [SVG](visuals/skill-09.svg) | [Content Magic](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/content-magic/SKILL.md) |
+| 10 | Sun, Sep 13 · after review | Write the First Touch | [PNG](visuals/skill-10.png) · [SVG](visuals/skill-10.svg) | [First-Touch Builder](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/first-touch-builder/SKILL.md) |
 
 ---
 
 ## 01 — Build the Right Account List
 
-**Publish:** Monday, August 24 at 8:30 AM CT
+**Publish:** Friday, September 4 after LinkedIn review
 **Skill:** [Account List Builder](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/account-list-builder/SKILL.md)
 
 ### 38–45 second script
 
 Most ABM programs start with a spreadsheet somebody inherited, and nobody can explain why half the accounts are there.
 
-The Account List Builder starts with a plain-English ICP, applies customer and competitor exclusions first, then scores each company using visible evidence.
+The first practical ABM skill I'm sharing through ForgeX is an Account List Builder.
 
-The output shows the reason, source, confidence, and strongest case against inclusion.
+Give it a plain-English ICP, customer and competitor exclusions, and a set of companies. It returns a ranked list with the reason, source, confidence, and strongest case against each account.
 
-This is not AI picking your targets. It is AI making the targeting logic reviewable.
+The question isn't whether AI can pick your targets. It is whether a marketer can inspect the logic before anyone spends money against it.
 
-I packaged the complete vendor-neutral skill through ForgeX. Human review still decides who gets targeted.
+Human review still makes the decision.
 
 ### One-slide content
 
@@ -84,11 +84,11 @@ Most ABM account lists are full of inherited assumptions.
 
 Why is this company included? Why is that one ranked higher? Did anybody apply the competitor and customer suppressions first?
 
-I built a small, vendor-neutral Account List Builder that turns an ICP into a ranked list with visible evidence, confidence, exclusions, and review notes.
+I built a small Account List Builder that turns a plain-English ICP into a ranked list with visible evidence, confidence, exclusions, and review notes.
 
-The point is not to let AI choose your accounts. The point is to make the targeting logic easier for a marketer to inspect.
+The question isn't whether AI can pick a list. It is whether a marketer can inspect the logic before anyone spends money against it.
 
-I put the complete skill on GitHub. Link in the first comment.
+This is the first of 10 practical ABM skills I'm sharing through ForgeX.
 
 What part of account selection still takes your team too long?
 
@@ -96,7 +96,7 @@ What part of account selection still takes your team too long?
 
 ## 02 — Spot the Why Now
 
-**Publish:** Tuesday, August 25 at 8:30 AM CT
+**Publish:** Saturday, September 5 after LinkedIn review
 **Skill:** [Why-Now Signal Scanner](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/why-now-signal-scanner/SKILL.md)
 
 ### 38–45 second script
@@ -137,7 +137,7 @@ What public signal has been most useful in your ABM work?
 
 ## 03 — Plan the Account Campaign
 
-**Publish:** Wednesday, August 26 at 8:30 AM CT
+**Publish:** Sunday, September 6 after LinkedIn review
 **Skill:** [ABM Strategist](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/abm-strategist/SKILL.md)
 
 ### 38–45 second script
@@ -176,7 +176,7 @@ What is the one question every account brief should answer?
 
 ## 04 — Map the Buying Committee
 
-**Publish:** Thursday, August 27 at 8:30 AM CT
+**Publish:** Monday, September 7 after LinkedIn review
 **Skill:** [Buying Committee Mapper](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/buying-committee-mapper/SKILL.md)
 
 ### 38–45 second script
@@ -221,7 +221,7 @@ Which buying role is most often missing from your ABM plan?
 
 ## 05 — Ground the Work in Brand
 
-**Publish:** Friday, August 28 at 8:30 AM CT
+**Publish:** Tuesday, September 8 after LinkedIn review
 **Skill:** [Brand Harvester](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/brand-harvester/SKILL.md)
 
 ### 38–45 second script
@@ -260,7 +260,7 @@ What is the fastest way you can tell that a campaign is off-brand?
 
 ## 06 — Build a Campaign Landing Page
 
-**Publish:** Monday, August 31 at 8:30 AM CT
+**Publish:** Wednesday, September 9 after LinkedIn review
 **Skill:** [Campaign Landing Page](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/campaign-landing-page/SKILL.md)
 
 ### 38–45 second script
@@ -297,7 +297,7 @@ What is the most common reason campaign pages lose focus?
 
 ## 07 — Build an Industry Campaign Page
 
-**Publish:** Tuesday, September 1 at 8:30 AM CT
+**Publish:** Thursday, September 10 after LinkedIn review
 **Skill:** [Industry Campaign Page](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/industry-campaign-page/SKILL.md)
 
 ### 38–45 second script
@@ -334,7 +334,7 @@ Where do industry campaigns usually become too generic?
 
 ## 08 — Build a One-to-One Microsite
 
-**Publish:** Wednesday, September 2 at 8:30 AM CT
+**Publish:** Friday, September 11 after LinkedIn review
 **Skill:** [One-to-One Microsite](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/one-to-one-microsite/SKILL.md)
 
 ### 38–45 second script
@@ -373,7 +373,7 @@ What makes account personalization feel genuinely useful to you?
 
 ## 09 — Turn One Asset Into an Experience
 
-**Publish:** Thursday, September 3 at 8:30 AM CT
+**Publish:** Saturday, September 12 after LinkedIn review
 **Skill:** [Content Magic](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/content-magic/SKILL.md)
 
 ### 38–45 second script
@@ -412,7 +412,7 @@ Which asset in your library deserves a second life?
 
 ## 10 — Write the First Touch
 
-**Publish:** Friday, September 4 at 8:30 AM CT
+**Publish:** Sunday, September 13 after LinkedIn review
 **Skill:** [First-Touch Builder](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/first-touch-builder/SKILL.md)
 
 ### 38–45 second script
@@ -451,7 +451,7 @@ What is the clearest sign that an outbound message was over-personalized?
 
 ## Sprint review
 
-At the end of Friday, August 28, and the final post on Friday, September 4, record:
+At the end of Tuesday, September 8, and the final post on Sunday, September 13, record:
 
 - impressions and video views;
 - comments and saves;

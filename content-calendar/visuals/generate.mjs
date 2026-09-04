@@ -46,7 +46,7 @@ for (const slide of slides) {
   ${title}
   ${boxes}
   <text x="140" y="831" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0B0B0F">ONE JOB. ONE SKILL. ONE USEFUL OUTPUT.</text>
-  <text x="1460" y="831" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#E63888">github.com/0xTrey/forgex-practical-abm-skills · ${slide.slug}</text>
+  <text x="1460" y="831" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#E63888">FORGEX PRACTICAL ABM SKILLS · ${slide.slug}</text>
   </svg>`;
   fs.writeFileSync(path.join(out, `skill-${slide.n}.svg`), svg);
 }
