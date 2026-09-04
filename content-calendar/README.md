@@ -1,12 +1,13 @@
-# ForgeX Practical ABM Skills — Content Calendar
+# ForgeX Practical ABM Skills: Content Calendar
 
 **Series:** Practical ABM Skills
 **Promise:** One job. One skill. One useful output.
 **Cadence:** One post daily for ten consecutive calendar days. Schedule each post only after Trey reviews it in LinkedIn.
 **Launch:** Friday, September 4, 2026
 **Final post:** Sunday, September 13, 2026
-**Format:** 38–45 second video + one 16:9 slide + concise LinkedIn post + GitHub link
-**Primary CTA:** Try the skill, then tell me what should be built next.
+**Format:** 38–45 second video + one 16:9 slide + concise LinkedIn post + GitHub link after public-access verification
+**Webinar:** Thursday, September 17, 2026 at 12:00 PM Eastern
+**Primary CTA:** Connect the practical workflow to the September 17 webinar. Add the skill link only after an anonymous reader can open it.
 
 ## Launch gate
 
@@ -32,10 +33,13 @@ Use the Post 1 package below and [skill-01.png](visuals/skill-01.png).
 
 - Record the video in one take when possible; clarity matters more than polish.
 - Begin with the marketer's problem, not the name of the AI tool.
+- Use a concrete example, quote the broken assumption, then cross-examine it with two or three specific questions.
+- Bridge from problem to build with plain language such as "To help fix this, I built..."
 - Show one input and one visible output.
 - Say what the human must review before the output is used.
 - Keep ForgeX as the publisher. Mention Folloze only when it is the demonstrated execution environment.
 - Add a GitHub URL only after the repository or replacement resource is publicly accessible.
+- Tie each post to the confirmed September 17 webinar. Do not add a generic engagement question after the argument is complete.
 - Do not claim that a workflow produced pipeline, revenue, intent, or a customer result without approved evidence.
 
 ## Calendar at a glance
@@ -55,7 +59,7 @@ Use the Post 1 package below and [skill-01.png](visuals/skill-01.png).
 
 ---
 
-## 01 — Build the Right Account List
+## 01: Build the Right Account List
 
 **Publish:** Friday, September 4 after LinkedIn review
 **Skill:** [Account List Builder](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/account-list-builder/SKILL.md)
@@ -80,21 +84,27 @@ Human review still makes the decision.
 
 ### LinkedIn post
 
-Most ABM account lists are full of inherited assumptions.
+Most ABM account lists are full of random assumptions.
 
-Why is this company included? Why is that one ranked higher? Did anybody apply the competitor and customer suppressions first?
+"ACME is a great fit b/c the scoring tech said so"
 
-I built a small Account List Builder that turns a plain-English ICP into a ranked list with visible evidence, confidence, exclusions, and review notes.
+But why? What makes up the blackbox scoring?
 
-The question isn't whether AI can pick a list. It is whether a marketer can inspect the logic before anyone spends money against it.
+Why is ACME included?
+Why is ACME ranked higher than others?
+Did the tech apply the nuanced ICP definition that includes persona info?
 
-This is the first of 10 practical ABM skills I'm sharing through ForgeX.
+To help fix this, I built a simple Account List Builder that turns a plain-English ICP into a ranked list with clear scoring evidence, transparent confidence ranking, and review notes.
 
-What part of account selection still takes your team too long?
+This is the first of 10 practical ABM skills I'm sharing ahead of the ForgeX AI & ABM webinar on September 17th.
+
+Here is the link to both the skill file & the webinar.
+
+**Internal note:** This is Trey's authoritative self-edit. The skill repository is still private, so do not publish its URL until the audience can open it anonymously.
 
 ---
 
-## 02 — Spot the Why Now
+## 02: Spot the Why Now
 
 **Publish:** Saturday, September 5 after LinkedIn review
 **Skill:** [Why-Now Signal Scanner](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/why-now-signal-scanner/SKILL.md)
@@ -103,7 +113,7 @@ What part of account selection still takes your team too long?
 
 An account can fit your ICP perfectly and still have no reason to care today.
 
-The Why-Now Signal Scanner looks for current public evidence—hiring, initiatives, launches, leadership changes, or events—then separates what was observed from what we inferred.
+The Why-Now Signal Scanner looks for current public evidence such as hiring, initiatives, launches, leadership changes, or events, then separates what was observed from what we inferred.
 
 A job posting proves a role is open. It does not prove purchase intent.
 
@@ -121,21 +131,26 @@ Use it to decide what deserves more research, not to manufacture intent.
 
 ### LinkedIn post
 
-ICP fit tells you who *could* care.
+Most "why now" data is just another score nobody can explain.
 
-It does not tell you who has a reason to care right now.
+"ACME is surging b/c the intent platform said so"
 
-The ForgeX Why-Now Signal Scanner turns public company evidence—hiring, initiatives, launches, events, and material announcements—into a cited account brief.
+But why? What did ACME actually do?
 
-The key is that it keeps observation separate from inference. A signal can justify research. It should not be dressed up as purchase intent.
+Did they open a new role?
+Announce an initiative?
+Launch a product?
+Or did somebody visit a webpage once?
 
-The complete skill is on GitHub. Link in the first comment.
+To help fix this, I built a simple Why-Now Signal Scanner that finds current public signals, attaches the source & date, separates observation from inference, and adds a confidence ranking + unanswered questions.
 
-What public signal has been most useful in your ABM work?
+A job posting proves a role is open. It does not prove purchase intent.
+
+This is the second of 10 practical ABM skills I'm sharing ahead of the ForgeX AI & ABM webinar on September 17th.
 
 ---
 
-## 03 — Plan the Account Campaign
+## 03: Plan the Account Campaign
 
 **Publish:** Sunday, September 6 after LinkedIn review
 **Skill:** [ABM Strategist](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/abm-strategist/SKILL.md)
@@ -148,7 +163,7 @@ The ABM Strategist takes one account, an offering, and an objective. It separate
 
 From there it maps likely buying roles, proof needs, message hierarchy, the smallest useful experience, and what is still unknown.
 
-The output is an approval-ready campaign brief—not a finished page and not a claim that the account is ready to buy.
+The output is an approval-ready campaign brief, not a finished page and not a claim that the account is ready to buy.
 
 Approve the thinking first. Then decide what deserves to be built.
 
@@ -160,21 +175,25 @@ Approve the thinking first. Then decide what deserves to be built.
 
 ### LinkedIn post
 
-Most weak ABM personalization has the same root cause:
+Most ABM teams start personalizing before they know what they are trying to say.
 
-The team started building before it agreed on the account hypothesis.
+"ACME is Tier 1. Put their logo on a page."
 
-The ForgeX ABM Strategist turns account evidence, an offering, and an objective into a focused campaign brief—complete with buying-role hypotheses, message hierarchy, proof needs, experience recommendation, and unanswered questions.
+But why is ACME Tier 1?
 
-It stops for approval before creative production.
+What problem are we helping them solve?
+Who inside the account actually cares?
+What proof would make the message believable?
 
-The complete skill is on GitHub. Link in the first comment.
+To help fix this, I built a simple ABM Strategist that takes one account, an offering, and an objective, then builds a campaign premise, buying-role hypotheses, proof needs, message hierarchy, and a list of what is still unknown.
 
-What is the one question every account brief should answer?
+It stops at an approval-ready brief b/c the strategy should be right before anybody starts building creative.
+
+This is the third of 10 practical ABM skills I'm sharing ahead of the ForgeX AI & ABM webinar on September 17th.
 
 ---
 
-## 04 — Map the Buying Committee
+## 04: Map the Buying Committee
 
 **Publish:** Monday, September 7 after LinkedIn review
 **Skill:** [Buying Committee Mapper](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/buying-committee-mapper/SKILL.md)
@@ -185,7 +204,7 @@ What is the one question every account brief should answer?
 
 Complex B2B decisions involve champions, approvers, functional evaluators, technical reviewers, implementation owners, and actual users.
 
-The Buying Committee Mapper connects each role to the decision it influences, the question it needs answered, the proof it requires, and the content you already have—or still need.
+The Buying Committee Mapper connects each role to the decision it influences, the question it needs answered, the proof it requires, and the content you already have or still need.
 
 It makes missing coverage immediately obvious.
 
@@ -197,29 +216,30 @@ The result is a practical coverage map, not a personal dossier built from somebo
 
 - Primary headline: `Map the buying committee.`
 - Flow: `DECISION → ROLES + QUESTIONS → CONTENT COVERAGE MAP`
-- Footer: `Map jobs and proof needs—not personalities.`
+- Footer: `Map jobs and proof needs, not personalities.`
 
 ### LinkedIn post
 
-“We sell to the CMO” is usually shorthand for “we have not mapped the buying committee yet.”
+Most buying committee maps are really just lists of job titles.
 
-The ForgeX Buying Committee Mapper connects each role to:
+"We sell to the CMO."
 
-- the decision it influences;
-- the question it needs answered;
-- the proof it requires;
-- the content the team already has;
-- the gaps that still need work.
+But why only the CMO?
 
-It stays role-based and labels unverified relationships instead of inventing an org chart.
+Who owns the problem?
+Who approves the budget?
+Who evaluates the tech?
+Who has to implement it & live with the decision?
 
-The complete skill is on GitHub. Link in the first comment.
+To help fix this, I built a simple Buying Committee Mapper that connects each role to the decision it influences, the question it needs answered, the proof it requires, and the content we already have or still need.
 
-Which buying role is most often missing from your ABM plan?
+It also labels relationships as verified, inferred, or unknown instead of inventing an org chart from job titles.
+
+This is the fourth of 10 practical ABM skills I'm sharing ahead of the ForgeX AI & ABM webinar on September 17th.
 
 ---
 
-## 05 — Ground the Work in Brand
+## 05: Ground the Work in Brand
 
 **Publish:** Tuesday, September 8 after LinkedIn review
 **Skill:** [Brand Harvester](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/brand-harvester/SKILL.md)
@@ -244,21 +264,25 @@ Evidence first. Design second.
 
 ### LinkedIn post
 
-Fast AI creative has produced a lot of very polished sameness.
+Most AI-generated campaign pages look like the same AI-generated campaign page.
 
-The fix is not a longer aesthetic prompt. It is better brand evidence.
+"Make it look like ACME. Use their logo & brand colors."
 
-The ForgeX Brand Harvester turns a public website or approved brand guide into a verified creative brief: assets, colors, typography, recurring patterns, screenshots, voice, and clear guidance on what to preserve or avoid.
+But what actually makes ACME look like ACME?
 
-It translates brand DNA without copying the original site.
+Which colors are primary vs accent colors?
+What typography & spacing patterns repeat?
+What is a real brand rule vs a one-off design choice?
 
-The complete skill is on GitHub. Link in the first comment.
+To help fix this, I built a simple Brand Harvester that turns a public website or approved brand guide into a creative brief with verified assets, colors, typography, layout patterns, screenshots, and voice.
 
-What is the fastest way you can tell that a campaign is off-brand?
+It separates what the source actually shows from what the AI is inferring, so a random design choice does not become a fake brand rule.
+
+This is the fifth of 10 practical ABM skills I'm sharing ahead of the ForgeX AI & ABM webinar on September 17th.
 
 ---
 
-## 06 — Build a Campaign Landing Page
+## 06: Build a Campaign Landing Page
 
 **Publish:** Wednesday, September 9 after LinkedIn review
 **Skill:** [Campaign Landing Page](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/campaign-landing-page/SKILL.md)
@@ -271,7 +295,7 @@ This skill starts with an approved brief, one audience, one offer, one primary C
 
 It builds the message hierarchy first, then the smallest page architecture that can move the buyer forward.
 
-The output can be a wireframe, copy deck, platform specification, or accessible HTML draft—with mobile behavior, links, analytics, and QA.
+The output can be a wireframe, copy deck, platform specification, or accessible HTML draft with mobile behavior, links, analytics, and QA.
 
 It stops before publication so a human can approve the experience.
 
@@ -279,23 +303,30 @@ It stops before publication so a human can approve the experience.
 
 - Primary headline: `Build the campaign landing page.`
 - Flow: `APPROVED BRIEF → MESSAGE + PAGE FLOW → REVIEWABLE DRAFT`
-- Footer: `Folloze can be the execution layer—not the strategy.`
+- Footer: `Folloze can be the execution layer, not the strategy.`
 
 ### LinkedIn post
 
-A campaign landing page should do one job for one audience.
+Most campaign landing pages are full of random stuff nobody wanted to cut.
 
-The ForgeX Campaign Landing Page skill starts with an approved brief, offer, CTA, brand, and proof. It creates the message hierarchy and the smallest page architecture that can move the audience forward.
+"We might need this, so put it on the page."
 
-The output can become a wireframe, copy deck, platform specification, or accessible HTML draft. If I am building in Folloze, this is the approved thinking I want before I touch the platform.
+But why?
 
-The complete vendor-neutral skill is on GitHub. Link in the first comment.
+Who is the page actually for?
+What should they understand?
+What proof do they need?
+What is the one action we want them to take?
 
-What is the most common reason campaign pages lose focus?
+To help fix this, I built a simple Campaign Landing Page skill that turns an approved brief, audience, offer, CTA, brand, and proof into a focused message hierarchy + the smallest page that can move the buyer forward.
+
+If I am building it in Folloze, this is the thinking I want approved before I touch the platform.
+
+This is the sixth of 10 practical ABM skills I'm sharing ahead of the ForgeX AI & ABM webinar on September 17th.
 
 ---
 
-## 07 — Build an Industry Campaign Page
+## 07: Build an Industry Campaign Page
 
 **Publish:** Thursday, September 10 after LinkedIn review
 **Skill:** [Industry Campaign Page](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/industry-campaign-page/SKILL.md)
@@ -306,7 +337,7 @@ Putting “financial services” in the headline does not make something an indu
 
 This skill starts with a base campaign and a defensible cohort that shares a real business condition.
 
-It builds evidence for the cohort's priorities, language, constraints, and proof. Then it shows what stays constant and what should change—problem framing, message, content path, evidence, or CTA.
+It builds evidence for the cohort's priorities, language, constraints, and proof. Then it shows what stays constant and what should change: problem framing, message, content path, evidence, or CTA.
 
 The output is a cohort brief, a base-to-industry message map, and a reviewable page draft.
 
@@ -320,19 +351,25 @@ It also checks the generalizations so relevance does not become stereotyping.
 
 ### LinkedIn post
 
-Changing the industry name in a headline is not vertical personalization.
+Most industry campaigns are basically Mad Libs.
 
-A credible industry campaign changes the problem framing, language, evidence, proof, and content path because the cohort shares a real business condition.
+"Change software to financial services & ship it."
 
-The ForgeX Industry Campaign Page skill creates the cohort logic, evidence table, base-to-industry message map, and reviewable page draft—while checking the assumptions that could turn relevance into stereotyping.
+But why should a financial services buyer care?
 
-The complete skill is on GitHub. Link in the first comment.
+What problem is actually different?
+What language do they use?
+What proof will survive risk, security, and compliance review?
 
-Where do industry campaigns usually become too generic?
+To help fix this, I built a simple Industry Campaign Page skill that starts with a real cohort condition, builds the evidence, then shows what should stay the same & what should change across the problem, message, proof, content path, and CTA.
+
+It also checks the assumptions so relevance does not turn into stereotyping.
+
+This is the seventh of 10 practical ABM skills I'm sharing ahead of the ForgeX AI & ABM webinar on September 17th.
 
 ---
 
-## 08 — Build a One-to-One Microsite
+## 08: Build a One-to-One Microsite
 
 **Publish:** Friday, September 11 after LinkedIn review
 **Skill:** [One-to-One Microsite](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/one-to-one-microsite/SKILL.md)
@@ -357,21 +394,25 @@ The output stops at a private preview so the account experience can be reviewed 
 
 ### LinkedIn post
 
-The best 1:1 experiences feel researched.
+Most 1:1 microsites are personalized theater.
 
-The worst ones feel like somebody copied the account's logo onto a generic sales page.
+"We added the ACME logo, so now it's one-to-one."
 
-The ForgeX One-to-One Microsite skill uses a personalization ledger to connect every account fact to a source, a reason it matters, and a permitted use. Then it builds a buyer story that remains clearly from the seller.
+But why is the page actually different?
 
-It can be implemented in Folloze or another experience layer, but it stops at a private preview until a human approves it.
+What verified account fact changed the story?
+What problem are we helping them solve?
+Which proof & resources are useful to this buying group?
 
-The complete skill is on GitHub. Link in the first comment.
+To help fix this, I built a simple One-to-One Microsite skill that creates a personalization ledger for every account fact: the source, why it matters, and whether it belongs on the page.
 
-What makes account personalization feel genuinely useful to you?
+Then it builds a buyer story that stays clearly from the seller. Folloze can be the implementation layer, but the output stops at a private preview until a human approves it.
+
+This is the eighth of 10 practical ABM skills I'm sharing ahead of the ForgeX AI & ABM webinar on September 17th.
 
 ---
 
-## 09 — Turn One Asset Into an Experience
+## 09: Turn One Asset Into an Experience
 
 **Publish:** Saturday, September 12 after LinkedIn review
 **Skill:** [Content Magic](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/content-magic/SKILL.md)
@@ -396,28 +437,35 @@ Every factual claim stays traceable. The format changes, but the source truth do
 
 ### LinkedIn post
 
-Most marketing teams do not have a content shortage.
+Most companies do not have a content shortage.
 
-They have a useful-content-trapped-in-long-assets problem.
+They have a useful-content-trapped-inside-long-assets problem.
 
-The ForgeX Content Magic skill turns an approved report, webinar, video, deck, or guide into a source-traceable campaign experience. It builds the truth sheet first, then reorganizes the material around the buyer's job instead of the original table of contents.
+"We already have a 100-page report. Why isn't anybody using it?"
 
-The output can be implemented in Folloze or another experience layer. The source truth stays intact either way.
+But why are we asking the buyer to consume it in the same order it was written?
 
-The complete skill is on GitHub. Link in the first comment.
+What is the actual thesis?
+Which facts & quotes support it?
+What does this buyer need first?
+What should become interactive vs stay as source material?
 
-Which asset in your library deserves a second life?
+To help fix this, I built a simple Content Magic skill that creates a truth sheet from an approved report, webinar, video, deck, or guide, then reorganizes the material around the buyer's job.
+
+The output can become a Folloze experience, content hub, wireframe, or channel assets. The format changes, but every factual claim stays tied to the source.
+
+This is the ninth of 10 practical ABM skills I'm sharing ahead of the ForgeX AI & ABM webinar on September 17th.
 
 ---
 
-## 10 — Write the First Touch
+## 10: Write the First Touch
 
 **Publish:** Sunday, September 13 after LinkedIn review
 **Skill:** [First-Touch Builder](https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/first-touch-builder/SKILL.md)
 
 ### 38–45 second script
 
-The first line of an outbound message should explain why this person is hearing from you—not prove that you found something personal about them.
+The first line of an outbound message should explain why this person is hearing from you, not prove that you found something personal about them.
 
 The First-Touch Builder starts with the professional relationship, one verified observation, one relevant offer, one approved proof point, and one CTA.
 
@@ -435,17 +483,23 @@ Personalization should earn relevance, not perform surveillance.
 
 ### LinkedIn post
 
-Good personalization answers one question:
+Most first-touch emails are either generic or creepy.
+
+"I saw your post about your son's graduation..."
+
+But why is that relevant to the offer?
 
 Why does it make sense for this person to hear from me?
+What professional observation earns the message?
+What is the one offer & one CTA?
 
-It does not require a creepy personal detail.
+To help fix this, I built a simple First-Touch Builder that uses a real relationship or professional observation, one relevant offer, one approved proof point, and one CTA.
 
-The ForgeX First-Touch Builder uses a real relationship or professional observation, one relevant offer, one approved proof point, and one CTA. It checks the facts and links, then stops with an unsent draft for human review.
+It checks suppressions, facts, proof, and links, then stops with an unsent draft for human review.
 
-The complete skill is on GitHub. Link in the first comment.
+Personalization should earn relevance. It should not perform surveillance.
 
-What is the clearest sign that an outbound message was over-personalized?
+This is the tenth of 10 practical ABM skills I'm sharing ahead of the ForgeX AI & ABM webinar on September 17th.
 
 ---
 
