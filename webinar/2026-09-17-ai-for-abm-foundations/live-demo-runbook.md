@@ -33,6 +33,24 @@ Complete by September 14:
 - Disable notifications and close unrelated terminals, repositories, tabs, and customer materials.
 - Set display scaling so file paths and output remain readable.
 
+## September 16 local preflight
+
+Verified on the presentation Mac from the canonical repository:
+
+- Claude Code is installed as native version `2.1.239`.
+- Claude Code reports a valid Claude.ai Pro login.
+- `claude doctor` reports no installation issues.
+- The repository contains `shared/SAFETY.md`, `skills/abm-strategist/SKILL.md`, and the full fictional North Peak source set.
+- No model prompt was run during this preflight, so the three fresh-workspace rehearsal runs remain required.
+
+Use a clean event checkout, not the working repository with uncommitted preparation changes. Open a terminal in that checkout and start a new named session with:
+
+```bash
+claude --permission-mode manual --name "ForgeX AI for ABM Demo"
+```
+
+Do not use `--dangerously-skip-permissions`. Do not authorize Chrome, MCP servers, external search, or any write outside the clean demo checkout.
+
 ## Demo data boundary
 
 Use only:
@@ -139,6 +157,15 @@ Say:
 
 ## Failure branches
 
+| Failure | Switch point | Fallback |
+|---|---:|---|
+| Repository access or authentication | 30 seconds | Open the preloaded clean local checkout |
+| Claude Code does not launch | 30 seconds | Play the short recording or narrate the screenshots |
+| Generation remains incomplete | 45 seconds | Open `demo/output/account-campaign-brief.md` |
+| Draft invents a claim | Immediately after discovery | Show the proof register and run Prompt 2 once |
+| Draft ignores the output contract | One repair attempt | Compare against the contract, then open the completed fallback brief |
+| Screen share or terminal becomes unreadable | Immediately | Return to Slide 21 and narrate the completed output |
+
 ### Repository access fails
 
 Use the preloaded local copy. Tell the audience that repository access failed and continue. Do not troubleshoot authentication live for more than 30 seconds.
@@ -158,6 +185,13 @@ Use the failure as the lesson. Locate the unsupported claim, run Prompt 2, and s
 ### Output ignores the contract
 
 Ask it to compare the draft with the skill's output contract and repair only the missing sections. Do not restart the whole demo.
+
+## Prepared local fallback files
+
+- `demo/output/account-campaign-brief.md`: complete synthetic Level 3 output for the review segment
+- `demo/output/alder-refresh-automation-spec.md`: draft-only Level 4 specification for the explanation segment
+
+These files are rehearsal fallbacks. They are not evidence of a successful fresh Claude Code run. Screenshots and the short recording still require a successful rehearsal run.
 
 ## Do not do live
 

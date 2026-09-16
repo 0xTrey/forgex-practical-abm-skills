@@ -14,6 +14,7 @@ This guide gives you the repository, skills, North Peak example, and 30-day plan
 - **Level 3, Reusable Skill:** the system follows a documented process and output contract.
 - **Level 4, Governed Automation:** a trigger or schedule runs the known workflow and updates state.
 - **Level 5, Goal-Driven Agent System:** you provide a goal and constraints, and the agent chooses the plan and outputs.
+- **Level 6, Agentic Operating System:** one interface coordinates multiple agents, systems, shared memory, triggers, canaries, and hardening loops.
 
 Read the full [ForgeX AI for ABM Maturity Rubric](maturity-rubric.md) before selecting an upgrade project. Use the [visual one-pager](maturity-rubric-one-pager.html) for a fast team self-assessment.
 
@@ -130,6 +131,10 @@ Keep verification before scoring or messaging. Keep interpretation separate from
 
 > Goal: increase qualified engagement across North Peak's top industrial AI accounts this quarter. Use the approved context, tools, skills, engagement data, and permission rules. Decide which accounts need research, a refreshed brief, a personalized experience, or no action. Create drafts, evaluate them, and request approval before activation or system writes.
 
+### Level 6
+
+> Operating goal: keep North Peak's industrial AI account program current. Route bounded work across approved sub-agents and systems. Use the shared Vault for durable memory and the GitHub repository for versioned skills and context. Start known work from approved time or event triggers. Run canaries on critical paths, turn failed checks into hardening tasks, and require human approval before send, publish, spend, or system-of-record writes.
+
 ## Thirty-day plan: Level 1 to Level 2
 
 **Week 1:** choose one repeated ABM job and list the company context people repeatedly paste or reconstruct.
@@ -166,11 +171,11 @@ Success signal: different marketers can run the skill and receive the same usefu
 
 Success signal: the workflow updates the right artifact, shows what changed, and routes exceptions without silent external action.
 
-## Level 4 to Level 5
+## Moving beyond Level 4
 
-Do not treat this as a generic checklist. A goal-driven agent system depends on your internal systems, data quality, permission model, business goals, failure tolerance, and human operating model.
+Do not treat this as a generic checklist. A goal-driven agent system or agentic operating system depends on your internal systems, data quality, permission model, business goals, failure tolerance, shared-memory design, trigger model, and human operating model.
 
-The right next step is a one-to-one architecture working session. Bring one business goal, the current workflow, available systems, approval boundaries, and examples of success and failure. The session should determine whether the job truly requires an agent and what must be proven before authority expands.
+The right next step is a one-to-one architecture working session. Bring one business goal, the current workflow, available systems, approval boundaries, and examples of success and failure. The session should determine whether the job requires one agent, a coordinated operating system, or a simpler governed automation, and what must be proven before authority expands.
 
 ## What to measure
 
@@ -181,6 +186,7 @@ The right next step is a one-to-one architecture working session. Bring one busi
 - evidence-based personalization;
 - correction and exception rate;
 - human time recovered;
+- canary pass rate and time from failure to hardened shared asset;
 - external actions prevented by a review gate.
 
 ## The portable-marketer checklist

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="ForgeX AI for ABM maturity rubric from Fancy Search to Goal-Driven Agent System.">
+  <meta name="description" content="ForgeX AI for ABM maturity rubric from Fancy Search to an Agentic Operating System.">
   <title>ForgeX AI for ABM Maturity Rubric</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=Manrope:wght@400;600;700&display=swap');
@@ -108,7 +108,7 @@
 
     .ladder {
       display: grid;
-      grid-template-columns: repeat(6, minmax(172px, 1fr));
+      grid-template-columns: repeat(7, minmax(152px, 1fr));
       gap: 10px;
       align-items: end;
       position: relative;
@@ -357,7 +357,7 @@
       <div class="promise">The model is replaceable. Your context, processes, tests, and decision history are the durable system.</div>
     </header>
 
-    <section class="ladder" aria-label="Six levels of AI for ABM maturity">
+    <section class="ladder" aria-label="Seven levels of AI for ABM maturity">
       <article class="level" style="--level: 0">
         <div class="level-head">
           <div class="number"><span>Level</span><strong>0</strong></div>
@@ -434,6 +434,19 @@
           <div class="stack"><span class="label">Adds</span><code>planning + tool choice + evaluation + interrupts</code></div>
         </div>
         <p class="governance">Bound authority. Keep a human owner for outcomes.</p>
+      </article>
+
+      <article class="level" style="--level: 6">
+        <div class="level-head">
+          <div class="number"><span>Level</span><strong>6</strong></div>
+          <h2>Agentic Operating System</h2>
+        </div>
+        <div class="level-body">
+          <div><span class="label">Request</span><p class="request">“Coordinate the agents and systems around this operating goal.”</p></div>
+          <div><span class="label">Returns</span><p class="returns">Routed work, current artifacts, exceptions, canary results, and hardening tasks.</p></div>
+          <div class="stack"><span class="label">Adds</span><code>orchestration + shared memory + triggers + reliability loops</code></div>
+        </div>
+        <p class="governance">Coordinate broadly without granting blanket authority.</p>
       </article>
     </section>
 

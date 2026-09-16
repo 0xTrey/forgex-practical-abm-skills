@@ -9,7 +9,7 @@ This file is the source register for the September 17, 2026 ForgeX webinar. It s
 - Related framework: [The AI fluency framework](https://zapier.com/blog/ai-fluency/)
 - Related organizational model: [The AI maturity model](https://zapier.com/blog/ai-maturity/)
 
-Use the official visual as an attributed reference slide. Do not present it as a ForgeX framework. The ForgeX six-level model is an ABM-specific interpretation and extension.
+Use the official visual as an attributed reference slide. Do not present it as a ForgeX framework. The ForgeX seven-level model is an ABM-specific interpretation and extension.
 
 ## Anthropic workflow and agent guidance
 

@@ -43,15 +43,19 @@ package the process as a reusable skill
 run the proven process on a trigger or schedule
     ↓
 give a governed agent a goal
+    ↓
+coordinate agents, systems, memory, triggers, and reliability loops
 ```
 
-Each level adds technology, marketer behavior, underlying assets, and governance. The audience should see the same ABM job at all six levels, with the actual input, output, and layer added each time.
+Each level adds technology, marketer behavior, underlying assets, and governance. The audience should see the same ABM job at all seven levels, with the actual input, output, and layer added each time.
 
 ## Three ideas that should survive
 
 1. **Move up one level, not five.** Most attendees will get the highest near-term value by moving from Level 2 to 3 or Level 3 to 4.
 2. **The durable asset is not the model.** Brand, messaging, ICP, personas, products, proof, skills, templates, tests, and decision history should remain portable across Claude, ChatGPT, Gemini, Cursor, or a future employer's approved system.
 3. **Know the plumbing.** A capable AI marketer can connect context, process, tools, permissions, and review gates. Company-provided fixtures help, but the practitioner should understand the system well enough to adapt it.
+
+Level 6 paints the advanced end state without changing the recommended first move. Codex can serve as one interface that routes work to sub-agents and specialist systems, while an Obsidian Vault, a versioned GitHub repository, time and event triggers, canaries, and hardening loops keep the operating system durable.
 
 ## Part I bridge
 
@@ -85,6 +89,7 @@ Folloze remains a concrete proof surface for what an ABM workflow can create. Fo
 - [ForgeX AI for ABM field guide](attendee-resource-guide.md)
 - [Curated external GTM Skills section](attendee-resource-guide.md#skills-worth-borrowing-from-the-gtm-community)
 - [Production and rehearsal plan](production-plan.md)
+- [Event readiness decision and rehearsal checklist](event-readiness.md)
 - [Sources and attribution](sources-and-attribution.md)
 - [Slide-ready trench-coat visual](assets/cron-job-in-a-trench-coat.png)
 

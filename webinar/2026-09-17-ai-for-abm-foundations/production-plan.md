@@ -10,13 +10,32 @@
 - Fictional seller: North Peak AI Security
 - Fictional target: Alder Manufacturing
 - Teaching and demo split: 45 minutes plus 15 minutes
-- Level 4-to-5 CTA: one-to-one architecture working session
+- Beyond-Level-4 CTA: one-to-one architecture working session
+
+## September 16 readiness receipt
+
+| Area | State | Evidence or next requirement |
+|---|---|---|
+| Canonical storyline | Complete locally | `slide-outline.md`, 21-slide deck, talk track, and both timing paths agree |
+| Primary timing | Complete locally | 45 minutes of teaching plus 15 minutes of live build |
+| Compressed timing | Complete locally | 30 minutes of teaching plus the protected 15-minute live build |
+| Claude Code installation and login | Verified locally | Native `2.1.239`, Claude.ai Pro login, and `claude doctor` passed |
+| Local fallback outputs | Complete locally | Completed fictional Level 3 brief and Level 4 specification in `demo/output/` |
+| Current Google Slides handoff | Blocked | The accessible remembered Slides ID opens an unrelated six-slide sponsorship deck |
+| Fresh-workspace rehearsal | Not complete | Run Prompt 0 through Prompt 3 from a clean checkout three times and record elapsed time |
+| Screenshots and short recording | Not complete | Capture after a successful fresh-workspace rehearsal |
+| Attendee repository access | Decision required | Choose public, invited private access, or an approved release archive |
+| Moderator and backup operator | Decision required | Name both owners and rehearse the minute-45 handoff |
+| Architecture-session URL | Decision required | Add only after the destination is approved |
+| Recording and redistribution | Decision required | Confirm what can be recorded and shared |
+
+The package is rehearsal-ready. It is not show-ready until the live-path and owner decisions above have receipts.
 
 ## Content production sequence
 
 ### August 25 to 28: content lock
 
-- Review and approve the six level names.
+- Review and approve the seven level names.
 - Review the same-job input and output progression.
 - Review the North Peak brand, messaging, ICP, persona, product, and proof corpus.
 - Confirm the Zapier, Anthropic, Cerebras, MCP, GitHub, and Swan GTM Skills source notes.
@@ -27,7 +46,7 @@
 
 - Build the 21-slide deck from [`slide-outline.md`](slide-outline.md).
 - Create the one-page visual maturity rubric.
-- Use the official Zapier V2 image on an attributed reference slide.
+- Keep Zapier V2 as an attributed background source for the maturity rubric and leave-behind. Do not use a dedicated Zapier slide in the presentation.
 - Add the original trench-coat robot visual.
 - Design the North Peak corpus and skill anatomy as readable editorial diagrams.
 - Create a short URL and QR code only after the final destination is approved.
@@ -47,7 +66,7 @@
 - Run the chat prompts and automation-or-agent interaction.
 - Finish teaching by minute 45.
 - Run the demo through both the success and fallback path.
-- Confirm the moderator intro, close, resource destination, and Level 4-to-5 CTA.
+- Confirm the moderator intro, close, resource destination, and beyond-Level-4 CTA.
 
 ### September 16: event readiness
 
@@ -63,7 +82,7 @@
 - The title matches the promotion exactly.
 - ForgeX is the primary brand.
 - Folloze appears as Part I context and an implementation example, not as the webinar owner.
-- Zapier's visual and framework are clearly attributed.
+- Supporting rubric sources retain clear Zapier attribution without adding a dedicated presentation slide.
 - The ForgeX maturity ladder is visibly original and ABM-specific.
 - The community examples slide uses the direct title "Verify, interpret, qualify, then draft."
 - Every external skill retains creator attribution and links to the pinned source version.
@@ -75,7 +94,9 @@
 - Company Deep Dive appears only as a Level 2-to-3 source-hierarchy concept with a T1 static-review label.
 - Only the five evidence-backed teaching references appear in webinar artifacts or attendee resources.
 - Every level includes the actual input, output, added layer, marketer behavior, and governance shift.
-- Level 3, Level 4, and Level 5 use the exact mental shifts approved in the brief.
+- Level 3, Level 4, Level 5, and Level 6 use the exact mental shifts approved in the brief.
+- Level 5 is shown as one bounded agent system. Level 6 is shown as the coordination layer around multiple agents, systems, memory stores, schedules, event triggers, canaries, and hardening routines.
+- The Level 6 visual names Codex, sub-agents, Cursor, Hermes, OpenClaw, Grokbot, the Obsidian Vault, the GitHub skills repository, time triggers, event triggers, canaries, and hardening without implying blanket authority.
 - "A cron job IN a trench coat" is spelled correctly everywhere.
 - The plumber metaphor communicates craft and portability without demeaning technical or trade work.
 - Slides avoid dense card grids and unreadable code.
@@ -114,7 +135,7 @@ Internal evaluation evidence is committed locally in `Folloze-Skills-swan-eval` 
 
 1. Who owns the final visual design and deck build?
 2. Will the repository be public before the webinar, at the webinar, or only after follow-up approval?
-3. What is the approved URL for the Level 4-to-5 architecture session?
+3. What is the approved URL for the beyond-Level-4 architecture session?
 4. Who moderates the chat and protects the minute-45 demo handoff?
 5. Will attendees receive the North Peak corpus as editable files, a PDF, or both?
 6. Is there an approved recording and redistribution policy for the live build?

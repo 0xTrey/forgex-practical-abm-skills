@@ -4,9 +4,9 @@
 
 AI maturity is not measured by how many tools a team has purchased. It is measured by how reliably the team can turn approved context into useful ABM outcomes.
 
-The six levels below show what changes as a marketer moves from isolated questions to governed agent systems. Each level adds a new layer. The earlier layers do not disappear.
+The seven levels below show what changes as a marketer moves from isolated questions to a coordinated agentic operating system. Each level adds a new layer. The earlier layers do not disappear.
 
-## The six-level view
+## The seven-level view
 
 | Level | Name | The request changes to | What the system can reliably do | Main risk |
 |---:|---|---|---|---|
@@ -16,10 +16,12 @@ The six levels below show what changes as a marketer moves from isolated questio
 | 3 | Reusable Skill | "Produce this outcome through this specific process." | Follow a documented workflow with required inputs, an output contract, stop conditions, and QA | A weak process becomes repeatable at scale |
 | 4 | Governed Automation | "Run this workflow when this trigger occurs, update the existing record, and route exceptions." | Execute a known sequence on a schedule or event, preserve state, and surface changes for review | A brittle workflow is mislabeled as an agent and allowed to act beyond its design |
 | 5 | Goal-Driven Agent System | "Here is the goal, constraints, and authority. Decide how to achieve the outcome." | Plan, choose tools and skills, adapt to evidence, create the right outputs, and ask for decisions at consequence boundaries | Excess authority, weak evaluation, hidden failure modes, or unclear ownership |
+| 6 | Agentic Operating System | "Here is the operating goal and policy. Coordinate the right agents, systems, memory, triggers, and reliability loops." | Route bounded work across multiple agent systems, preserve shared memory, start work from approved schedules or events, test critical paths, and harden reusable assets | Coordination expands faster than permissions, observability, source ownership, incident response, or human accountability |
 
 ## The stack
 
 ```text
+LEVEL 6  + orchestration + shared memory + agent registry + canaries + hardening
 LEVEL 5  + goals + planning + tool choice + evaluation + bounded delegation
 LEVEL 4  + triggers + schedules + state + routing + exception handling
 LEVEL 3  + skills + templates + output contracts + tests
@@ -298,7 +300,54 @@ A prioritized work plan and the artifacts required to pursue it. The system may 
 
 **Ready to operate when:** the system can show why it chose a path, what evidence it used, how it evaluated the result, and where it stopped for a human decision.
 
-## Same ABM job across all six levels
+### Level 6: Agentic Operating System
+
+**Mental model:** one interface coordinates work across multiple agents, systems, memory stores, schedules, event triggers, and reliability loops.
+
+**Typical input**
+
+> Operating goal: keep North Peak's industrial AI account program current and increase qualified engagement. Route bounded work across approved sub-agents and specialist systems. Use the shared Vault for durable memory and the GitHub repository for versioned skills and context. Start known work from approved time or event triggers. Run canaries on critical paths, turn failed checks into hardening tasks, and request approval before any send, publish, spend, or system-of-record write.
+
+**Typical output**
+
+A coordinated portfolio of work. The operating system routes research, analysis, draft production, evaluation, monitoring, and hardening to the right bounded agents or systems. It preserves shared state, records decisions, surfaces exceptions, and reports whether critical canaries passed.
+
+**Technology**
+
+- A primary interface or control plane, such as Codex in Trey's current system
+- Bounded sub-agents and specialist execution systems, such as Cursor, Hermes, OpenClaw, or Grokbot
+- A durable shared-memory layer, such as an Obsidian Vault with an explicit memory contract
+- A versioned GitHub repository for shared skills, context patterns, tests, and decisions
+- Time-based schedules and event-based triggers
+- Evaluation suites, canaries, observability, queues, budgets, and interrupt controls
+
+**Marketer behavior**
+
+- Defines operating goals, routing policies, source ownership, and consequence boundaries
+- Reviews exceptions, cross-system quality, and the health of the operating system
+- Improves the shared skill, context, test, or policy when a repeated failure appears
+- Decides which work belongs in a deterministic workflow, one agent, a specialist system, or a human queue
+
+**Underlying assets**
+
+- Everything from Level 5
+- Agent and tool registry with owners, scopes, and permission assumptions
+- Shared-memory contract and source-of-truth map
+- Schedule and event-trigger catalog
+- Canary suite, hardening backlog, and release criteria for shared skills
+- Incident, rollback, budget, escalation, and cross-system audit procedures
+
+**Personal governance**
+
+- Do not turn one interface into blanket authority across every connected system
+- Isolate credentials and grant the minimum role, data, and action scope required for each job
+- Keep consequential actions behind named human approval
+- Test critical paths before broadening schedules, triggers, or delegation
+- Preserve an audit trail across the goal, route, source, agent, action, evaluation, and human decision
+
+**Ready to operate when:** the system can route work predictably, preserve the right shared memory, prove which source and agent produced each result, fail closed when a critical check breaks, and turn repeated failures into reviewed hardening work.
+
+## Same ABM job across all seven levels
 
 **Job:** Create and keep current a campaign for North Peak AI Security targeting Alder Manufacturing's VP of Infrastructure.
 
@@ -310,6 +359,7 @@ A prioritized work plan and the artifacts required to pursue it. The system may 
 | 3 | The corpus, evidence pack, and ABM Strategist skill | A repeatable approval-ready campaign brief | Review exceptions, approve strategy, improve the skill |
 | 4 | A trigger, workflow, state rules, and approval routing | A refreshed brief, diff, audit record, and exception queue | Monitor operations and approve consequential changes |
 | 5 | A business goal, tools, skills, constraints, authority, and evaluation | The right mix of prioritized research, briefs, experiences, and next actions | Own the goal, approve consequences, govern the system |
+| 6 | An operating goal, routing policy, shared-memory contract, trigger catalog, canaries, and consequence boundaries | A coordinated portfolio of routed work, current artifacts, exceptions, canary results, and hardening tasks | Own strategy, source truth, policy, consequential approvals, and incident response |
 
 ## What to measure
 
@@ -323,7 +373,7 @@ Track the same five outcomes at every level. The meaning changes as the system m
 | Campaign volume | Number of approved campaigns or account experiences produced without lowering quality |
 | Personalization | Percentage of material claims and recommendations grounded in account or persona evidence |
 
-Add operational measures at Levels 4 and 5: exception rate, failed runs, stale sources, unsupported-claim rate, human override rate, cost per approved outcome, and time to recover.
+Add operational measures at Levels 4 through 6: exception rate, failed runs, stale sources, unsupported-claim rate, human override rate, cost per approved outcome, time to recover, canary pass rate, routing accuracy, and time from failure to a hardened shared asset.
 
 ## Crosswalk to Zapier's AI Fluency Rubric V2
 
@@ -337,7 +387,7 @@ This is an interpretive crosswalk, not a direct conversion:
 | Capable | Levels 1 and 2 | AI improves core work and uses repeatable context or prompts |
 | Capable to Adoptive | Level 3 | Individual practice becomes a documented, reusable system |
 | Adoptive | Level 4 | Multiple tools and workflows remove meaningful manual work with validation loops |
-| Transformative | Level 5 | The team redesigns how ABM work happens around goal-driven systems and organizational governance |
+| Transformative | Levels 5 and 6 | The team redesigns how ABM work happens around goal-driven systems, cross-system orchestration, shared memory, reliability loops, and organizational governance |
 
 The evidence matters more than the label. A Level 4 team should be able to show a working trigger, update logic, exception path, audit record, and measurable before-and-after result.
 

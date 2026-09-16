@@ -6,6 +6,7 @@ node_modules/
 __pycache__/
 *.pyc
 tmp/
+.codex-build/
 private_data/
 *.sqlite
 *.sqlite3

@@ -4,7 +4,9 @@ This folder contains the audience-ready materials for the September 17, 2026 For
 
 ## Final files
 
-- [`forgex-ai-for-abm-webinar-deck.pptx`](forgex-ai-for-abm-webinar-deck.pptx): editable 21-slide presentation with presenter notes and source blocks.
+- [`forgex-ai-for-abm-webinar-deck-event-ready.pptx`](forgex-ai-for-abm-webinar-deck-event-ready.pptx): current 21-slide event build with corrected titles, aligned copy, and timing added to every speaker-note page.
+- [`forgex-ai-for-abm-webinar-deck-harness-revision.pptx`](forgex-ai-for-abm-webinar-deck-harness-revision.pptx): current editable 21-slide presentation. It adds the Davis-call harness anatomy, operating loop, shared-memory distinction, portability story, and Level 6 Agentic Operating System while preserving the 15-minute demonstration.
+- [`forgex-ai-for-abm-webinar-deck.pptx`](forgex-ai-for-abm-webinar-deck.pptx): prior editable baseline retained for comparison.
 - [`forgex-ai-for-abm-webinar-deck.pdf`](forgex-ai-for-abm-webinar-deck.pdf): regenerated local presenter fallback. It is not part of the handoff.
 - [`forgex-ai-for-abm-field-guide.pdf`](forgex-ai-for-abm-field-guide.pdf): five-page attendee leave-behind.
 
@@ -12,7 +14,7 @@ This folder contains the audience-ready materials for the September 17, 2026 For
 
 Upload only the editable PowerPoint and the five-page field guide:
 
-1. `forgex-ai-for-abm-webinar-deck.pptx`
+1. `forgex-ai-for-abm-webinar-deck-event-ready.pptx`
 2. `forgex-ai-for-abm-field-guide.pdf`
 
 Keep the PowerPoint in its original format so the ForgeX team can make human-in-the-loop edits. Do not convert it to Google Slides. Do not upload the deck PDF.
@@ -27,6 +29,7 @@ The deck supports a 45-minute teaching session followed by the existing 15-minut
 4. Reusable Skill
 5. Governed Automation
 6. Goal-Driven Agent System
+7. Agentic Operating System
 
 The live demonstration boundary remains unchanged. Use the fictional North Peak context, the shared safety contract, ABM Strategist, and the Alder Manufacturing brief. Explain the Level 4 extension without scheduling, activating, publishing, sending, spending, authenticating a connector, or writing to a system of record.
 
@@ -78,5 +81,5 @@ The GitHub repository is private as of August 26, 2026. The content is locally p
 - PowerPoint overflow test passed across all 21 slides.
 - Every slide was rendered and visually reviewed.
 - Both PDFs were reopened, rendered, and visually reviewed.
-- The attendee guide contains five letter-size pages, and the editable PowerPoint and local deck backup contain 21 widescreen slides.
+- The attendee guide contains five letter-size pages, and the editable PowerPoint contains 21 widescreen slides. The local deck PDF remains outside the handoff.
 - Repository validation checks the full 11-skill collection while keeping the webinar-only Context Corpus Builder out of the original ten-part content calendar requirement.

@@ -21,57 +21,56 @@
 
 **Visual:** Match the public promo creative closely enough for continuity. Keep the title exact.
 
-### 2. Part I showed the output. Part II builds the system.
+### 2. What you will learn today
 
 **Visible path:**
 
-`PROPENSITY → LANDING PAGES → MICROSITES → THE OPERATING SYSTEM UNDERNEATH`
+`GROUND THE WORK → PACKAGE THE PROCESS → CONNECT THE SYSTEM → RUN IT SAFELY`
 
-**Bottom line:** The Folloze MCP and skills were examples of a larger maturity shift.
+**Visible definitions:**
 
-**Visual:** Three recognizable Part I outputs on the left. Their context, skill, connector, and review layers unfold on the right.
+- Ground the work: company brain and approved context
+- Package the process: reusable skills and output contracts
+- Connect the system: tools, MCP, and permission boundaries
+- Run it safely: state, evaluation, and human approval
 
-### 3. The terms, in one sentence each
+**Bottom line:** Build the whole operating system, then move one useful level at a time.
+
+**Visual:** Preserve the four-card progression so the learning contract previews the architecture that follows.
+
+### 3. Breaking Down the Jargon
 
 **Visible copy:**
 
-- Model: the reasoning and generation engine
-- Harness: the workbench that gives the model files, tools, state, and controls
-- Prompt: the instruction for this request
-- Context: the evidence and rules the model can use now
-- Skill: a reusable process with inputs, outputs, stop conditions, and QA
-- Tool: a capability the system can call
-- MCP: a standard way for an AI host to access approved resources, prompts, and tools
-- Automation: a known path run by a trigger or schedule
-- Agent: a system that chooses how to pursue a goal within constraints
+- Model: interprets information and generates a response
+- Harness: runs and governs the work around the model
+- Prompt: gives one task, its goal, constraints, and desired output
+- Context: supplies the facts, rules, examples, and current state
+- Skill: documents a repeatable process, output rules, QA, and stop points
+- Tool: performs an action, such as search, calculation, or creation
+- MCP: connects the AI system to approved data, resources, and tools
+- Automation: follows a predefined path from a trigger or schedule
+- Agent: chooses and checks its next step while pursuing a goal
 
-**Visual:** A single annotated pipeline. Avoid a glossary grid.
+**Bottom line:** This is the shared language we will use for the rest of the session.
+
+**Visual:** Two compact, plain-language definition columns. Make the differences between adjacent terms easy to scan.
 
 **Source notes:** [MCP introduction](https://modelcontextprotocol.io/docs/getting-started/intro), [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
 
-### 4. Zapier raised the AI fluency bar
-
-**Visible title:** Fluency is observable behavior, not tool familiarity.
-
-**Visible reference:** Zapier's V2 rubric: Capable, Adoptive, Transformative across Mindset, Strategy, Building, and Accountability.
-
-**Visual:** Flash the [official Zapier V2 visual](https://images.ctfassets.net/lzny33ho1g45/4k3Lhj5hWuAxfBmPAqOYVe/4474ad100a57fa1eddfe880af5b70f2c/FINAL_Rubric_3Levels_V2.png) with clear attribution. Then highlight Building and Accountability.
-
-**Speaker job:** Explain that ForgeX is adapting the logic to the specific jobs and infrastructure of ABM.
-
 ## Act II: Move up the AI for ABM ladder
 
-### 5. The ForgeX AI for ABM maturity ladder
+### 4. The ForgeX AI for ABM maturity ladder
 
 **Visible levels:**
 
-`0 FANCY SEARCH → 1 CONTEXTUAL COPILOT → 2 GROUNDED WORKSPACE → 3 REUSABLE SKILL → 4 GOVERNED AUTOMATION → 5 GOAL-DRIVEN AGENT`
+`0 FANCY SEARCH → 1 CONTEXTUAL COPILOT → 2 GROUNDED WORKSPACE → 3 REUSABLE SKILL → 4 GOVERNED AUTOMATION → 5 GOAL-DRIVEN AGENT → 6 AGENTIC OPERATING SYSTEM`
 
-**Bottom line:** Do not jump to Level 5. Move up one useful level.
+**Bottom line:** Level 6 coordinates agents, tools, memory, triggers, and reliability across the stack.
 
 **Visual:** One continuous rising path. The stack underneath grows with each level.
 
-### 6. Level 0: Fancy Search
+### 5. Level 0: Fancy Search
 
 **Visible input:**
 
@@ -85,7 +84,7 @@
 
 **Visual:** Five blue links and a polished generic answer merge into the same loose pile.
 
-### 7. Level 1: Contextual Copilot
+### 6. Level 1: Contextual Copilot
 
 **Visible input:**
 
@@ -97,7 +96,7 @@
 
 **Marketer shift:** Define the job, evidence, output, and guardrails.
 
-### 8. Level 2: Grounded Workspace
+### 7. Level 2: Grounded Workspace
 
 **Visible input:**
 
@@ -109,7 +108,7 @@
 
 **Bottom line:** Stop making the model relearn the company.
 
-### 9. Build a company brain, not a document dump
+### 8. The company brain is only one layer of the system
 
 **Visible repository:**
 
@@ -123,29 +122,35 @@
 /source-manifest.md
 ```
 
-**Visible principles:** scoped, permission-aware, source-backed, fresh, versioned
+**Visible layers:**
 
-**Visual:** One connected corpus with owners and review dates. Show source systems feeding a common interface without pretending every file must move into GitHub.
+- Company brain: durable approved knowledge
+- Repository: versioning, review, and portability
+- Shared memory: what carries across runs
+- Current state: what this job knows now
+- Scoped access: only what the role and task require
+
+**Bottom line:** GitHub versions the brain. A vault carries memory. Neither grants blanket access.
+
+**Visual:** Put the North Peak corpus beside the five operating layers. Do not imply every file must move into GitHub or every agent can access every source.
 
 **Source notes:** [Cerebras: How We Built Our Knowledge Base](https://www.cerebras.ai/blog/how-we-built-our-knowledge-base), [independent architectural walkthrough](https://www.stellarwork.com/captains-log/how-cerebras-built-their-company-brain)
 
-### 10. The marketer becomes the plumber
-
-**Visible title:** Learn the plumbing. Keep the durable parts portable.
+### 9. The company gives you the van. You bring the tools.
 
 **Visible copy:**
 
 - Models change
 - Harnesses change
-- Connectors change
+- Data and APIs change
 - Employers change
-- Context, skills, templates, tests, and decision history can survive
+- Context, skills, templates, tests, and decision logs can compound
 
-**Bottom line:** Company tools are fixtures. Your ability to connect the system is the craft.
+**Bottom line:** Connection patterns, blank templates, and tests can travel. Employer data and intellectual property stay behind.
 
 **Visual:** A clean pipe diagram connecting company brain, skills, tools, review, and output. Each vendor component can be swapped without breaking the business logic.
 
-### 11. Level 3: Reusable Skill
+### 10. Level 3: Reusable Skill
 
 **Visible shift:**
 
@@ -159,17 +164,17 @@
 
 **Layer added:** skill, template, output contract, QA, stop conditions
 
-### 12. A skill is a small operating manual for an agent
+### 11. The model thinks. The harness makes it work.
 
-**Visible anatomy:**
+**Visible harness anatomy:**
 
-`WHEN TO USE → INPUTS → PROCESS → OUTPUT CONTRACT → QUALITY CHECKS → STOP CONDITIONS`
+`CONTEXT + MEMORY → SKILLS → TOOLS + MCP → STATE + LOOP → EVALUATION → HUMAN + PERMISSIONS`
 
-**Example:** ABM Strategist turns evidence into an approval-ready account campaign brief.
+**Bottom line:** The harness loads evidence, runs the loop, uses approved tools, checks the result, and knows when to stop.
 
-**Visual:** One plain-text `SKILL.md` expands into a campaign brief with visible evidence, hypothesis, recommendation, unknown, and approval labels.
+**Visual:** Use the existing six-part ForgeX sequence. The robot is an optional metaphor, not the architecture.
 
-### 13. Skills worth borrowing from the GTM community
+### 12. Skills worth borrowing from the GTM community
 
 **Visible title:** Verify, interpret, qualify, then draft.
 
@@ -194,7 +199,7 @@
 
 **Source notes:** [Hiring Signal Verification, Peter S. Borkovich](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/peter-borkovich/hiring-signal-verification), [Signal Interpreter, Din Arbel](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/din-arbel/signal-interpreter), [Audience ICP Filter, Erwann Lefevre](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/erwann-lefevre/audience-icp-filter), [Multichannel Campaign Builder, Erwann Lefevre](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/erwann-lefevre/multichannel-campaign-builder), [Company Deep Dive, Uriel Knorovich](https://github.com/swan-gtm/gtm-skills/tree/d378356a2668095d71e8dfb0661155255cf6776b/skills/uri-knorovich/company-deep-dive), [Swan GTM Skills MIT license](https://github.com/swan-gtm/gtm-skills/blob/d378356a2668095d71e8dfb0661155255cf6776b/LICENSE)
 
-### 14. Level 4: Governed Automation
+### 13. Level 4: Governed Automation
 
 **Visible input:**
 
@@ -206,7 +211,7 @@
 
 **Bottom line:** The value is real even when the path is fixed.
 
-### 15. A cron job IN a trench coat
+### 14. A cron job IN a trench coat
 
 **Visible title:** Do not dress up a brittle automation and call it an agent.
 
@@ -219,22 +224,22 @@
 
 **Speaker job:** Respect useful automation. Warn against fake sophistication and unearned authority.
 
-### 16. Workflow, agent, and MCP each solve a different problem
+### 15. Every agent runs a loop
 
-**Visible copy:**
+**Visible loop:**
 
-- Workflow defines a known route
-- Agent chooses the route
-- MCP provides a standard connection to approved resources and tools
-- Governance defines what may happen and where a human decides
+1. Load context: company brain and current state
+2. Choose: goal, plan, and next step
+3. Act: skill plus approved tool or MCP
+4. Evaluate: finish, revise, or ask a human
 
-**Bottom line:** MCP gives access. It does not give judgment or permission.
+**Bottom line:** Memory, permissions, logs, and guardrails surround every pass through the loop.
 
-**Visual:** A road map, a driver, a set of on-ramps, and guarded gates.
+**Visual:** One operating loop. Level 3 defines the process, Level 4 triggers the known loop, and Level 5 can choose the next step within bounded authority. Level 6 coordinates many loops without turning them into one giant agent.
 
 **Source note:** [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
 
-### 17. Level 5: Goal-Driven Agent System
+### 16. Level 5: Goal-Driven Agent System
 
 **Visible shift:**
 
@@ -246,11 +251,30 @@
 
 **Visible output:** A prioritized plan and the right mix of research, briefs, experiences, and next actions.
 
-**Layer added:** goals, planning, tool choice, evaluation, bounded delegation, interrupt controls
+**Layer added:** goal, plan, context, skills, tools, state, evaluation, and human interrupt
+
+### 17. Level 6: Agentic Operating System
+
+**Visible architecture:**
+
+- Codex routes the work to bounded sub-agents, Cursor, Hermes, OpenClaw, Grokbot, and approved systems
+- Obsidian Vault carries durable shared memory
+- GitHub versions the shared skills and context repository
+- time triggers start scheduled work
+- event triggers start work when approved conditions change
+- canaries exercise critical paths and failed checks become hardening work
+
+**Bottom line:** One interface routes goals. Shared memory, portable skills, triggers, and reliability loops keep the work moving.
+
+**Mental shift:** Level 5 is one goal-driven agent system deciding which work is needed. Level 6 is the coordination layer around many agents, systems, memory stores, schedules, triggers, evaluations, and hardening routines.
+
+**Governance boundary:** More coordination does not grant blanket authority. Human approval still owns send, publish, spend, and system-of-record writes.
+
+**Visual:** Use the two-layer ForgeX bus diagram. Put delegated execution systems above the bus and durable memory, versioned skills, triggers, canaries, and hardening below it. Keep the visual simple enough to explain in two minutes.
 
 ## Act III: Make the upgrade practical
 
-### 18. One ABM job across all six levels
+### 18. Each level adds infrastructure beneath the outcome
 
 **Visible job:** Keep North Peak's Alder campaign current.
 
@@ -258,14 +282,15 @@
 
 | Level | System returns |
 |---:|---|
-| 0 | generic ideas |
-| 1 | one-off tailored draft |
-| 2 | grounded draft |
-| 3 | repeatable approval-ready brief |
-| 4 | refreshed brief, diff, and exception queue |
-| 5 | prioritized plan and the artifacts the goal requires |
+| 0 | search interface |
+| 1 | prompt plus supplied context |
+| 2 | company brain |
+| 3 | skill plus output contract |
+| 4 | trigger plus state plus monitoring |
+| 5 | goal plus planning plus tool choice |
+| 6 | orchestration plus shared memory plus triggers plus reliability loops |
 
-**Visual:** One campaign brief transforms as layers stack underneath it.
+**Visual:** A cumulative staircase. Use the Age of Empires analogy briefly: every new capability depends on the economy and infrastructure beneath it.
 
 ### 19. Measure outcomes, not AI activity
 
@@ -273,7 +298,7 @@
 
 `SPEED · QUALITY · CONSISTENCY · CAMPAIGN VOLUME · PERSONALIZATION`
 
-**Operational measures for Levels 4 and 5:** correction rate, exceptions, failed runs, stale sources, unsupported claims, human overrides, cost per approved outcome
+**Operational measures for Levels 4 through 6:** correction rate, exceptions, failed runs, stale sources, unsupported claims, human overrides, canary failures, hardening cycle time, and cost per approved outcome
 
 **Visual:** Five measures remain fixed while the maturity level rises behind them.
 
@@ -285,13 +310,13 @@
 
 **Visible resources:**
 
-- North Peak company brain
-- Context Corpus Builder
-- ABM Strategist and supporting skills
-- 30-day Level 2-to-3 plan
-- 30-day Level 3-to-4 plan
+- Company Brain Builder
+- Skills Repository Starter
+- Shared Memory Starter
+- ABM Strategist
+- Ten starter skills and 30-day plans
 
-**Level 4-to-5 CTA:** Book a one-to-one architecture working session. The right design depends on your goals, systems, data, permissions, and failure tolerance.
+**Beyond Level 4 CTA:** Book a one-to-one architecture working session. The right Level 5 or Level 6 design depends on your goals, systems, data, permissions, operating model, and failure tolerance.
 
 ### 21. Live build: from a fresh workspace to a grounded ABM system
 
@@ -299,12 +324,11 @@
 
 1. Open a fresh Claude Code workspace through ForgeX
 2. Bring in the ForgeX repository
-3. Inspect the safety contract, North Peak brain, and ABM Strategist
+3. Inspect permissions, the North Peak brain, and ABM Strategist
 4. Run the Level 3 prompt for Alder
-5. Review the output, evidence, gaps, and approvals
-6. Show what would be added for Level 4
+5. Trace the loop, review evidence and approvals, and explain Level 4
 
-**Bottom line:** The useful artifact is the portable system, not the empty chat.
+**Bottom line:** Leave with one repeated job you are ready to move up one level.
 
 **Visual:** Keep this slide visible during the screen-share transition.
 
