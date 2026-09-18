@@ -170,7 +170,7 @@ def build():
     c.setFont("Helvetica-Bold", 23.2)
     c.drawString(PAGE_MARGIN, H - 94, "11 practical AI workflows")
     c.setFillColor(BLUE)
-    c.drawString(PAGE_MARGIN, H - 119, "for ABM.")
+    c.drawString(PAGE_MARGIN, H - 119, "for B2B marketers.")
     paragraph(c, '<b>Pick one job. Open the skill. Give it to the AI agent you already use.</b> Each workflow defines the inputs, process, output, quality checks, and stop conditions for reviewable B2B marketing work.', PAGE_MARGIN, H - 132, 376, 8, MUTED, leading=9.8)
 
     panel_x, panel_y, panel_w, panel_h = 434, H - 166, 318, 96
