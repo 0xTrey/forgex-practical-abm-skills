@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Eleven practical, vendor-neutral AI skills for account-based marketing, presented by Folloze.">
+  <title>Folloze | Practical AI Skills for ABM</title>
+  <style>
+    :root {
+      --deep-navy: #071428;
+      --navy: #1c293f;
+      --slate: #2c3d59;
+      --muted: #637087;
+      --blue: #0077ff;
+      --deep-blue: #0048de;
+      --bright-blue: #00adff;
+      --cyan: #00ccff;
+      --pink: #ff469e;
+      --green: #11d175;
+      --yellow: #ffc800;
+      --pale-blue: #f3f9fd;
+      --light-blue: #d8ecfa;
+      --white: #ffffff;
+      --line: rgba(28, 41, 63, 0.16);
+      --soft-line: rgba(28, 41, 63, 0.09);
+      --sans: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      color: var(--deep-navy);
+      background: #e8f2f9;
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    body {
+      min-width: 0;
+      min-height: 100vh;
+      margin: 0;
+      padding: 16px;
+      background:
+        linear-gradient(90deg, rgba(0, 119, 255, 0.035) 1px, transparent 1px),
+        linear-gradient(rgba(0, 119, 255, 0.035) 1px, transparent 1px),
+        #e8f2f9;
+      background-size: 48px 48px;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    a:focus-visible {
+      outline: 3px solid var(--cyan);
+      outline-offset: 3px;
+    }
+
+    img,
+    svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    .sheet {
+      width: min(1440px, 100%);
+      min-height: min(900px, calc(100vh - 32px));
+      margin: 0 auto;
+      padding: 24px 28px 20px;
+      overflow: hidden;
+      border: 1px solid rgba(28, 41, 63, 0.12);
+      background:
+        linear-gradient(135deg, rgba(0, 204, 255, 0.07), transparent 34%),
+        var(--white);
+      box-shadow: 0 24px 64px rgba(7, 20, 40, 0.14);
+    }
+
+    .brand-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 44px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .folloze-logo {
+      width: 136px;
+      height: auto;
+    }
+
+    .edition {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--slate);
+      font-family: var(--mono);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .edition::before {
+      width: 30px;
+      height: 2px;
+      content: "";
+      background: var(--blue);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(410px, 0.92fr);
+      gap: 22px;
+      padding: 17px 0 15px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hero-copy {
+      align-self: center;
+      min-width: 0;
+      padding-right: 16px;
+    }
+
+    h1 {
+      max-width: 780px;
+      color: var(--deep-navy);
+      font-size: clamp(40px, 4.1vw, 61px);
+      font-weight: 760;
+      letter-spacing: -0.055em;
+      line-height: 0.96;
+      text-wrap: balance;
+    }
+
+    h1 .accent {
+      position: relative;
+      z-index: 0;
+      color: var(--blue);
+      white-space: nowrap;
+    }
+
+    h1 .accent::after {
+      position: absolute;
+      z-index: -1;
+      right: -0.02em;
+      bottom: 0.02em;
+      left: -0.02em;
+      height: 0.12em;
+      content: "";
+      background: var(--cyan);
+      opacity: 0.32;
+    }
+
+    .hero-lede {
+      max-width: 760px;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 14.5px;
+      line-height: 1.38;
+    }
+
+    .hero-lede strong {
+      color: var(--deep-navy);
+    }
+
+    .value-panel {
+      position: relative;
+      min-width: 0;
+      padding: 16px 18px 15px;
+      overflow: hidden;
+      color: var(--white);
+      border-radius: 8px;
+      background: var(--deep-navy);
+      box-shadow: 5px 5px 0 var(--cyan);
+    }
+
+    .value-panel::after {
+      position: absolute;
+      right: -42px;
+      bottom: -58px;
+      width: 185px;
+      height: 185px;
+      content: "";
+      border: 24px solid rgba(0, 204, 255, 0.11);
+      border-radius: 50%;
+    }
+
+    .value-panel h2 {
+      max-width: 470px;
+      font-size: 24px;
+      line-height: 1.04;
+      letter-spacing: -0.035em;
+    }
+
+    .value-panel p {
+      max-width: 600px;
+      margin-top: 8px;
+      color: rgba(255, 255, 255, 0.86);
+      font-size: 12.3px;
+      line-height: 1.36;
+    }
+
+    .value-strip {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 6px;
+      margin-top: 12px;
+    }
+
+    .value-strip span {
+      display: grid;
+      place-items: center;
+      min-height: 27px;
+      padding: 4px 7px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      font-size: 9.6px;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .directory-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 20px;
+      align-items: end;
+      padding: 12px 0 8px;
+    }
+
+    .directory-title {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+
+    .directory-title h2 {
+      font-size: 22px;
+      letter-spacing: -0.035em;
+    }
+
+    .directory-title span,
+    .directory-note {
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 8.7px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .directory-note {
+      text-align: right;
+    }
+
+    .skill-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px 12px;
+    }
+
+    .skill-link {
+      display: grid;
+      grid-template-columns: 38px minmax(0, 1fr) auto;
+      gap: 11px;
+      align-items: center;
+      min-height: 65px;
+      padding: 7px 10px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--pale-blue);
+      text-decoration: none;
+      transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+    }
+
+    .skill-link:nth-child(4n + 2),
+    .skill-link:nth-child(4n + 3) {
+      background: var(--white);
+    }
+
+    .skill-link:last-child:nth-child(odd) {
+      grid-column: 1 / -1;
+    }
+
+    .skill-link:hover {
+      border-color: var(--blue);
+      box-shadow: 3px 3px 0 var(--cyan);
+      transform: translate(-1px, -1px);
+    }
+
+    .skill-number {
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      color: var(--white);
+      background: var(--blue);
+      font-family: var(--mono);
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    .skill-copy {
+      min-width: 0;
+    }
+
+    .skill-topline {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .skill-topline h3 {
+      min-width: 0;
+      overflow-wrap: anywhere;
+      font-size: 14px;
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+    }
+
+    .skill-type {
+      flex: 0 0 auto;
+      padding: 2px 6px;
+      border: 1px solid rgba(0, 119, 255, 0.25);
+      border-radius: 999px;
+      color: var(--deep-blue);
+      font-family: var(--mono);
+      font-size: 7.3px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+
+    .skill-copy p {
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 10.4px;
+      line-height: 1.23;
+    }
+
+    .skill-arrow {
+      display: grid;
+      place-items: center;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      color: var(--deep-blue);
+      background: rgba(0, 204, 255, 0.16);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .page-footer {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 18px;
+      align-items: center;
+      min-height: 34px;
+      margin-top: 9px;
+      padding-top: 9px;
+      border-top: 1px solid var(--line);
+    }
+
+    .footer-note {
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 9.3px;
+      line-height: 1.25;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 6px;
+    }
+
+    .footer-links a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 27px;
+      padding: 5px 9px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--white);
+      font-size: 9px;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--deep-blue);
+      border-color: var(--blue);
+    }
+
+    @media (max-width: 900px) {
+      .sheet {
+        width: 100%;
+        min-height: 0;
+        padding: 20px;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-copy {
+        padding-right: 0;
+      }
+
+      .skill-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .skill-link:last-child:nth-child(odd) {
+        grid-column: auto;
+      }
+
+      .directory-head,
+      .page-footer {
+        grid-template-columns: 1fr;
+        align-items: start;
+      }
+
+      .directory-note {
+        text-align: left;
+      }
+
+      .footer-links {
+        justify-content: flex-start;
+      }
+    }
+
+    @media (max-width: 520px) {
+      body {
+        padding: 0;
+      }
+
+      .sheet {
+        width: 100%;
+        margin: 0;
+        padding: 16px 14px 18px;
+        border: 0;
+      }
+
+      .brand-bar {
+        align-items: flex-start;
+        gap: 12px;
+      }
+
+      .folloze-logo {
+        width: 112px;
+      }
+
+      .edition {
+        display: none;
+      }
+
+      h1 {
+        font-size: clamp(36px, 12vw, 48px);
+      }
+
+      h1 .accent {
+        white-space: normal;
+      }
+
+      .hero-lede {
+        font-size: 14px;
+      }
+
+      .value-strip {
+        grid-template-columns: 1fr;
+      }
+
+      .directory-title {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .skill-link {
+        grid-template-columns: 34px minmax(0, 1fr) 23px;
+        gap: 9px;
+        min-height: 90px;
+        padding: 9px 8px;
+      }
+
+      .skill-topline {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 3px;
+      }
+
+      .skill-copy p {
+        font-size: 10.4px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    @page {
+      size: letter landscape;
+      margin: 0;
+    }
+
+    @media print {
+      html,
+      body {
+        width: 11in;
+        height: 8.5in;
+        padding: 0;
+        background: var(--white);
+      }
+
+      .sheet {
+        width: 11in;
+        height: 8.5in;
+        min-height: 0;
+        margin: 0;
+        padding: 0.24in 0.31in 0.18in;
+        border: 0;
+        box-shadow: none;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .brand-bar {
+        min-height: 0.43in;
+        padding-bottom: 0.08in;
+      }
+
+      .folloze-logo {
+        width: 1.28in;
+      }
+
+      .edition {
+        font-size: 7.1pt;
+      }
+
+      .hero {
+        grid-template-columns: 1.08fr 0.92fr;
+        gap: 0.18in;
+        padding: 0.14in 0 0.13in;
+      }
+
+      h1 {
+        font-size: 31pt;
+      }
+
+      .hero-lede {
+        margin-top: 0.06in;
+        font-size: 8.8pt;
+        line-height: 1.28;
+      }
+
+      .value-panel {
+        padding: 0.13in 0.15in;
+        box-shadow: 3px 3px 0 var(--cyan);
+      }
+
+      .value-panel h2 {
+        font-size: 17pt;
+      }
+
+      .value-panel p {
+        margin-top: 0.05in;
+        font-size: 7.4pt;
+        line-height: 1.27;
+      }
+
+      .value-strip {
+        gap: 0.035in;
+        margin-top: 0.07in;
+      }
+
+      .value-strip span {
+        min-height: 0.21in;
+        padding: 0.02in 0.04in;
+        font-size: 6.1pt;
+      }
+
+      .directory-head {
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: end;
+        padding: 0.085in 0 0.06in;
+      }
+
+      .directory-note {
+        text-align: right;
+      }
+
+      .directory-title h2 {
+        font-size: 15.5pt;
+      }
+
+      .directory-title span,
+      .directory-note {
+        font-size: 6.1pt;
+      }
+
+      .skill-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.04in 0.08in;
+      }
+
+      .skill-link:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+      }
+
+      .skill-link {
+        grid-template-columns: 0.32in minmax(0, 1fr) 0.22in;
+        gap: 0.07in;
+        min-height: 0.58in;
+        padding: 0.045in 0.07in;
+        break-inside: avoid;
+        transition: none;
+      }
+
+      .skill-number {
+        width: 0.29in;
+        height: 0.29in;
+        font-size: 6.9pt;
+      }
+
+      .skill-topline h3 {
+        font-size: 9.4pt;
+      }
+
+      .skill-type {
+        padding: 0.01in 0.035in;
+        font-size: 5.1pt;
+      }
+
+      .skill-copy p {
+        margin-top: 0.02in;
+        font-size: 6.6pt;
+        line-height: 1.18;
+      }
+
+      .skill-arrow {
+        width: 0.2in;
+        height: 0.2in;
+        font-size: 7.7pt;
+      }
+
+      .page-footer {
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: center;
+        min-height: 0.3in;
+        margin-top: 0.065in;
+        padding-top: 0.06in;
+      }
+
+      .footer-note {
+        font-size: 5.9pt;
+      }
+
+      .footer-links {
+        justify-content: flex-end;
+        gap: 0.03in;
+      }
+
+      .footer-links a {
+        min-height: 0.21in;
+        padding: 0.02in 0.055in;
+        font-size: 5.9pt;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="sheet" aria-labelledby="page-title">
+    <header class="brand-bar">
+      <img class="folloze-logo" src="https://cdn.prod.website-files.com/6464087fdf877a12a8bd4cd6/6464087fdf877a12a8bd4d26_folloze-logo.svg" alt="Folloze">
+      <div class="edition">Practical AI workflows for B2B marketing</div>
+    </header>
+
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <h1 id="page-title">11 practical AI workflows <span class="accent">for ABM.</span></h1>
+        <p class="hero-lede"><strong>Pick one job. Open the skill. Give it to the AI agent you already use.</strong> Each workflow defines the inputs, process, output, quality checks, and stop conditions for reviewable B2B marketing work.</p>
+      </div>
+
+      <aside class="value-panel" aria-labelledby="folloze-value-title">
+        <h2 id="folloze-value-title">Your AI creates. Folloze puts approved work in market.</h2>
+        <p>Folloze helps teams build and launch governed campaign destinations, personalize content paths, and capture first-party engagement signals that guide the next move.</p>
+        <div class="value-strip" aria-label="Folloze value areas">
+          <span>Build</span>
+          <span>Activate</span>
+          <span>Signal</span>
+        </div>
+      </aside>
+    </section>
+
+    <section aria-labelledby="skill-directory-title">
+      <div class="directory-head">
+        <div class="directory-title">
+          <h2 id="skill-directory-title">Choose the job. Open the skill.</h2>
+          <span>11 linked workflows</span>
+        </div>
+        <p class="directory-note">Vendor-neutral · Draft-first · Human-reviewed</p>
+      </div>
+
+      <div class="skill-grid">
+        <a class="skill-link" href="https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/context-corpus-builder/SKILL.md" target="_blank" rel="noopener">
+          <span class="skill-number">1</span>
+          <span class="skill-copy"><span class="skill-topline"><h3>Context Corpus Builder</h3><span class="skill-type">Ground</span></span><p>Turn approved materials into a portable company context corpus.</p></span>
+          <span class="skill-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="skill-link" href="https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/account-list-builder/SKILL.md" target="_blank" rel="noopener">
+          <span class="skill-number">2</span>
+          <span class="skill-copy"><span class="skill-topline"><h3>Account List Builder</h3><span class="skill-type">Target</span></span><p>Turn an ICP into a ranked, evidence-backed account list.</p></span>
+          <span class="skill-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="skill-link" href="https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/why-now-signal-scanner/SKILL.md" target="_blank" rel="noopener">
+          <span class="skill-number">3</span>
+          <span class="skill-copy"><span class="skill-topline"><h3>Why-Now Signal Scanner</h3><span class="skill-type">Signal</span></span><p>Find current account-level timing signals and evidence gaps.</p></span>
+          <span class="skill-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="skill-link" href="https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/abm-strategist/SKILL.md" target="_blank" rel="noopener">
+          <span class="skill-number">4</span>
+          <span class="skill-copy"><span class="skill-topline"><h3>ABM Strategist</h3><span class="skill-type">Plan</span></span><p>Turn one account and offer into an approval-ready campaign brief.</p></span>
+          <span class="skill-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="skill-link" href="https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/buying-committee-mapper/SKILL.md" target="_blank" rel="noopener">
+          <span class="skill-number">5</span>
+          <span class="skill-copy"><span class="skill-topline"><h3>Buying Committee Mapper</h3><span class="skill-type">Map</span></span><p>Map buying roles, questions, evidence needs, and coverage gaps.</p></span>
+          <span class="skill-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="skill-link" href="https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/brand-harvester/SKILL.md" target="_blank" rel="noopener">
+          <span class="skill-number">6</span>
+          <span class="skill-copy"><span class="skill-topline"><h3>Brand Harvester</h3><span class="skill-type">Brand</span></span><p>Turn a public website into a source-backed creative brief.</p></span>
+          <span class="skill-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="skill-link" href="https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/campaign-landing-page/SKILL.md" target="_blank" rel="noopener">
+          <span class="skill-number">7</span>
+          <span class="skill-copy"><span class="skill-topline"><h3>Campaign Landing Page</h3><span class="skill-type">Build</span></span><p>Turn an approved brief into a focused campaign-page draft.</p></span>
+          <span class="skill-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="skill-link" href="https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/industry-campaign-page/SKILL.md" target="_blank" rel="noopener">
+          <span class="skill-number">8</span>
+          <span class="skill-copy"><span class="skill-topline"><h3>Industry Campaign Page</h3><span class="skill-type">Scale</span></span><p>Adapt a campaign for a vertical, persona, or account cohort.</p></span>
+          <span class="skill-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="skill-link" href="https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/one-to-one-microsite/SKILL.md" target="_blank" rel="noopener">
+          <span class="skill-number">9</span>
+          <span class="skill-copy"><span class="skill-topline"><h3>One-to-One Microsite</h3><span class="skill-type">Personalize</span></span><p>Create a named-account experience from approved research.</p></span>
+          <span class="skill-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="skill-link" href="https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/content-magic/SKILL.md" target="_blank" rel="noopener">
+          <span class="skill-number">10</span>
+          <span class="skill-copy"><span class="skill-topline"><h3>Content Magic</h3><span class="skill-type">Transform</span></span><p>Turn one approved asset into an interactive campaign experience.</p></span>
+          <span class="skill-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="skill-link" href="https://github.com/0xTrey/forgex-practical-abm-skills/blob/main/skills/first-touch-builder/SKILL.md" target="_blank" rel="noopener">
+          <span class="skill-number">11</span>
+          <span class="skill-copy"><span class="skill-topline"><h3>First-Touch Builder</h3><span class="skill-type">Connect</span></span><p>Turn a real relationship, account signal, and offer into a concise opening-message draft.</p></span>
+          <span class="skill-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <p class="footer-note">Every skill is source-available, vendor-neutral, and designed for human review before publishing, sending, paid enrichment, or system-of-record changes.</p>
+      <nav class="footer-links" aria-label="Related resources">
+        <a href="https://github.com/0xTrey/forgex-practical-abm-skills" target="_blank" rel="noopener">All skills</a>
+        <a href="https://www.folloze.com/" target="_blank" rel="noopener">Folloze</a>
+        <a href="https://www.folloze.com/blog/article/bring-your-own-ai-mcp" target="_blank" rel="noopener">Why MCP</a>
+      </nav>
+    </footer>
+  </main>
+</body>
+</html>
