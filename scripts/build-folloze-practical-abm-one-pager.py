@@ -44,6 +44,7 @@ PALE_BLUE = HexColor("#F3F9FD")
 LIGHT_BLUE = HexColor("#D8ECFA")
 WHITE = HexColor("#FFFFFF")
 W, H = landscape(letter)
+PAGE_MARGIN = 40
 
 
 def paragraph(c, text, x, y_top, width, size, color, bold=False, leading=None):
@@ -153,69 +154,70 @@ def build():
     c.setFillColor(WHITE)
     c.rect(0, 0, W, H, fill=1, stroke=0)
     c.setFillColor(HexColor("#F2FBFF"))
-    c.wedge(-85, H - 100, 180, H + 95, 0, 360, fill=1, stroke=0)
+    c.wedge(-65, H - 93, 170, H + 87, 0, 360, fill=1, stroke=0)
 
-    draw_logo(c, 28, H - 47, 96)
+    draw_logo(c, PAGE_MARGIN, H - 45, 86)
     c.setStrokeColor(LIGHT_BLUE)
     c.setLineWidth(0.8)
-    c.line(28, H - 54, W - 28, H - 54)
+    c.line(PAGE_MARGIN, H - 54, W - PAGE_MARGIN, H - 54)
     c.setFillColor(BLUE)
-    c.rect(W - 245, H - 36, 22, 2, fill=1, stroke=0)
+    c.rect(W - 252, H - 36, 22, 2, fill=1, stroke=0)
     c.setFillColor(SLATE)
     c.setFont("Courier-Bold", 6.7)
-    c.drawRightString(W - 28, H - 38, "PRACTICAL AI WORKFLOWS FOR B2B MARKETING")
+    c.drawRightString(W - PAGE_MARGIN, H - 38, "PRACTICAL AI WORKFLOWS FOR B2B MARKETING")
 
     c.setFillColor(DEEP_NAVY)
-    c.setFont("Helvetica-Bold", 25.5)
-    c.drawString(28, H - 96, "11 practical AI workflows")
+    c.setFont("Helvetica-Bold", 23.2)
+    c.drawString(PAGE_MARGIN, H - 94, "11 practical AI workflows")
     c.setFillColor(BLUE)
-    c.drawString(28, H - 123, "for ABM.")
-    paragraph(c, '<b>Pick one job. Open the skill. Give it to the AI agent you already use.</b> Each workflow defines the inputs, process, output, quality checks, and stop conditions for reviewable B2B marketing work.', 28, H - 136, 408, 8.2, MUTED, leading=10.2)
+    c.drawString(PAGE_MARGIN, H - 119, "for ABM.")
+    paragraph(c, '<b>Pick one job. Open the skill. Give it to the AI agent you already use.</b> Each workflow defines the inputs, process, output, quality checks, and stop conditions for reviewable B2B marketing work.', PAGE_MARGIN, H - 132, 376, 8, MUTED, leading=9.8)
 
-    panel_x, panel_y, panel_w, panel_h = 445, H - 159, 319, 83
+    panel_x, panel_y, panel_w, panel_h = 434, H - 166, 318, 96
     rounded(c, panel_x + 3, panel_y - 3, panel_w, panel_h, CYAN, radius=7)
     rounded(c, panel_x, panel_y, panel_w, panel_h, DEEP_NAVY, radius=7)
-    paragraph(c, "Your AI creates. Folloze puts approved work in market.", panel_x + 14, panel_y + panel_h - 12, panel_w - 28, 13.2, WHITE, bold=True, leading=14.2)
-    paragraph(c, "Folloze helps teams build and launch governed campaign destinations, personalize content paths, and capture first-party engagement signals that guide the next move.", panel_x + 14, panel_y + 40, panel_w - 28, 6.9, HexColor("#DCE8F5"), leading=8.4)
-    chip_y = panel_y + 9
+    paragraph(c, "Your AI creates. Folloze puts approved work in market.", panel_x + 14, panel_y + panel_h - 13, panel_w - 28, 11.8, WHITE, bold=True, leading=12.8)
+    paragraph(c, "Folloze helps teams build and launch governed campaign destinations, personalize content paths, and capture first-party engagement signals that guide the next move.", panel_x + 14, panel_y + 50, panel_w - 28, 6.8, HexColor("#DCE8F5"), leading=8.2)
+    chip_y = panel_y + 8
     for index, word in enumerate(("Build", "Activate", "Signal")):
         chip_x = panel_x + 14 + index * 99
-        rounded(c, chip_x, chip_y, 92, 15, NAVY, HexColor("#52617A"), radius=7.5, line_width=0.6)
+        rounded(c, chip_x, chip_y, 91, 16, NAVY, HexColor("#52617A"), radius=8, line_width=0.6)
         c.setFillColor(WHITE)
         c.setFont("Helvetica-Bold", 6.6)
-        c.drawCentredString(chip_x + 46, chip_y + 5.1, word)
+        c.drawCentredString(chip_x + 45.5, chip_y + 5.6, word)
 
     c.setStrokeColor(LIGHT_BLUE)
-    c.line(28, H - 173, W - 28, H - 173)
+    c.line(PAGE_MARGIN, H - 177, W - PAGE_MARGIN, H - 177)
     c.setFillColor(DEEP_NAVY)
     c.setFont("Helvetica-Bold", 15.2)
-    c.drawString(28, H - 196, "Choose the job. Open the skill.")
+    c.drawString(PAGE_MARGIN, H - 199, "Choose the job. Open the skill.")
     c.setFillColor(MUTED)
     c.setFont("Courier-Bold", 6.1)
-    c.drawString(258, H - 194, "11 LINKED WORKFLOWS")
-    c.drawRightString(W - 28, H - 194, "VENDOR-NEUTRAL  |  DRAFT-FIRST  |  HUMAN-REVIEWED")
+    c.drawString(270, H - 197, "11 LINKED WORKFLOWS")
+    c.drawRightString(W - PAGE_MARGIN, H - 197, "VENDOR-NEUTRAL  |  DRAFT-FIRST  |  HUMAN-REVIEWED")
 
-    grid_top = H - 208
+    grid_top = H - 211
     gap_x, gap_y = 7, 5
-    card_w = (W - 56 - gap_x) / 2
+    content_width = W - (2 * PAGE_MARGIN)
+    card_w = (content_width - gap_x) / 2
     card_h = 44
     for index, skill in enumerate(SKILLS):
         if index == 10:
-            x = 28
+            x = PAGE_MARGIN
             y = grid_top - 5 * (card_h + gap_y) - card_h
-            skill_card(c, skill, x, y, W - 56, card_h)
+            skill_card(c, skill, x, y, content_width, card_h)
             continue
         row = index // 2
         col = index % 2
-        x = 28 + col * (card_w + gap_x)
+        x = PAGE_MARGIN + col * (card_w + gap_x)
         y = grid_top - row * (card_h + gap_y) - card_h
         skill_card(c, skill, x, y, card_w, card_h)
 
     footer_y = 23
     c.setStrokeColor(LIGHT_BLUE)
-    c.line(28, footer_y + 27, W - 28, footer_y + 27)
-    paragraph(c, "Every skill is source-available, vendor-neutral, and designed for human review before publishing, sending, paid enrichment, or system-of-record changes.", 28, footer_y + 20, 520, 5.8, MUTED, leading=7)
-    right = W - 28
+    c.line(PAGE_MARGIN, footer_y + 27, W - PAGE_MARGIN, footer_y + 27)
+    paragraph(c, "Every skill is source-available, vendor-neutral, and designed for human review before publishing, sending, paid enrichment, or system-of-record changes.", PAGE_MARGIN, footer_y + 20, 490, 5.8, MUTED, leading=7)
+    right = W - PAGE_MARGIN
     right = footer_link(c, "Why MCP", "https://www.folloze.com/blog/article/bring-your-own-ai-mcp", right, footer_y)
     right = footer_link(c, "Folloze", "https://www.folloze.com/", right, footer_y)
     footer_link(c, "All skills", REPO_URL, right, footer_y)
